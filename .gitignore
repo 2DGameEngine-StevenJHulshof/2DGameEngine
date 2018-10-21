@@ -1,0 +1,5 @@
+# Ignore build files
+cmake-build-debug-mingw/
+
+# Ignore lib files
+lib/
