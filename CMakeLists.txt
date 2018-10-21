@@ -5,13 +5,14 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -lmingw32")
 set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
 
 include_directories(
-        ${PROJECT_SOURCE_DIR}/include/SDL2
         ${PROJECT_SOURCE_DIR}/include/config
+        ${PROJECT_SOURCE_DIR}/include/game
         ${PROJECT_SOURCE_DIR}/include/logger
+        ${PROJECT_SOURCE_DIR}/include/SDL2
 )
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 
-set(SOURCE_FILES main.cpp include/logger/UserLog.cpp include/logger/UserLog.h include/logger/user_log_types.h include/config/app_config.h)
+set(SOURCE_FILES main.cpp include/logger/UserLog.cpp include/logger/UserLog.h include/logger/user_log_types.h include/config/app_config.h include/game/Game.cpp include/game/Game.h)
 add_executable(sdl2_game ${SOURCE_FILES})
 
 target_link_libraries(sdl2_game SDL2main SDL2)
