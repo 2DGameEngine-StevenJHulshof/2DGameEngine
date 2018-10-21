@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="game" targetName="game" />
+      <config projectName="sdl2_game" targetName="sdl2_game" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -184,7 +184,7 @@
         <subPane>
           <expand>
             <path>
-              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sdl2_game" type="b2602c69:ProjectViewProjectNode" />
               <item name="sdl2_game" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -250,12 +250,12 @@
       <workItem from="1540062930400" duration="548000" />
       <workItem from="1540111080670" duration="240000" />
       <workItem from="1540111342676" duration="4116000" />
-      <workItem from="1540115908413" duration="16000" />
+      <workItem from="1540115908413" duration="472000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4920000" />
+    <option name="totallyTimeSpent" value="5376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -268,7 +268,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13006397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
