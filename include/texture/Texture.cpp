@@ -29,15 +29,15 @@ Texture::~Texture() {
     SDL_DestroyTexture(_texture);
 }
 
-void Texture::Render(int x, int y) {
+void Texture::Render(float x, float y) {
 
     if(_isValid) {
 
         SDL_Rect textureRect;
         textureRect.h = _height;
         textureRect.w = _width;
-        textureRect.x = x;
-        textureRect.y = y;
+        textureRect.x = static_cast<int>(x);
+        textureRect.y = static_cast<int>(y);
 
         if (SDL_RenderCopy(_renderer, _texture, nullptr, &textureRect) != 0) {
             LOG_WARNING("Texture could not be rendered: %s", SDL_GetError());
