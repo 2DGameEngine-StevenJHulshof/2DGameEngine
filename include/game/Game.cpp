@@ -84,7 +84,7 @@ void Game::HandleEvents() {
 }
 
 void Game::Update() {
-    /** - TODO: Create unit */
+    /** - Update assets here. */
     _player.Update();
 
 }
