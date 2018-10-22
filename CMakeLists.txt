@@ -7,6 +7,7 @@ set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
 include_directories(
         ${PROJECT_SOURCE_DIR}/include/config
         ${PROJECT_SOURCE_DIR}/include/game
+        ${PROJECT_SOURCE_DIR}/include/input
         ${PROJECT_SOURCE_DIR}/include/logger
         ${PROJECT_SOURCE_DIR}/include/SDL2
         ${PROJECT_SOURCE_DIR}/include/texture
@@ -18,7 +19,9 @@ set(SOURCE_FILES
         include/logger/UserLog.cpp
         include/game/Game.cpp
         include/texture/Texture.cpp
-        include/texture/TextureManager.cpp)
+        include/texture/TextureManager.cpp
+        include/input/InputManager.cpp
+)
 
 add_executable(sdl2_game ${SOURCE_FILES})
 
