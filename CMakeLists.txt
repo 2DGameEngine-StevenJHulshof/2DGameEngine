@@ -11,6 +11,7 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/include/logger
         ${PROJECT_SOURCE_DIR}/include/SDL2
         ${PROJECT_SOURCE_DIR}/include/texture
+        ${PROJECT_SOURCE_DIR}/include/timer
 )
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 
@@ -21,6 +22,7 @@ set(SOURCE_FILES
         include/texture/Texture.cpp
         include/texture/TextureManager.cpp
         include/input/InputManager.cpp
+        include/timer/Timer.cpp
 )
 
 add_executable(sdl2_game ${SOURCE_FILES})
