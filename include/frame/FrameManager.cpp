@@ -6,13 +6,13 @@ FrameManager *FrameManager::_instance = nullptr;
 FrameManager::FrameManager() :
     _stepTimer(nullptr) {
 
-    LOG_ALLOC(this, __PRETTY_FUNCTION__);
+//    LOG_ALLOC(this, __PRETTY_FUNCTION__);
     _stepTimer = new Timer;
 };
 
 FrameManager::~FrameManager() {
 
-    LOG_DEALLOC(this, __PRETTY_FUNCTION__);
+//    LOG_DEALLOC(this, __PRETTY_FUNCTION__);
     delete _stepTimer;
 }
 
