@@ -7,7 +7,7 @@ public:
     Texture(Texture_t textureID, SDL_Renderer *renderer);
     ~Texture();
 
-    void render(int x, int y);
+    void Render(int x, int y);
 private:
     SDL_Texture *_texture;
     SDL_Renderer *_renderer;

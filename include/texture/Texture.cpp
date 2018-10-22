@@ -15,7 +15,7 @@ Texture::Texture(Texture_t textureID, SDL_Renderer *renderer) :
     if(textureID >= TEXTURE_TOTAL) {
         LOG_CRITICAL("Texture ID is out of bounds!");
     } else {
-        _texture = IMG_LoadTexture(_renderer, "../res/textures/default.png");
+        _texture = IMG_LoadTexture(_renderer, gTexturePath[textureID].c_str());
         if(_texture == nullptr) {
             LOG_WARNING("Texture loading failed: %s", SDL_GetError());
         }
@@ -32,7 +32,7 @@ Texture::~Texture() {
     SDL_DestroyTexture(_texture);
 }
 
-void Texture::render(int x, int y) {
+void Texture::Render(int x, int y) {
 
     if(_isValid) {
 

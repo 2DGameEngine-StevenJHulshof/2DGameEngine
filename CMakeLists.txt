@@ -9,10 +9,17 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/include/game
         ${PROJECT_SOURCE_DIR}/include/logger
         ${PROJECT_SOURCE_DIR}/include/SDL2
+        ${PROJECT_SOURCE_DIR}/include/texture
 )
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 
-set(SOURCE_FILES main.cpp include/logger/UserLog.cpp include/logger/UserLog.h include/logger/user_log_types.h include/config/app_config.h include/game/Game.cpp include/game/Game.h)
+set(SOURCE_FILES
+        main.cpp
+        include/logger/UserLog.cpp
+        include/game/Game.cpp
+        include/texture/Texture.cpp
+        include/texture/TextureManager.cpp)
+
 add_executable(sdl2_game ${SOURCE_FILES})
 
-target_link_libraries(sdl2_game SDL2main SDL2)
+target_link_libraries(sdl2_game SDL2main SDL2 SDL2_image)

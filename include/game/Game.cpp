@@ -1,5 +1,7 @@
 #include "Game.h"
 #include "UserLog.h"
+#include "Texture.h"
+#include "TextureManager.h"
 
 bool Game::IsRunning() {
 
@@ -12,7 +14,7 @@ Game::Game(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY
     _window(nullptr),
     _renderer(nullptr) {
 
-    LOG_ALLOC(this, __PRETTY_FUNCTION__);
+//    LOG_ALLOC(this, __PRETTY_FUNCTION__);
 
     if(!Config(title, windowPosX, windowPosY, windowWidth, windowHeight, fullScreen)) {
         _isRunning = false;
@@ -21,34 +23,40 @@ Game::Game(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY
 
 Game::~Game() {
 
-    LOG_DEALLOC(this, __PRETTY_FUNCTION__);
+//    LOG_DEALLOC(this, __PRETTY_FUNCTION__);
     Clean();
 }
 
 bool Game::Config(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY, std::uint16_t windowWidth,
                   std::uint16_t windowHeight, bool fullScreen) {
 
-    LOG_INFO("Starting game application...");
+    LOG_INFO("Starting game application");
 
     std::uint32_t flags = 0;
     if(fullScreen) flags |= SDL_WINDOW_FULLSCREEN;
 
+    LOG_INFO("Initializing SDL");
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
         LOG_CRITICAL("SDL Init failed: %s", SDL_GetError());
         return false;
     }
 
+    LOG_INFO("Creating SDL window");
     _window = SDL_CreateWindow(title, windowPosX, windowPosY, windowWidth, windowHeight, flags);
     if(_window == nullptr) {
         LOG_CRITICAL("SDL Window could not be created: %s", SDL_GetError());
         return false;
     }
 
+    LOG_INFO("Creating SDL renderer");
     _renderer = SDL_CreateRenderer(_window, -1, SDL_RENDERER_ACCELERATED);
     if(_renderer == nullptr) {
         LOG_CRITICAL("SDL Renderer could not be created: %s", SDL_GetError());
         return false;
     }
+
+    LOG_INFO("Configuring texture manager and loading textures");
+    texture_manager_config(_renderer);
 
     return true;
 }
@@ -75,6 +83,9 @@ void Game::Render() {
 
     SDL_RenderClear(_renderer);
     /* - Begin of user rendering. */
+    texture_manager_get(TEXTURE_DEFAULT)->Render(20, 20);
+    texture_manager_get(TEXTURE_DEFAULT2)->Render(100, 100);
+    texture_manager_get(TEXTURE_DEFAULT2)->Render(150, 150);
 
     /* - End of user rendering. */
     SDL_RenderPresent(_renderer);
@@ -82,7 +93,9 @@ void Game::Render() {
 
 void Game::Clean() {
 
-    LOG_INFO("Closing game application...");
+    LOG_INFO("Closing game application and destroying all resources");
+    delete texture_manager;
+
     SDL_DestroyRenderer(_renderer);
     SDL_DestroyWindow(_window);
     SDL_Quit();
