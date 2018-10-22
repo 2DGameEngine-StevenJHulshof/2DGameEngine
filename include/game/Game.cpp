@@ -2,6 +2,7 @@
 #include "UserLog.h"
 #include "Texture.h"
 #include "TextureManager.h"
+#include "InputManager.h"
 
 bool Game::IsRunning() {
 
@@ -64,29 +65,38 @@ bool Game::Config(const char *title, std::uint32_t windowPosX, std::uint32_t win
 void Game::HandleEvents() {
 
     SDL_Event event;
-    SDL_PollEvent(&event);
+    while (SDL_PollEvent(&event)) {
 
-    switch(event.type) {
-        case SDL_QUIT:
-            _isRunning = false;
-            break;
-        default:
-            break;
+        switch (event.type) {
+            case SDL_QUIT:
+                _isRunning = false;
+                break;
+            default:
+                break;
+        }
     }
+    input_manager_reset_input;
+    input_manager_poll_key_input;
 }
 
-void Game::Update() {
+/** - TODO: remove */
+int x = 0;
+int y = 0;
 
+void Game::Update() {
+    /** - TODO: remove */
+    if(input_manager->GetKeyRight()) x++;
+    if(input_manager->GetKeyLeft()) x--;
+    if(input_manager->GetKeyUp()) y--;
+    if(input_manager->GetKeyDown()) y++;
 }
 
 void Game::Render() {
 
     SDL_RenderClear(_renderer);
     /* - Begin of user rendering. */
-    texture_manager_get(TEXTURE_DEFAULT)->Render(20, 20);
-    texture_manager_get(TEXTURE_DEFAULT2)->Render(100, 100);
-    texture_manager_get(TEXTURE_DEFAULT2)->Render(150, 150);
-
+    /** - TODO: remove */
+    texture_manager_get(TEXTURE_DEFAULT)->Render(x, y);
     /* - End of user rendering. */
     SDL_RenderPresent(_renderer);
 }
@@ -95,6 +105,7 @@ void Game::Clean() {
 
     LOG_INFO("Closing game application and destroying all resources");
     delete texture_manager;
+    delete input_manager;
 
     SDL_DestroyRenderer(_renderer);
     SDL_DestroyWindow(_window);
