@@ -13,18 +13,14 @@ Texture::Texture(Texture_t textureID, SDL_Renderer *renderer) :
 
 //    LOG_ALLOC(this, __PRETTY_FUNCTION__);
 
-    if(textureID >= TEXTURE_TOTAL) {
-        LOG_CRITICAL("Texture ID is out of bounds!");
+    _texture = IMG_LoadTexture(_renderer, texture_manager_get_path(textureID).c_str());
+    if(_texture == nullptr) {
+        LOG_WARNING("Texture loading failed: %s", SDL_GetError());
+    }
+    if(SDL_QueryTexture(_texture, nullptr, nullptr, &_width, &_height) != 0) {
+        LOG_WARNING("Texture query failed: %s", SDL_GetError());
     } else {
-        _texture = IMG_LoadTexture(_renderer, texture_manager_get_path(textureID).c_str());
-        if(_texture == nullptr) {
-            LOG_WARNING("Texture loading failed: %s", SDL_GetError());
-        }
-        if(SDL_QueryTexture(_texture, nullptr, nullptr, &_width, &_height) != 0) {
-            LOG_WARNING("Texture query failed: %s", SDL_GetError());
-        } else {
-            _isValid = true;
-        }
+        _isValid = true;
     }
 }
 
