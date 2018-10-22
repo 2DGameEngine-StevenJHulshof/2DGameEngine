@@ -44,7 +44,7 @@ bool Game::Config(const char *title, std::uint32_t windowPosX, std::uint32_t win
         return false;
     }
 
-    _renderer = SDL_CreateRenderer(_window, -1, 0);
+    _renderer = SDL_CreateRenderer(_window, -1, SDL_RENDERER_ACCELERATED);
     if(_renderer == nullptr) {
         LOG_CRITICAL("SDL Renderer could not be created: %s", SDL_GetError());
         return false;
