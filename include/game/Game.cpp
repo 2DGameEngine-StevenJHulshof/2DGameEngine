@@ -16,7 +16,8 @@ Game::Game(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY
            std::uint16_t windowHeight, bool fullScreen) :
     _isRunning(true),
     _window(nullptr),
-    _renderer(nullptr) {
+    _renderer(nullptr),
+    _player(TEXTURE_DEFAULT, 100.0f, 100.0f, 0.4f){
 
 //    LOG_ALLOC(this, __PRETTY_FUNCTION__);
 
@@ -82,25 +83,17 @@ void Game::HandleEvents() {
     input_manager->PollKeyboardInput();
 }
 
-/** - TODO: Create unit */
-float x = 0;
-float y = 0;
-float velocity = 0.1f;
-
 void Game::Update() {
     /** - TODO: Create unit */
-    if(input_manager->GetKeyRight()) x += velocity * frame_manager->GetDeltaTime();
-    if(input_manager->GetKeyLeft()) x -= velocity * frame_manager->GetDeltaTime();
-    if(input_manager->GetKeyUp()) y -= velocity * frame_manager->GetDeltaTime();
-    if(input_manager->GetKeyDown()) y += velocity * frame_manager->GetDeltaTime();
+    _player.Update();
+
 }
 
 void Game::Render() {
 
     SDL_RenderClear(_renderer);
     /* - Begin of user rendering. */
-    /** - TODO: remove */
-    texture_manager->GetTexture(TEXTURE_DEFAULT)->Render(x, y);
+    _player.Render();
     /* - End of user rendering. */
     SDL_RenderPresent(_renderer);
 }
