@@ -2,6 +2,7 @@
 #include "Texture.h"
 #include "SDL.h"
 #include "SDL_image.h"
+#include "TextureManager.h"
 
 Texture::Texture(Texture_t textureID, SDL_Renderer *renderer) :
         _texture(nullptr),
@@ -15,7 +16,7 @@ Texture::Texture(Texture_t textureID, SDL_Renderer *renderer) :
     if(textureID >= TEXTURE_TOTAL) {
         LOG_CRITICAL("Texture ID is out of bounds!");
     } else {
-        _texture = IMG_LoadTexture(_renderer, gTexturePath[textureID].c_str());
+        _texture = IMG_LoadTexture(_renderer, texture_manager_get_path(textureID).c_str());
         if(_texture == nullptr) {
             LOG_WARNING("Texture loading failed: %s", SDL_GetError());
         }
