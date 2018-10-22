@@ -1,11 +1,10 @@
 #include "Timer.h"
 #include "SDL.h"
+#include "UserLog.h"
 
 Timer::Timer() :
     _started(false),
-    _paused(false),
-    _startTicks(0),
-    _pausedTicks(0) {
+    _startTicks() {
 
 }
 
@@ -13,45 +12,26 @@ Timer::~Timer() = default;
 
 void Timer::Start() {
 
-    if(_started && _paused ) {
-        _paused = false;
-        _startTicks = SDL_GetTicks() - _pausedTicks;
-        _pausedTicks = 0;
-    } else {
-        _started = true;
-        _paused = false;
+    _started = true;
 
-        if(!_started) {
-            _startTicks = SDL_GetTicks();
-        }
-    }
-}
-
-void Timer::Stop() {
-
-    if(_started && !_paused ) {
-        _paused = true;
-        _pausedTicks = SDL_GetTicks() - _startTicks;
-        _startTicks = 0;
+    if(!_started) {
+        _startTicks = Clock_t::now();
     }
 }
 
 void Timer::Reset() {
 
-    _startTicks = SDL_GetTicks();
-    _pausedTicks = 0;
+    _startTicks = Clock_t::now();
 }
 
-std::uint32_t Timer::Read_ms() {
+std::uint32_t Timer::Read_us() {
 
     std::uint32_t time = 0;
 
     if(_started) {
-        if(_paused) {
-            time = _pausedTicks;
-        } else {
-            time = SDL_GetTicks() - _startTicks;
-        }
+        time = static_cast<uint32_t>(
+                std::chrono::duration_cast<std::chrono::microseconds>(Clock_t::now() - _startTicks).count());
+       // LOG_INFO("%u", time);
     }
 
     return time;

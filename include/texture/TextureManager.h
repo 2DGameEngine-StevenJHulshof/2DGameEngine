@@ -32,6 +32,3 @@ public:
 };
 
 #define texture_manager TextureManager::Instance()
-#define texture_manager_config(renderer) texture_manager->Config(renderer)
-#define texture_manager_get(ID) texture_manager->GetTexture(ID)
-#define texture_manager_get_path(ID) texture_manager->GetTexturePath(ID)

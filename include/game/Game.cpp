@@ -1,8 +1,11 @@
+#include <climits>
+
 #include "Game.h"
 #include "UserLog.h"
 #include "Texture.h"
 #include "TextureManager.h"
 #include "InputManager.h"
+#include "FrameManager.h"
 
 bool Game::IsRunning() {
 
@@ -57,7 +60,7 @@ bool Game::Config(const char *title, std::uint32_t windowPosX, std::uint32_t win
     }
 
     LOG_INFO("Configuring texture manager and loading textures");
-    texture_manager_config(_renderer);
+    texture_manager->Config(_renderer);
 
     return true;
 }
@@ -75,20 +78,21 @@ void Game::HandleEvents() {
                 break;
         }
     }
-    input_manager_reset_input;
-    input_manager_poll_key_input;
+    input_manager->ResetInput();
+    input_manager->PollKeyboardInput();
 }
 
-/** - TODO: remove */
-int x = 0;
-int y = 0;
+/** - TODO: Create unit */
+float x = 0;
+float y = 0;
+float velocity = 0.1f;
 
 void Game::Update() {
-    /** - TODO: remove */
-    if(input_manager->GetKeyRight()) x++;
-    if(input_manager->GetKeyLeft()) x--;
-    if(input_manager->GetKeyUp()) y--;
-    if(input_manager->GetKeyDown()) y++;
+    /** - TODO: Create unit */
+    if(input_manager->GetKeyRight()) x += velocity * frame_manager->GetDeltaTime();
+    if(input_manager->GetKeyLeft()) x -= velocity * frame_manager->GetDeltaTime();
+    if(input_manager->GetKeyUp()) y -= velocity * frame_manager->GetDeltaTime();
+    if(input_manager->GetKeyDown()) y += velocity * frame_manager->GetDeltaTime();
 }
 
 void Game::Render() {
@@ -96,7 +100,7 @@ void Game::Render() {
     SDL_RenderClear(_renderer);
     /* - Begin of user rendering. */
     /** - TODO: remove */
-    texture_manager_get(TEXTURE_DEFAULT)->Render(x, y);
+    texture_manager->GetTexture(TEXTURE_DEFAULT)->Render(x, y);
     /* - End of user rendering. */
     SDL_RenderPresent(_renderer);
 }

@@ -34,5 +34,3 @@ public:
 };
 
 #define input_manager InputManager::Instance()
-#define input_manager_reset_input input_manager->ResetInput()
-#define input_manager_poll_key_input input_manager->PollKeyboardInput()
