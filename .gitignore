@@ -1,6 +1,9 @@
 # Ignore lib files
 lib/
 
+# Ignore doc files
+Design.md
+
 #####################################################
 # CLion                                             #
 # Source: https://www.gitignore.io                  #
