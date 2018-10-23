@@ -5,7 +5,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -lmingw32")
 set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
 
 include_directories(
-        ${PROJECT_SOURCE_DIR}/include/assets/player
         ${PROJECT_SOURCE_DIR}/include/config
         ${PROJECT_SOURCE_DIR}/include/ecs
         ${PROJECT_SOURCE_DIR}/include/frame
@@ -33,7 +32,6 @@ set(SOURCE_FILES
         include/ecs/RendererComponent.cpp
         include/ecs/ControllerComponent.cpp
         include/ecs/PhysicsComponent.cpp
-        include/assets/player/Player.cpp
 )
 
 add_executable(sdl2_game ${SOURCE_FILES})
