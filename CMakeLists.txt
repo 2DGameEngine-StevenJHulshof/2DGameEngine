@@ -7,6 +7,7 @@ set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
 include_directories(
         ${PROJECT_SOURCE_DIR}/include/assets/player
         ${PROJECT_SOURCE_DIR}/include/config
+        ${PROJECT_SOURCE_DIR}/include/ecs
         ${PROJECT_SOURCE_DIR}/include/frame
         ${PROJECT_SOURCE_DIR}/include/game
         ${PROJECT_SOURCE_DIR}/include/input
@@ -26,6 +27,12 @@ set(SOURCE_FILES
         include/input/InputManager.cpp
         include/timer/Timer.cpp
         include/frame/FrameManager.cpp
+        include/ecs/Entity.cpp
+        include/ecs/Component.cpp
+        include/ecs/TransformComponent.cpp
+        include/ecs/RendererComponent.cpp
+        include/ecs/ControllerComponent.cpp
+        include/ecs/PhysicsComponent.cpp
         include/assets/player/Player.cpp
 )
 

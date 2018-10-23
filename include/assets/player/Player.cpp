@@ -15,10 +15,7 @@ Player::~Player() = default;
 
 void Player::Input() {
 
-    if(input_manager->GetKeyD()) _x += _velocity * frame_manager->GetDeltaTime();
-    if(input_manager->GetKeyA()) _x -= _velocity * frame_manager->GetDeltaTime();
-    if(input_manager->GetKeyW()) _y -= _velocity * frame_manager->GetDeltaTime();
-    if(input_manager->GetKeyS()) _y += _velocity * frame_manager->GetDeltaTime();
+
 }
 
 void Player::Update() {

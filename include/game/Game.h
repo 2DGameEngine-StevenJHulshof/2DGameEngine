@@ -2,7 +2,6 @@
 
 #include <cstdint>
 #include "SDL.h"
-#include "Player.h"
 
 class Game {
 
@@ -11,8 +10,6 @@ private:
     bool _isRunning;
     SDL_Window *_window;
     SDL_Renderer *_renderer;
-
-    Player _player;
 
 public:
 
