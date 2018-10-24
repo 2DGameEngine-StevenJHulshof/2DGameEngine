@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(sdl2_game)
+project(2DGameEngine)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -lmingw32")
 set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
@@ -34,6 +34,6 @@ set(SOURCE_FILES
         src/ecs/PhysicsComponent.cpp
 )
 
-add_executable(sdl2_game ${SOURCE_FILES})
+add_executable(2DGameEngine ${SOURCE_FILES})
 
-target_link_libraries(sdl2_game SDL2main SDL2 SDL2_image SDL2_ttf SDL2_mixer)
+target_link_libraries(2DGameEngine SDL2main SDL2 SDL2_image SDL2_ttf SDL2_mixer)

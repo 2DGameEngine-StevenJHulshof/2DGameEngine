@@ -1,3 +1,3 @@
-D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir
-D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
-D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir
+D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/2DGameEngine.dir
+D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

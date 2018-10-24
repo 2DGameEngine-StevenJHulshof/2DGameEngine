@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/3.12.0/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/3.12.0/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/g++.exe 
@@ -23,37 +23,37 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/3.12.0/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/3.12.0/CompilerIdCXX/a.exe"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
+Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_00814/fast"
-C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_00814.dir\build.make CMakeFiles/cmTC_00814.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_00814.dir/testCCompiler.c.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_00814.dir\testCCompiler.c.obj   -c D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles\CMakeTmp\testCCompiler.c
-Linking C executable cmTC_00814.exe
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_00814.dir\link.txt --verbose=1
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_00814.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_00814.dir/objects.a @CMakeFiles\cmTC_00814.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_00814.dir/objects.a -Wl,--no-whole-archive  -o cmTC_00814.exe -Wl,--out-implib,libcmTC_00814.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_00814.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_79e97/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_79e97.dir\build.make CMakeFiles/cmTC_79e97.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_79e97.dir/testCCompiler.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_79e97.dir\testCCompiler.c.obj   -c D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_79e97.exe
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_79e97.dir\link.txt --verbose=1
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_79e97.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_79e97.dir/objects.a @CMakeFiles\cmTC_79e97.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_79e97.dir/objects.a -Wl,--no-whole-archive  -o cmTC_79e97.exe -Wl,--out-implib,libcmTC_79e97.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_79e97.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
+Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_6fe1d/fast"
-C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_6fe1d.dir\build.make CMakeFiles/cmTC_6fe1d.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6fe1d.dir/CMakeCCompilerABI.c.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_6fe1d.dir\CMakeCCompilerABI.c.obj   -c "D:\development\CLion\CLion 2018.2.1\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
-Linking C executable cmTC_6fe1d.exe
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6fe1d.dir\link.txt --verbose=1
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_6fe1d.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_6fe1d.dir/objects.a @CMakeFiles\cmTC_6fe1d.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_6fe1d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6fe1d.exe -Wl,--out-implib,libcmTC_6fe1d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_aec1d/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_aec1d.dir\build.make CMakeFiles/cmTC_aec1d.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aec1d.dir/CMakeCCompilerABI.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_aec1d.dir\CMakeCCompilerABI.c.obj   -c "D:\development\CLion\CLion 2018.2.1\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_aec1d.exe
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_aec1d.dir\link.txt --verbose=1
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_aec1d.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_aec1d.dir/objects.a @CMakeFiles\cmTC_aec1d.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_aec1d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_aec1d.exe -Wl,--out-implib,libcmTC_aec1d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe
 COLLECT_LTO_WRAPPER=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe
@@ -63,26 +63,26 @@ Thread model: posix
 gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
 COMPILER_PATH=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6fe1d.exe' '-mtune=core2' '-march=nocona'
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\ccN5FtNe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_6fe1d.exe C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_6fe1d.dir/objects.a --no-whole-archive --out-implib libcmTC_6fe1d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6fe1d.exe' '-mtune=core2' '-march=nocona'
-mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aec1d.exe' '-mtune=core2' '-march=nocona'
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\ccvDw36s.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_aec1d.exe C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_aec1d.dir/objects.a --no-whole-archive --out-implib libcmTC_aec1d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aec1d.exe' '-mtune=core2' '-march=nocona'
+mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_6fe1d/fast"]
-  ignore line: [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_6fe1d.dir\build.make CMakeFiles/cmTC_6fe1d.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_6fe1d.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_6fe1d.dir\CMakeCCompilerABI.c.obj   -c "D:\development\CLion\CLion 2018.2.1\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"]
-  ignore line: [Linking C executable cmTC_6fe1d.exe]
-  ignore line: ["D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6fe1d.dir\link.txt --verbose=1]
-  ignore line: ["D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_6fe1d.dir/objects.a]
-  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_6fe1d.dir/objects.a @CMakeFiles\cmTC_6fe1d.dir\objects1.rsp]
-  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_6fe1d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6fe1d.exe -Wl,--out-implib,libcmTC_6fe1d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_aec1d/fast"]
+  ignore line: [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_aec1d.dir\build.make CMakeFiles/cmTC_aec1d.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_aec1d.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_aec1d.dir\CMakeCCompilerABI.c.obj   -c "D:\development\CLion\CLion 2018.2.1\bin\cmake\win\share\cmake-3.12\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_aec1d.exe]
+  ignore line: ["D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_aec1d.dir\link.txt --verbose=1]
+  ignore line: ["D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_aec1d.dir/objects.a]
+  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_aec1d.dir/objects.a @CMakeFiles\cmTC_aec1d.dir\objects1.rsp]
+  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_aec1d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_aec1d.exe -Wl,--out-implib,libcmTC_aec1d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe]
@@ -99,13 +99,13 @@ Parsed C implicit link information from above output:
   ignore line: [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/]
   ignore line: [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6fe1d.exe' '-mtune=core2' '-march=nocona']
-  link line: [ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\ccN5FtNe.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_6fe1d.exe C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_6fe1d.dir/objects.a --no-whole-archive --out-implib libcmTC_6fe1d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aec1d.exe' '-mtune=core2' '-march=nocona']
+  link line: [ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\ccvDw36s.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_aec1d.exe C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_aec1d.dir/objects.a --no-whole-archive --out-implib libcmTC_aec1d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
     arg [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\ccN5FtNe.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\ccvDw36s.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -129,7 +129,7 @@ Parsed C implicit link information from above output:
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_6fe1d.exe] ==> ignore
+    arg [cmTC_aec1d.exe] ==> ignore
     arg [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o] ==> ignore
     arg [-LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> dir [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0]
@@ -139,10 +139,10 @@ Parsed C implicit link information from above output:
     arg [-LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> dir [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_6fe1d.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_aec1d.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_6fe1d.dll.a] ==> ignore
+    arg [libcmTC_aec1d.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -184,19 +184,19 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
+Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_8e63e/fast"
-C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_8e63e.dir\build.make CMakeFiles/cmTC_8e63e.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8e63e.dir/feature_tests.c.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_8e63e.dir\feature_tests.c.obj   -c D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles\feature_tests.c
-Linking C executable cmTC_8e63e.exe
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8e63e.dir\link.txt --verbose=1
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_8e63e.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_8e63e.dir/objects.a @CMakeFiles\cmTC_8e63e.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_8e63e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8e63e.exe -Wl,--out-implib,libcmTC_8e63e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8e63e.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_2bb73/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_2bb73.dir\build.make CMakeFiles/cmTC_2bb73.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2bb73.dir/feature_tests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_2bb73.dir\feature_tests.c.obj   -c D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles\feature_tests.c
+Linking C executable cmTC_2bb73.exe
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2bb73.dir\link.txt --verbose=1
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_2bb73.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_2bb73.dir/objects.a @CMakeFiles\cmTC_2bb73.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_2bb73.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2bb73.exe -Wl,--out-implib,libcmTC_2bb73.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_2bb73.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -206,19 +206,19 @@ mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
+Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_e5dd2/fast"
-C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_e5dd2.dir\build.make CMakeFiles/cmTC_e5dd2.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e5dd2.dir/feature_tests.c.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_e5dd2.dir\feature_tests.c.obj   -c D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles\feature_tests.c
-Linking C executable cmTC_e5dd2.exe
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e5dd2.dir\link.txt --verbose=1
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e5dd2.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_e5dd2.dir/objects.a @CMakeFiles\cmTC_e5dd2.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_e5dd2.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e5dd2.exe -Wl,--out-implib,libcmTC_e5dd2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e5dd2.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_1d29d/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_1d29d.dir\build.make CMakeFiles/cmTC_1d29d.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1d29d.dir/feature_tests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_1d29d.dir\feature_tests.c.obj   -c D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles\feature_tests.c
+Linking C executable cmTC_1d29d.exe
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_1d29d.dir\link.txt --verbose=1
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_1d29d.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_1d29d.dir/objects.a @CMakeFiles\cmTC_1d29d.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_1d29d.dir/objects.a -Wl,--no-whole-archive  -o cmTC_1d29d.exe -Wl,--out-implib,libcmTC_1d29d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1d29d.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -228,19 +228,19 @@ mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
+Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_47231/fast"
-C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_47231.dir\build.make CMakeFiles/cmTC_47231.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_47231.dir/feature_tests.c.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_47231.dir\feature_tests.c.obj   -c D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles\feature_tests.c
-Linking C executable cmTC_47231.exe
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_47231.dir\link.txt --verbose=1
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_47231.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_47231.dir/objects.a @CMakeFiles\cmTC_47231.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_47231.dir/objects.a -Wl,--no-whole-archive  -o cmTC_47231.exe -Wl,--out-implib,libcmTC_47231.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_47231.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_a3da6/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_a3da6.dir\build.make CMakeFiles/cmTC_a3da6.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3da6.dir/feature_tests.c.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_a3da6.dir\feature_tests.c.obj   -c D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles\feature_tests.c
+Linking C executable cmTC_a3da6.exe
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a3da6.dir\link.txt --verbose=1
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a3da6.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_a3da6.dir/objects.a @CMakeFiles\cmTC_a3da6.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a3da6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a3da6.exe -Wl,--out-implib,libcmTC_a3da6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a3da6.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -248,34 +248,34 @@ mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
+Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_db2ba/fast"
-C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_db2ba.dir\build.make CMakeFiles/cmTC_db2ba.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_db2ba.dir/testCXXCompiler.cxx.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -o CMakeFiles\cmTC_db2ba.dir\testCXXCompiler.cxx.obj -c D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
-Linking CXX executable cmTC_db2ba.exe
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_db2ba.dir\link.txt --verbose=1
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_db2ba.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_db2ba.dir/objects.a @CMakeFiles\cmTC_db2ba.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_db2ba.dir/objects.a -Wl,--no-whole-archive  -o cmTC_db2ba.exe -Wl,--out-implib,libcmTC_db2ba.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_db2ba.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_a80e5/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_a80e5.dir\build.make CMakeFiles/cmTC_a80e5.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a80e5.dir/testCXXCompiler.cxx.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -o CMakeFiles\cmTC_a80e5.dir\testCXXCompiler.cxx.obj -c D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_a80e5.exe
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a80e5.dir\link.txt --verbose=1
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_a80e5.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_a80e5.dir/objects.a @CMakeFiles\cmTC_a80e5.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_a80e5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a80e5.exe -Wl,--out-implib,libcmTC_a80e5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a80e5.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
+Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_d8de8/fast"
-C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_d8de8.dir\build.make CMakeFiles/cmTC_d8de8.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d8de8.dir/CMakeCXXCompilerABI.cpp.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -o CMakeFiles\cmTC_d8de8.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\development\CLion\CLion 2018.2.1\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
-Linking CXX executable cmTC_d8de8.exe
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d8de8.dir\link.txt --verbose=1
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d8de8.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_d8de8.dir/objects.a @CMakeFiles\cmTC_d8de8.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -v -Wl,--whole-archive CMakeFiles\cmTC_d8de8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d8de8.exe -Wl,--out-implib,libcmTC_d8de8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_ef2c3/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ef2c3.dir\build.make CMakeFiles/cmTC_ef2c3.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ef2c3.dir/CMakeCXXCompilerABI.cpp.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -o CMakeFiles\cmTC_ef2c3.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\development\CLion\CLion 2018.2.1\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_ef2c3.exe
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ef2c3.dir\link.txt --verbose=1
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ef2c3.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_ef2c3.dir/objects.a @CMakeFiles\cmTC_ef2c3.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -v -Wl,--whole-archive CMakeFiles\cmTC_ef2c3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ef2c3.exe -Wl,--out-implib,libcmTC_ef2c3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
 COLLECT_GCC=C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE
 COLLECT_LTO_WRAPPER=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe
@@ -285,26 +285,26 @@ Thread model: posix
 gcc version 7.3.0 (x86_64-posix-seh-rev0, Built by MinGW-W64 project) 
 COMPILER_PATH=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/
 LIBRARY_PATH=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d8de8.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\ccuwDtMi.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_d8de8.exe C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_d8de8.dir/objects.a --no-whole-archive --out-implib libcmTC_d8de8.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d8de8.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
-mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ef2c3.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\cc7vUhOj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_ef2c3.exe C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_ef2c3.dir/objects.a --no-whole-archive --out-implib libcmTC_ef2c3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ef2c3.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona'
+mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_d8de8/fast"]
-  ignore line: [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_d8de8.dir\build.make CMakeFiles/cmTC_d8de8.dir/build]
-  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_d8de8.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -o CMakeFiles\cmTC_d8de8.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\development\CLion\CLion 2018.2.1\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"]
-  ignore line: [Linking CXX executable cmTC_d8de8.exe]
-  ignore line: ["D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d8de8.dir\link.txt --verbose=1]
-  ignore line: ["D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d8de8.dir/objects.a]
-  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_d8de8.dir/objects.a @CMakeFiles\cmTC_d8de8.dir\objects1.rsp]
-  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -v -Wl,--whole-archive CMakeFiles\cmTC_d8de8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d8de8.exe -Wl,--out-implib,libcmTC_d8de8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_ef2c3/fast"]
+  ignore line: [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ef2c3.dir\build.make CMakeFiles/cmTC_ef2c3.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_ef2c3.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -o CMakeFiles\cmTC_ef2c3.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\development\CLion\CLion 2018.2.1\bin\cmake\win\share\cmake-3.12\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_ef2c3.exe]
+  ignore line: ["D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ef2c3.dir\link.txt --verbose=1]
+  ignore line: ["D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ef2c3.dir/objects.a]
+  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_ef2c3.dir/objects.a @CMakeFiles\cmTC_ef2c3.dir\objects1.rsp]
+  ignore line: [C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE     -v -Wl,--whole-archive CMakeFiles\cmTC_ef2c3.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ef2c3.exe -Wl,--out-implib,libcmTC_ef2c3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE]
   ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe]
@@ -321,13 +321,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib/]
   ignore line: [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/]
   ignore line: [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d8de8.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
-  link line: [ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\ccuwDtMi.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_d8de8.exe C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_d8de8.dir/objects.a --no-whole-archive --out-implib libcmTC_d8de8.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ef2c3.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona']
+  link line: [ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe -plugin C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\cc7vUhOj.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt --sysroot=C:/mingw730/x86_64-730-posix-seh-rt_v5-rev0/mingw64 -m i386pep -Bdynamic -o cmTC_ef2c3.exe C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0 -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../.. --whole-archive CMakeFiles\cmTC_ef2c3.dir/objects.a --no-whole-archive --out-implib libcmTC_ef2c3.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtend.o]
     arg [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/7.3.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\ccuwDtMi.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\steve\AppData\Local\Temp\cc7vUhOj.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -351,7 +351,7 @@ Parsed CXX implicit link information from above output:
     arg [i386pep] ==> ignore
     arg [-Bdynamic] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d8de8.exe] ==> ignore
+    arg [cmTC_ef2c3.exe] ==> ignore
     arg [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
     arg [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/crtbegin.o] ==> ignore
     arg [-LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0] ==> dir [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0]
@@ -361,10 +361,10 @@ Parsed CXX implicit link information from above output:
     arg [-LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/lib]
     arg [-LC:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..] ==> dir [C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../..]
     arg [--whole-archive] ==> ignore
-    arg [CMakeFiles\cmTC_d8de8.dir/objects.a] ==> ignore
+    arg [CMakeFiles\cmTC_ef2c3.dir/objects.a] ==> ignore
     arg [--no-whole-archive] ==> ignore
     arg [--out-implib] ==> ignore
-    arg [libcmTC_d8de8.dll.a] ==> ignore
+    arg [libcmTC_ef2c3.dll.a] ==> ignore
     arg [--major-image-version] ==> ignore
     arg [0] ==> ignore
     arg [--minor-image-version] ==> ignore
@@ -405,19 +405,19 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
+Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_d3b60/fast"
-C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_d3b60.dir\build.make CMakeFiles/cmTC_d3b60.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d3b60.dir/feature_tests.cxx.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE    -std=c++1z -o CMakeFiles\cmTC_d3b60.dir\feature_tests.cxx.obj -c D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_d3b60.exe
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d3b60.dir\link.txt --verbose=1
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d3b60.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_d3b60.dir/objects.a @CMakeFiles\cmTC_d3b60.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_d3b60.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d3b60.exe -Wl,--out-implib,libcmTC_d3b60.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d3b60.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_e13f6/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_e13f6.dir\build.make CMakeFiles/cmTC_e13f6.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e13f6.dir/feature_tests.cxx.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE    -std=c++1z -o CMakeFiles\cmTC_e13f6.dir\feature_tests.cxx.obj -c D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_e13f6.exe
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e13f6.dir\link.txt --verbose=1
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e13f6.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_e13f6.dir/objects.a @CMakeFiles\cmTC_e13f6.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_e13f6.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e13f6.exe -Wl,--out-implib,libcmTC_e13f6.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e13f6.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -480,19 +480,19 @@ mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
+Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_d9e63/fast"
-C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_d9e63.dir\build.make CMakeFiles/cmTC_d9e63.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d9e63.dir/feature_tests.cxx.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE    -std=c++14 -o CMakeFiles\cmTC_d9e63.dir\feature_tests.cxx.obj -c D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_d9e63.exe
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d9e63.dir\link.txt --verbose=1
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d9e63.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_d9e63.dir/objects.a @CMakeFiles\cmTC_d9e63.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_d9e63.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d9e63.exe -Wl,--out-implib,libcmTC_d9e63.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d9e63.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_d94ec/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_d94ec.dir\build.make CMakeFiles/cmTC_d94ec.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d94ec.dir/feature_tests.cxx.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE    -std=c++14 -o CMakeFiles\cmTC_d94ec.dir\feature_tests.cxx.obj -c D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_d94ec.exe
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d94ec.dir\link.txt --verbose=1
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d94ec.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_d94ec.dir/objects.a @CMakeFiles\cmTC_d94ec.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_d94ec.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d94ec.exe -Wl,--out-implib,libcmTC_d94ec.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d94ec.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -555,19 +555,19 @@ mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
+Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_d1b4c/fast"
-C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_d1b4c.dir\build.make CMakeFiles/cmTC_d1b4c.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d1b4c.dir/feature_tests.cxx.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE    -std=c++11 -o CMakeFiles\cmTC_d1b4c.dir\feature_tests.cxx.obj -c D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_d1b4c.exe
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d1b4c.dir\link.txt --verbose=1
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d1b4c.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_d1b4c.dir/objects.a @CMakeFiles\cmTC_d1b4c.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_d1b4c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d1b4c.exe -Wl,--out-implib,libcmTC_d1b4c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d1b4c.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_ac3fb/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_ac3fb.dir\build.make CMakeFiles/cmTC_ac3fb.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ac3fb.dir/feature_tests.cxx.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE    -std=c++11 -o CMakeFiles\cmTC_ac3fb.dir\feature_tests.cxx.obj -c D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_ac3fb.exe
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ac3fb.dir\link.txt --verbose=1
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ac3fb.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_ac3fb.dir/objects.a @CMakeFiles\cmTC_ac3fb.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_ac3fb.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ac3fb.exe -Wl,--out-implib,libcmTC_ac3fb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ac3fb.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -630,19 +630,19 @@ mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
+Change Dir: D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_8e226/fast"
-C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_8e226.dir\build.make CMakeFiles/cmTC_8e226.dir/build
-mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8e226.dir/feature_tests.cxx.obj
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE    -std=c++98 -o CMakeFiles\cmTC_8e226.dir\feature_tests.cxx.obj -c D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_8e226.exe
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_8e226.dir\link.txt --verbose=1
-"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_8e226.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_8e226.dir/objects.a @CMakeFiles\cmTC_8e226.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_8e226.dir/objects.a -Wl,--no-whole-archive  -o cmTC_8e226.exe -Wl,--out-implib,libcmTC_8e226.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_8e226.dir\linklibs.rsp
-mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Run Build Command:"C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe" "cmTC_e5b67/fast"
+C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_e5b67.dir\build.make CMakeFiles/cmTC_e5b67.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5b67.dir/feature_tests.cxx.obj
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE    -std=c++98 -o CMakeFiles\cmTC_e5b67.dir\feature_tests.cxx.obj -c D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_e5b67.exe
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e5b67.dir\link.txt --verbose=1
+"D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e5b67.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\cmTC_e5b67.dir/objects.a @CMakeFiles\cmTC_e5b67.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE      -Wl,--whole-archive CMakeFiles\cmTC_e5b67.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e5b67.exe -Wl,--out-implib,libcmTC_e5b67.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e5b67.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
