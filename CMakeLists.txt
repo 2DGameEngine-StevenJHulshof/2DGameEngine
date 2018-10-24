@@ -8,7 +8,7 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/include/config
         ${PROJECT_SOURCE_DIR}/include/ecs
         ${PROJECT_SOURCE_DIR}/include/frame
-        ${PROJECT_SOURCE_DIR}/include/game
+        ${PROJECT_SOURCE_DIR}/include/engine
         ${PROJECT_SOURCE_DIR}/include/input
         ${PROJECT_SOURCE_DIR}/include/logger
         ${PROJECT_SOURCE_DIR}/include/SDL2
@@ -20,7 +20,7 @@ link_directories(${PROJECT_SOURCE_DIR}/lib)
 set(SOURCE_FILES
         main.cpp
         include/logger/UserLog.cpp
-        include/game/Game.cpp
+        include/engine/GameEngine.cpp
         include/texture/Texture.cpp
         include/texture/TextureManager.cpp
         include/input/InputManager.cpp

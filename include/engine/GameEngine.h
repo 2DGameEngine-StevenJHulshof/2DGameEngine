@@ -3,7 +3,7 @@
 #include <cstdint>
 #include "SDL.h"
 
-class Game {
+class GameEngine {
 
 private:
 
@@ -15,10 +15,10 @@ public:
 
     bool IsRunning();
 
-    Game(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY, std::uint16_t windowWidth,
+    GameEngine(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY, std::uint16_t windowWidth,
             std::uint16_t windowHeight, bool fullScreen);
 
-    ~Game();
+    ~GameEngine();
 
     bool Config(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY, std::uint16_t windowWidth,
                 std::uint16_t windowHeight, bool fullScreen);

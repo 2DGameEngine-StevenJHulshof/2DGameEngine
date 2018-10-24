@@ -1,6 +1,6 @@
 #include <climits>
 
-#include "Game.h"
+#include "GameEngine.h"
 #include "UserLog.h"
 #include "Texture.h"
 #include "TextureManager.h"
@@ -18,12 +18,12 @@ RendererComponent rendererComponent(TEXTURE_DEFAULT);
 PhysicsComponent physicsComponent(0.1f, 60.0f);
 ControllerComponent controllerComponent;
 
-bool Game::IsRunning() {
+bool GameEngine::IsRunning() {
 
     return _isRunning;
 }
 
-Game::Game(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY, std::uint16_t windowWidth,
+GameEngine::GameEngine(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY, std::uint16_t windowWidth,
            std::uint16_t windowHeight, bool fullScreen) :
     _isRunning(true),
     _window(nullptr),
@@ -36,16 +36,16 @@ Game::Game(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY
     }
 }
 
-Game::~Game() {
+GameEngine::~GameEngine() {
 
 //    LOG_DEALLOC(this, __PRETTY_FUNCTION__);
     Clean();
 }
 
-bool Game::Config(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY, std::uint16_t windowWidth,
+bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32_t windowPosY, std::uint16_t windowWidth,
                   std::uint16_t windowHeight, bool fullScreen) {
 
-    LOG_INFO("Starting game application");
+    LOG_INFO("Starting game engine");
 
     std::uint32_t flags = 0;
     if(fullScreen) flags |= SDL_WINDOW_FULLSCREEN;
@@ -81,7 +81,7 @@ bool Game::Config(const char *title, std::uint32_t windowPosX, std::uint32_t win
     return true;
 }
 
-void Game::HandleEvents() {
+void GameEngine::HandleEvents() {
 
     SDL_Event event;
     while (SDL_PollEvent(&event)) {
@@ -98,12 +98,12 @@ void Game::HandleEvents() {
     input_manager->PollKeyboardInput();
 }
 
-void Game::Update() {
+void GameEngine::Update() {
     /** - Update assets here. */
     player.Update();
 }
 
-void Game::Render() {
+void GameEngine::Render() {
 
     SDL_RenderClear(_renderer);
     /* - Begin of user rendering. */
@@ -112,9 +112,9 @@ void Game::Render() {
     SDL_RenderPresent(_renderer);
 }
 
-void Game::Clean() {
+void GameEngine::Clean() {
 
-    LOG_INFO("Closing game application and destroying all resources");
+    LOG_INFO("Closing game engine and destroying all resources");
     delete texture_manager;
     delete input_manager;
 

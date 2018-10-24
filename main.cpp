@@ -1,26 +1,26 @@
 #include "app_config.h"
-#include "Game.h"
+#include "GameEngine.h"
 #include "UserLog.h"
 #include "FrameManager.h"
 
-Game *game = nullptr;
+GameEngine *gameEngine = nullptr;
 
 int main(int argc, char* argv[])
 {
-    game = new Game("TestGame", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WINDOW_SCREEN_WIDTH,
+    gameEngine = new GameEngine("TestGame", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, WINDOW_SCREEN_WIDTH,
             WINDOW_SCREEN_HEIGHT, false);
 
     LOG_INFO("Entering game loop");
     frame_manager->Start();
-    while(game->IsRunning()) {
+    while(gameEngine->IsRunning()) {
         frame_manager->Reset();
-        game->HandleEvents();
-        game->Update();
-        game->Render();
+        gameEngine->HandleEvents();
+        gameEngine->Update();
+        gameEngine->Render();
     }
 
     delete frame_manager;
-    delete game;
+    delete gameEngine;
 
     return 0;
 }
