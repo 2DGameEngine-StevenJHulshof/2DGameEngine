@@ -500,6 +500,33 @@ src/timer/Timer.cpp.s:
 	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/timer/Timer.cpp.s
 .PHONY : src/timer/Timer.cpp.s
 
+src/vector/Vector2D.obj: src/vector/Vector2D.cpp.obj
+
+.PHONY : src/vector/Vector2D.obj
+
+# target to build an object file
+src/vector/Vector2D.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/vector/Vector2D.cpp.obj
+.PHONY : src/vector/Vector2D.cpp.obj
+
+src/vector/Vector2D.i: src/vector/Vector2D.cpp.i
+
+.PHONY : src/vector/Vector2D.i
+
+# target to preprocess a source file
+src/vector/Vector2D.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/vector/Vector2D.cpp.i
+.PHONY : src/vector/Vector2D.cpp.i
+
+src/vector/Vector2D.s: src/vector/Vector2D.cpp.s
+
+.PHONY : src/vector/Vector2D.s
+
+# target to generate assembly for a file
+src/vector/Vector2D.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/vector/Vector2D.cpp.s
+.PHONY : src/vector/Vector2D.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -551,6 +578,9 @@ help:
 	@echo ... src/timer/Timer.obj
 	@echo ... src/timer/Timer.i
 	@echo ... src/timer/Timer.s
+	@echo ... src/vector/Vector2D.obj
+	@echo ... src/vector/Vector2D.i
+	@echo ... src/vector/Vector2D.s
 .PHONY : help
 
 

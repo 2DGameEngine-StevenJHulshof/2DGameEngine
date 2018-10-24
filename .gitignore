@@ -2,7 +2,7 @@
 lib/
 
 # Ignore doc files
-Design.md
+# Design.md
 
 #####################################################
 # CLion                                             #
@@ -29,8 +29,8 @@ Design.md
 **/.idea/**/libraries
 
 # CMake
-cmake-build-debug-mingw/
-cmake-build-release-mingw/
+**/cmake-build-debug-mingw/
+**/cmake-build-release-mingw/
 cmake-build-debug/
 cmake-build-release/
 cmake-bootloader-debug/
