@@ -1,6 +1,3 @@
-# Ignore lib files
-lib/
-
 # Ignore doc files
 Design.md
 
