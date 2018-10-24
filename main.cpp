@@ -11,12 +11,16 @@ int main(int argc, char* argv[])
             WINDOW_SCREEN_HEIGHT, false);
 
     LOG_INFO("Entering game loop");
+    Timer frameCapTimer;
     frame_manager->Start();
+    frameCapTimer.Start();
     while(gameEngine->IsRunning()) {
         frame_manager->Reset();
+        frameCapTimer.Reset();
         gameEngine->HandleEvents();
         gameEngine->Update();
         gameEngine->Render();
+        while(frameCapTimer.Read_us() < (1 / FRAME_RATE_CAP));
     }
 
     delete frame_manager;
