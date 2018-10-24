@@ -149,6 +149,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/2DPlatformer/components/Platform2DControllerComponent.obj: src/2DPlatformer/components/Platform2DControllerComponent.cpp.obj
+
+.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.obj
+
+# target to build an object file
+src/2DPlatformer/components/Platform2DControllerComponent.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DControllerComponent.cpp.obj
+.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.cpp.obj
+
+src/2DPlatformer/components/Platform2DControllerComponent.i: src/2DPlatformer/components/Platform2DControllerComponent.cpp.i
+
+.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.i
+
+# target to preprocess a source file
+src/2DPlatformer/components/Platform2DControllerComponent.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DControllerComponent.cpp.i
+.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.cpp.i
+
+src/2DPlatformer/components/Platform2DControllerComponent.s: src/2DPlatformer/components/Platform2DControllerComponent.cpp.s
+
+.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.s
+
+# target to generate assembly for a file
+src/2DPlatformer/components/Platform2DControllerComponent.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DControllerComponent.cpp.s
+.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.cpp.s
+
+src/2DPlatformer/components/Platform2DPhysicsComponent.obj: src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.obj
+
+.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.obj
+
+# target to build an object file
+src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.obj
+.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.obj
+
+src/2DPlatformer/components/Platform2DPhysicsComponent.i: src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.i
+
+.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.i
+
+# target to preprocess a source file
+src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.i
+.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.i
+
+src/2DPlatformer/components/Platform2DPhysicsComponent.s: src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.s
+
+.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.s
+
+# target to generate assembly for a file
+src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.s
+.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.s
+
 src/ecs/Component.obj: src/ecs/Component.cpp.obj
 
 .PHONY : src/ecs/Component.obj
@@ -539,6 +593,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/2DPlatformer/components/Platform2DControllerComponent.obj
+	@echo ... src/2DPlatformer/components/Platform2DControllerComponent.i
+	@echo ... src/2DPlatformer/components/Platform2DControllerComponent.s
+	@echo ... src/2DPlatformer/components/Platform2DPhysicsComponent.obj
+	@echo ... src/2DPlatformer/components/Platform2DPhysicsComponent.i
+	@echo ... src/2DPlatformer/components/Platform2DPhysicsComponent.s
 	@echo ... src/ecs/Component.obj
 	@echo ... src/ecs/Component.i
 	@echo ... src/ecs/Component.s

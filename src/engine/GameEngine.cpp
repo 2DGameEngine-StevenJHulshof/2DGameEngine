@@ -12,14 +12,15 @@
 #include "Entity.h"
 #include "TransformComponent.h"
 #include "RendererComponent.h"
-#include "ControllerComponent.h"
-#include "PhysicsComponent.h"
+#include "Platform2DControllerComponent.h"
+#include "Platform2DPhysicsComponent.h"
 
 Entity player;
-TransformComponent transformComponent(200.0f, 200.0f);
+Vector2D vector2D(200.0f, 200.0f);
+TransformComponent transformComponent(vector2D);
 RendererComponent rendererComponent(TEXTURE_DEFAULT);
-PhysicsComponent physicsComponent(0.1f, 60.0f);
-ControllerComponent controllerComponent;
+Platform2DPhysicsComponent physicsComponent(60);
+Platform2DControllerComponent controllerComponent;
 
 bool GameEngine::IsRunning() {
 

@@ -1,9 +1,11 @@
 #include "PhysicsComponent.h"
 
-PhysicsComponent::PhysicsComponent(float velocity, float mass) :
+PhysicsComponent::PhysicsComponent(Vector2D velocity, Vector2D acceleration, Vector2D force, float mass) :
     Component(),
-    _velocity(velocity),
-    _mass(mass) {
+    velocity(velocity),
+    acceleration(acceleration),
+    force(force),
+    mass(mass) {
 
 }
 

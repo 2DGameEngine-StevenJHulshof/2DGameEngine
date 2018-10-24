@@ -5,10 +5,8 @@
 
 class RendererComponent : public Component {
 
-private:
-    Texture_t _textureID;
-
 public:
+    Texture_t textureID;
 
     explicit RendererComponent(Texture_t textureID);
     ~RendererComponent();

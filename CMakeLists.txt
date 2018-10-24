@@ -6,6 +6,7 @@ set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
 
 include_directories(
         ${PROJECT_SOURCE_DIR}/include/SDL2
+        ${PROJECT_SOURCE_DIR}/src/2DPlatformer/components
         ${PROJECT_SOURCE_DIR}/src/config
         ${PROJECT_SOURCE_DIR}/src/ecs
         ${PROJECT_SOURCE_DIR}/src/frame
@@ -34,6 +35,8 @@ set(SOURCE_FILES
         src/ecs/RendererComponent.cpp
         src/ecs/ControllerComponent.cpp
         src/ecs/PhysicsComponent.cpp
+        src/2DPlatformer/components/Platform2DControllerComponent.cpp
+        src/2DPlatformer/components/Platform2DPhysicsComponent.cpp
 )
 
 add_executable(2DGameEngine ${SOURCE_FILES})

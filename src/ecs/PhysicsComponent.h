@@ -1,22 +1,19 @@
 #pragma once
 
 #include "Component.h"
+#include "Vector2D.h"
 
 class PhysicsComponent : public Component {
 
-private:
-    float _velocity;
-    float _mass;
-
 public:
-    PhysicsComponent(float velocity, float mass);
+
+    Vector2D velocity;
+    Vector2D acceleration;
+    Vector2D force;
+    float mass;
+
+    PhysicsComponent(Vector2D velocity, Vector2D acceleration, Vector2D force, float mass);
     ~PhysicsComponent();
 
     void Update() override;
-
-    void SetVelocity(float velocity) { _velocity = velocity; }
-    void SetMass(float mass) { _mass = mass; }
-
-    float GetVelocity() { return _velocity; }
-    float GetMass() { return _mass; }
 };

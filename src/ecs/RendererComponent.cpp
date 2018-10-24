@@ -4,7 +4,7 @@
 
 RendererComponent::RendererComponent(Texture_t textureID) :
     Component(),
-    _textureID(textureID) {
+    textureID(textureID) {
 
 }
 
@@ -12,7 +12,6 @@ RendererComponent::~RendererComponent() = default;
 
 void RendererComponent::Render() {
 
-    texture_manager->GetTexture(_textureID)->Render(
-            GetParent()->GetComponent<TransformComponent>()->GetXPos(),
-            GetParent()->GetComponent<TransformComponent>()->GetYPos());
+    texture_manager->GetTexture(textureID)->Render(GetParent()->GetComponent<TransformComponent>()->position.x,
+            GetParent()->GetComponent<TransformComponent>()->position.y);
 }

@@ -1,10 +1,8 @@
 #include "TransformComponent.h"
 
-TransformComponent::TransformComponent(float xPos, float yPos) :
+TransformComponent::TransformComponent(Vector2D position) :
     Component(),
-    _xPos(xPos),
-    _yPos(yPos) {
-
+    position(position) {
 }
 
 TransformComponent::~TransformComponent() = default;

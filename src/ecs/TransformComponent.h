@@ -1,19 +1,17 @@
 #pragma once
 
 #include "Component.h"
+#include "Vector2D.h"
 
 class TransformComponent : public Component {
 
 private:
-    float _xPos;
-    float _yPos;
+
+
 
 public:
-    TransformComponent(float xPos, float yPos);
-    ~TransformComponent();
+    Vector2D position;
 
-    float GetXPos() { return _xPos; }
-    float GetYPos() { return _yPos; }
-    void SetXPos(float xPos) { _xPos = xPos; }
-    void SetYPos(float yPos) { _yPos = yPos; }
+    explicit TransformComponent(Vector2D position);
+    ~TransformComponent();
 };
