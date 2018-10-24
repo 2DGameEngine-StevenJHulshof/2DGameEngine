@@ -1,4 +1,6 @@
 #include <climits>
+#include "SDL_image.h"
+#include "SDL_ttf.h"
 
 #include "GameEngine.h"
 #include "UserLog.h"
@@ -64,6 +66,9 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
        compiled.patch != linked.patch) {
         LOG_WARNING("SDL compiled version is not the same as linked version");
     }
+
+    LOG_INFO("Using SDL Image v%d.%d.%d", SDL_IMAGE_MAJOR_VERSION, SDL_IMAGE_MINOR_VERSION, SDL_IMAGE_PATCHLEVEL);
+    LOG_INFO("Using SDL TTF v%d.%d.%d", SDL_TTF_MAJOR_VERSION, SDL_TTF_MINOR_VERSION, SDL_TTF_PATCHLEVEL);
 
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
         LOG_CRITICAL("SDL Init failed: %s", SDL_GetError());
