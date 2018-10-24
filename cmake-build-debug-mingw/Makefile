@@ -122,357 +122,6 @@ sdl2_game/fast:
 	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/build
 .PHONY : sdl2_game/fast
 
-include/ecs/Component.obj: include/ecs/Component.cpp.obj
-
-.PHONY : include/ecs/Component.obj
-
-# target to build an object file
-include/ecs/Component.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/Component.cpp.obj
-.PHONY : include/ecs/Component.cpp.obj
-
-include/ecs/Component.i: include/ecs/Component.cpp.i
-
-.PHONY : include/ecs/Component.i
-
-# target to preprocess a source file
-include/ecs/Component.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/Component.cpp.i
-.PHONY : include/ecs/Component.cpp.i
-
-include/ecs/Component.s: include/ecs/Component.cpp.s
-
-.PHONY : include/ecs/Component.s
-
-# target to generate assembly for a file
-include/ecs/Component.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/Component.cpp.s
-.PHONY : include/ecs/Component.cpp.s
-
-include/ecs/ControllerComponent.obj: include/ecs/ControllerComponent.cpp.obj
-
-.PHONY : include/ecs/ControllerComponent.obj
-
-# target to build an object file
-include/ecs/ControllerComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/ControllerComponent.cpp.obj
-.PHONY : include/ecs/ControllerComponent.cpp.obj
-
-include/ecs/ControllerComponent.i: include/ecs/ControllerComponent.cpp.i
-
-.PHONY : include/ecs/ControllerComponent.i
-
-# target to preprocess a source file
-include/ecs/ControllerComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/ControllerComponent.cpp.i
-.PHONY : include/ecs/ControllerComponent.cpp.i
-
-include/ecs/ControllerComponent.s: include/ecs/ControllerComponent.cpp.s
-
-.PHONY : include/ecs/ControllerComponent.s
-
-# target to generate assembly for a file
-include/ecs/ControllerComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/ControllerComponent.cpp.s
-.PHONY : include/ecs/ControllerComponent.cpp.s
-
-include/ecs/Entity.obj: include/ecs/Entity.cpp.obj
-
-.PHONY : include/ecs/Entity.obj
-
-# target to build an object file
-include/ecs/Entity.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/Entity.cpp.obj
-.PHONY : include/ecs/Entity.cpp.obj
-
-include/ecs/Entity.i: include/ecs/Entity.cpp.i
-
-.PHONY : include/ecs/Entity.i
-
-# target to preprocess a source file
-include/ecs/Entity.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/Entity.cpp.i
-.PHONY : include/ecs/Entity.cpp.i
-
-include/ecs/Entity.s: include/ecs/Entity.cpp.s
-
-.PHONY : include/ecs/Entity.s
-
-# target to generate assembly for a file
-include/ecs/Entity.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/Entity.cpp.s
-.PHONY : include/ecs/Entity.cpp.s
-
-include/ecs/PhysicsComponent.obj: include/ecs/PhysicsComponent.cpp.obj
-
-.PHONY : include/ecs/PhysicsComponent.obj
-
-# target to build an object file
-include/ecs/PhysicsComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/PhysicsComponent.cpp.obj
-.PHONY : include/ecs/PhysicsComponent.cpp.obj
-
-include/ecs/PhysicsComponent.i: include/ecs/PhysicsComponent.cpp.i
-
-.PHONY : include/ecs/PhysicsComponent.i
-
-# target to preprocess a source file
-include/ecs/PhysicsComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/PhysicsComponent.cpp.i
-.PHONY : include/ecs/PhysicsComponent.cpp.i
-
-include/ecs/PhysicsComponent.s: include/ecs/PhysicsComponent.cpp.s
-
-.PHONY : include/ecs/PhysicsComponent.s
-
-# target to generate assembly for a file
-include/ecs/PhysicsComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/PhysicsComponent.cpp.s
-.PHONY : include/ecs/PhysicsComponent.cpp.s
-
-include/ecs/RendererComponent.obj: include/ecs/RendererComponent.cpp.obj
-
-.PHONY : include/ecs/RendererComponent.obj
-
-# target to build an object file
-include/ecs/RendererComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/RendererComponent.cpp.obj
-.PHONY : include/ecs/RendererComponent.cpp.obj
-
-include/ecs/RendererComponent.i: include/ecs/RendererComponent.cpp.i
-
-.PHONY : include/ecs/RendererComponent.i
-
-# target to preprocess a source file
-include/ecs/RendererComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/RendererComponent.cpp.i
-.PHONY : include/ecs/RendererComponent.cpp.i
-
-include/ecs/RendererComponent.s: include/ecs/RendererComponent.cpp.s
-
-.PHONY : include/ecs/RendererComponent.s
-
-# target to generate assembly for a file
-include/ecs/RendererComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/RendererComponent.cpp.s
-.PHONY : include/ecs/RendererComponent.cpp.s
-
-include/ecs/TransformComponent.obj: include/ecs/TransformComponent.cpp.obj
-
-.PHONY : include/ecs/TransformComponent.obj
-
-# target to build an object file
-include/ecs/TransformComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/TransformComponent.cpp.obj
-.PHONY : include/ecs/TransformComponent.cpp.obj
-
-include/ecs/TransformComponent.i: include/ecs/TransformComponent.cpp.i
-
-.PHONY : include/ecs/TransformComponent.i
-
-# target to preprocess a source file
-include/ecs/TransformComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/TransformComponent.cpp.i
-.PHONY : include/ecs/TransformComponent.cpp.i
-
-include/ecs/TransformComponent.s: include/ecs/TransformComponent.cpp.s
-
-.PHONY : include/ecs/TransformComponent.s
-
-# target to generate assembly for a file
-include/ecs/TransformComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/ecs/TransformComponent.cpp.s
-.PHONY : include/ecs/TransformComponent.cpp.s
-
-include/engine/GameEngine.obj: include/engine/GameEngine.cpp.obj
-
-.PHONY : include/engine/GameEngine.obj
-
-# target to build an object file
-include/engine/GameEngine.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj
-.PHONY : include/engine/GameEngine.cpp.obj
-
-include/engine/GameEngine.i: include/engine/GameEngine.cpp.i
-
-.PHONY : include/engine/GameEngine.i
-
-# target to preprocess a source file
-include/engine/GameEngine.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.i
-.PHONY : include/engine/GameEngine.cpp.i
-
-include/engine/GameEngine.s: include/engine/GameEngine.cpp.s
-
-.PHONY : include/engine/GameEngine.s
-
-# target to generate assembly for a file
-include/engine/GameEngine.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.s
-.PHONY : include/engine/GameEngine.cpp.s
-
-include/frame/FrameManager.obj: include/frame/FrameManager.cpp.obj
-
-.PHONY : include/frame/FrameManager.obj
-
-# target to build an object file
-include/frame/FrameManager.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/frame/FrameManager.cpp.obj
-.PHONY : include/frame/FrameManager.cpp.obj
-
-include/frame/FrameManager.i: include/frame/FrameManager.cpp.i
-
-.PHONY : include/frame/FrameManager.i
-
-# target to preprocess a source file
-include/frame/FrameManager.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/frame/FrameManager.cpp.i
-.PHONY : include/frame/FrameManager.cpp.i
-
-include/frame/FrameManager.s: include/frame/FrameManager.cpp.s
-
-.PHONY : include/frame/FrameManager.s
-
-# target to generate assembly for a file
-include/frame/FrameManager.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/frame/FrameManager.cpp.s
-.PHONY : include/frame/FrameManager.cpp.s
-
-include/input/InputManager.obj: include/input/InputManager.cpp.obj
-
-.PHONY : include/input/InputManager.obj
-
-# target to build an object file
-include/input/InputManager.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/input/InputManager.cpp.obj
-.PHONY : include/input/InputManager.cpp.obj
-
-include/input/InputManager.i: include/input/InputManager.cpp.i
-
-.PHONY : include/input/InputManager.i
-
-# target to preprocess a source file
-include/input/InputManager.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/input/InputManager.cpp.i
-.PHONY : include/input/InputManager.cpp.i
-
-include/input/InputManager.s: include/input/InputManager.cpp.s
-
-.PHONY : include/input/InputManager.s
-
-# target to generate assembly for a file
-include/input/InputManager.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/input/InputManager.cpp.s
-.PHONY : include/input/InputManager.cpp.s
-
-include/logger/UserLog.obj: include/logger/UserLog.cpp.obj
-
-.PHONY : include/logger/UserLog.obj
-
-# target to build an object file
-include/logger/UserLog.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/logger/UserLog.cpp.obj
-.PHONY : include/logger/UserLog.cpp.obj
-
-include/logger/UserLog.i: include/logger/UserLog.cpp.i
-
-.PHONY : include/logger/UserLog.i
-
-# target to preprocess a source file
-include/logger/UserLog.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/logger/UserLog.cpp.i
-.PHONY : include/logger/UserLog.cpp.i
-
-include/logger/UserLog.s: include/logger/UserLog.cpp.s
-
-.PHONY : include/logger/UserLog.s
-
-# target to generate assembly for a file
-include/logger/UserLog.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/logger/UserLog.cpp.s
-.PHONY : include/logger/UserLog.cpp.s
-
-include/texture/Texture.obj: include/texture/Texture.cpp.obj
-
-.PHONY : include/texture/Texture.obj
-
-# target to build an object file
-include/texture/Texture.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/texture/Texture.cpp.obj
-.PHONY : include/texture/Texture.cpp.obj
-
-include/texture/Texture.i: include/texture/Texture.cpp.i
-
-.PHONY : include/texture/Texture.i
-
-# target to preprocess a source file
-include/texture/Texture.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/texture/Texture.cpp.i
-.PHONY : include/texture/Texture.cpp.i
-
-include/texture/Texture.s: include/texture/Texture.cpp.s
-
-.PHONY : include/texture/Texture.s
-
-# target to generate assembly for a file
-include/texture/Texture.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/texture/Texture.cpp.s
-.PHONY : include/texture/Texture.cpp.s
-
-include/texture/TextureManager.obj: include/texture/TextureManager.cpp.obj
-
-.PHONY : include/texture/TextureManager.obj
-
-# target to build an object file
-include/texture/TextureManager.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/texture/TextureManager.cpp.obj
-.PHONY : include/texture/TextureManager.cpp.obj
-
-include/texture/TextureManager.i: include/texture/TextureManager.cpp.i
-
-.PHONY : include/texture/TextureManager.i
-
-# target to preprocess a source file
-include/texture/TextureManager.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/texture/TextureManager.cpp.i
-.PHONY : include/texture/TextureManager.cpp.i
-
-include/texture/TextureManager.s: include/texture/TextureManager.cpp.s
-
-.PHONY : include/texture/TextureManager.s
-
-# target to generate assembly for a file
-include/texture/TextureManager.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/texture/TextureManager.cpp.s
-.PHONY : include/texture/TextureManager.cpp.s
-
-include/timer/Timer.obj: include/timer/Timer.cpp.obj
-
-.PHONY : include/timer/Timer.obj
-
-# target to build an object file
-include/timer/Timer.cpp.obj:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/timer/Timer.cpp.obj
-.PHONY : include/timer/Timer.cpp.obj
-
-include/timer/Timer.i: include/timer/Timer.cpp.i
-
-.PHONY : include/timer/Timer.i
-
-# target to preprocess a source file
-include/timer/Timer.cpp.i:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/timer/Timer.cpp.i
-.PHONY : include/timer/Timer.cpp.i
-
-include/timer/Timer.s: include/timer/Timer.cpp.s
-
-.PHONY : include/timer/Timer.s
-
-# target to generate assembly for a file
-include/timer/Timer.cpp.s:
-	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/include/timer/Timer.cpp.s
-.PHONY : include/timer/Timer.cpp.s
-
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -500,6 +149,357 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/ecs/Component.obj: src/ecs/Component.cpp.obj
+
+.PHONY : src/ecs/Component.obj
+
+# target to build an object file
+src/ecs/Component.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/Component.cpp.obj
+.PHONY : src/ecs/Component.cpp.obj
+
+src/ecs/Component.i: src/ecs/Component.cpp.i
+
+.PHONY : src/ecs/Component.i
+
+# target to preprocess a source file
+src/ecs/Component.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/Component.cpp.i
+.PHONY : src/ecs/Component.cpp.i
+
+src/ecs/Component.s: src/ecs/Component.cpp.s
+
+.PHONY : src/ecs/Component.s
+
+# target to generate assembly for a file
+src/ecs/Component.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/Component.cpp.s
+.PHONY : src/ecs/Component.cpp.s
+
+src/ecs/ControllerComponent.obj: src/ecs/ControllerComponent.cpp.obj
+
+.PHONY : src/ecs/ControllerComponent.obj
+
+# target to build an object file
+src/ecs/ControllerComponent.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/ControllerComponent.cpp.obj
+.PHONY : src/ecs/ControllerComponent.cpp.obj
+
+src/ecs/ControllerComponent.i: src/ecs/ControllerComponent.cpp.i
+
+.PHONY : src/ecs/ControllerComponent.i
+
+# target to preprocess a source file
+src/ecs/ControllerComponent.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/ControllerComponent.cpp.i
+.PHONY : src/ecs/ControllerComponent.cpp.i
+
+src/ecs/ControllerComponent.s: src/ecs/ControllerComponent.cpp.s
+
+.PHONY : src/ecs/ControllerComponent.s
+
+# target to generate assembly for a file
+src/ecs/ControllerComponent.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/ControllerComponent.cpp.s
+.PHONY : src/ecs/ControllerComponent.cpp.s
+
+src/ecs/Entity.obj: src/ecs/Entity.cpp.obj
+
+.PHONY : src/ecs/Entity.obj
+
+# target to build an object file
+src/ecs/Entity.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/Entity.cpp.obj
+.PHONY : src/ecs/Entity.cpp.obj
+
+src/ecs/Entity.i: src/ecs/Entity.cpp.i
+
+.PHONY : src/ecs/Entity.i
+
+# target to preprocess a source file
+src/ecs/Entity.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/Entity.cpp.i
+.PHONY : src/ecs/Entity.cpp.i
+
+src/ecs/Entity.s: src/ecs/Entity.cpp.s
+
+.PHONY : src/ecs/Entity.s
+
+# target to generate assembly for a file
+src/ecs/Entity.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/Entity.cpp.s
+.PHONY : src/ecs/Entity.cpp.s
+
+src/ecs/PhysicsComponent.obj: src/ecs/PhysicsComponent.cpp.obj
+
+.PHONY : src/ecs/PhysicsComponent.obj
+
+# target to build an object file
+src/ecs/PhysicsComponent.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/PhysicsComponent.cpp.obj
+.PHONY : src/ecs/PhysicsComponent.cpp.obj
+
+src/ecs/PhysicsComponent.i: src/ecs/PhysicsComponent.cpp.i
+
+.PHONY : src/ecs/PhysicsComponent.i
+
+# target to preprocess a source file
+src/ecs/PhysicsComponent.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/PhysicsComponent.cpp.i
+.PHONY : src/ecs/PhysicsComponent.cpp.i
+
+src/ecs/PhysicsComponent.s: src/ecs/PhysicsComponent.cpp.s
+
+.PHONY : src/ecs/PhysicsComponent.s
+
+# target to generate assembly for a file
+src/ecs/PhysicsComponent.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/PhysicsComponent.cpp.s
+.PHONY : src/ecs/PhysicsComponent.cpp.s
+
+src/ecs/RendererComponent.obj: src/ecs/RendererComponent.cpp.obj
+
+.PHONY : src/ecs/RendererComponent.obj
+
+# target to build an object file
+src/ecs/RendererComponent.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/RendererComponent.cpp.obj
+.PHONY : src/ecs/RendererComponent.cpp.obj
+
+src/ecs/RendererComponent.i: src/ecs/RendererComponent.cpp.i
+
+.PHONY : src/ecs/RendererComponent.i
+
+# target to preprocess a source file
+src/ecs/RendererComponent.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/RendererComponent.cpp.i
+.PHONY : src/ecs/RendererComponent.cpp.i
+
+src/ecs/RendererComponent.s: src/ecs/RendererComponent.cpp.s
+
+.PHONY : src/ecs/RendererComponent.s
+
+# target to generate assembly for a file
+src/ecs/RendererComponent.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/RendererComponent.cpp.s
+.PHONY : src/ecs/RendererComponent.cpp.s
+
+src/ecs/TransformComponent.obj: src/ecs/TransformComponent.cpp.obj
+
+.PHONY : src/ecs/TransformComponent.obj
+
+# target to build an object file
+src/ecs/TransformComponent.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/TransformComponent.cpp.obj
+.PHONY : src/ecs/TransformComponent.cpp.obj
+
+src/ecs/TransformComponent.i: src/ecs/TransformComponent.cpp.i
+
+.PHONY : src/ecs/TransformComponent.i
+
+# target to preprocess a source file
+src/ecs/TransformComponent.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/TransformComponent.cpp.i
+.PHONY : src/ecs/TransformComponent.cpp.i
+
+src/ecs/TransformComponent.s: src/ecs/TransformComponent.cpp.s
+
+.PHONY : src/ecs/TransformComponent.s
+
+# target to generate assembly for a file
+src/ecs/TransformComponent.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/ecs/TransformComponent.cpp.s
+.PHONY : src/ecs/TransformComponent.cpp.s
+
+src/engine/GameEngine.obj: src/engine/GameEngine.cpp.obj
+
+.PHONY : src/engine/GameEngine.obj
+
+# target to build an object file
+src/engine/GameEngine.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj
+.PHONY : src/engine/GameEngine.cpp.obj
+
+src/engine/GameEngine.i: src/engine/GameEngine.cpp.i
+
+.PHONY : src/engine/GameEngine.i
+
+# target to preprocess a source file
+src/engine/GameEngine.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.i
+.PHONY : src/engine/GameEngine.cpp.i
+
+src/engine/GameEngine.s: src/engine/GameEngine.cpp.s
+
+.PHONY : src/engine/GameEngine.s
+
+# target to generate assembly for a file
+src/engine/GameEngine.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.s
+.PHONY : src/engine/GameEngine.cpp.s
+
+src/frame/FrameManager.obj: src/frame/FrameManager.cpp.obj
+
+.PHONY : src/frame/FrameManager.obj
+
+# target to build an object file
+src/frame/FrameManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/frame/FrameManager.cpp.obj
+.PHONY : src/frame/FrameManager.cpp.obj
+
+src/frame/FrameManager.i: src/frame/FrameManager.cpp.i
+
+.PHONY : src/frame/FrameManager.i
+
+# target to preprocess a source file
+src/frame/FrameManager.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/frame/FrameManager.cpp.i
+.PHONY : src/frame/FrameManager.cpp.i
+
+src/frame/FrameManager.s: src/frame/FrameManager.cpp.s
+
+.PHONY : src/frame/FrameManager.s
+
+# target to generate assembly for a file
+src/frame/FrameManager.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/frame/FrameManager.cpp.s
+.PHONY : src/frame/FrameManager.cpp.s
+
+src/input/InputManager.obj: src/input/InputManager.cpp.obj
+
+.PHONY : src/input/InputManager.obj
+
+# target to build an object file
+src/input/InputManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/input/InputManager.cpp.obj
+.PHONY : src/input/InputManager.cpp.obj
+
+src/input/InputManager.i: src/input/InputManager.cpp.i
+
+.PHONY : src/input/InputManager.i
+
+# target to preprocess a source file
+src/input/InputManager.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/input/InputManager.cpp.i
+.PHONY : src/input/InputManager.cpp.i
+
+src/input/InputManager.s: src/input/InputManager.cpp.s
+
+.PHONY : src/input/InputManager.s
+
+# target to generate assembly for a file
+src/input/InputManager.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/input/InputManager.cpp.s
+.PHONY : src/input/InputManager.cpp.s
+
+src/logger/UserLog.obj: src/logger/UserLog.cpp.obj
+
+.PHONY : src/logger/UserLog.obj
+
+# target to build an object file
+src/logger/UserLog.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/logger/UserLog.cpp.obj
+.PHONY : src/logger/UserLog.cpp.obj
+
+src/logger/UserLog.i: src/logger/UserLog.cpp.i
+
+.PHONY : src/logger/UserLog.i
+
+# target to preprocess a source file
+src/logger/UserLog.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/logger/UserLog.cpp.i
+.PHONY : src/logger/UserLog.cpp.i
+
+src/logger/UserLog.s: src/logger/UserLog.cpp.s
+
+.PHONY : src/logger/UserLog.s
+
+# target to generate assembly for a file
+src/logger/UserLog.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/logger/UserLog.cpp.s
+.PHONY : src/logger/UserLog.cpp.s
+
+src/texture/Texture.obj: src/texture/Texture.cpp.obj
+
+.PHONY : src/texture/Texture.obj
+
+# target to build an object file
+src/texture/Texture.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/texture/Texture.cpp.obj
+.PHONY : src/texture/Texture.cpp.obj
+
+src/texture/Texture.i: src/texture/Texture.cpp.i
+
+.PHONY : src/texture/Texture.i
+
+# target to preprocess a source file
+src/texture/Texture.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/texture/Texture.cpp.i
+.PHONY : src/texture/Texture.cpp.i
+
+src/texture/Texture.s: src/texture/Texture.cpp.s
+
+.PHONY : src/texture/Texture.s
+
+# target to generate assembly for a file
+src/texture/Texture.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/texture/Texture.cpp.s
+.PHONY : src/texture/Texture.cpp.s
+
+src/texture/TextureManager.obj: src/texture/TextureManager.cpp.obj
+
+.PHONY : src/texture/TextureManager.obj
+
+# target to build an object file
+src/texture/TextureManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/texture/TextureManager.cpp.obj
+.PHONY : src/texture/TextureManager.cpp.obj
+
+src/texture/TextureManager.i: src/texture/TextureManager.cpp.i
+
+.PHONY : src/texture/TextureManager.i
+
+# target to preprocess a source file
+src/texture/TextureManager.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/texture/TextureManager.cpp.i
+.PHONY : src/texture/TextureManager.cpp.i
+
+src/texture/TextureManager.s: src/texture/TextureManager.cpp.s
+
+.PHONY : src/texture/TextureManager.s
+
+# target to generate assembly for a file
+src/texture/TextureManager.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/texture/TextureManager.cpp.s
+.PHONY : src/texture/TextureManager.cpp.s
+
+src/timer/Timer.obj: src/timer/Timer.cpp.obj
+
+.PHONY : src/timer/Timer.obj
+
+# target to build an object file
+src/timer/Timer.cpp.obj:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/timer/Timer.cpp.obj
+.PHONY : src/timer/Timer.cpp.obj
+
+src/timer/Timer.i: src/timer/Timer.cpp.i
+
+.PHONY : src/timer/Timer.i
+
+# target to preprocess a source file
+src/timer/Timer.cpp.i:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/timer/Timer.cpp.i
+.PHONY : src/timer/Timer.cpp.i
+
+src/timer/Timer.s: src/timer/Timer.cpp.s
+
+.PHONY : src/timer/Timer.s
+
+# target to generate assembly for a file
+src/timer/Timer.cpp.s:
+	$(MAKE) -f CMakeFiles\sdl2_game.dir\build.make CMakeFiles/sdl2_game.dir/src/timer/Timer.cpp.s
+.PHONY : src/timer/Timer.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -509,48 +509,48 @@ help:
 	@echo ... sdl2_game
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... include/ecs/Component.obj
-	@echo ... include/ecs/Component.i
-	@echo ... include/ecs/Component.s
-	@echo ... include/ecs/ControllerComponent.obj
-	@echo ... include/ecs/ControllerComponent.i
-	@echo ... include/ecs/ControllerComponent.s
-	@echo ... include/ecs/Entity.obj
-	@echo ... include/ecs/Entity.i
-	@echo ... include/ecs/Entity.s
-	@echo ... include/ecs/PhysicsComponent.obj
-	@echo ... include/ecs/PhysicsComponent.i
-	@echo ... include/ecs/PhysicsComponent.s
-	@echo ... include/ecs/RendererComponent.obj
-	@echo ... include/ecs/RendererComponent.i
-	@echo ... include/ecs/RendererComponent.s
-	@echo ... include/ecs/TransformComponent.obj
-	@echo ... include/ecs/TransformComponent.i
-	@echo ... include/ecs/TransformComponent.s
-	@echo ... include/engine/GameEngine.obj
-	@echo ... include/engine/GameEngine.i
-	@echo ... include/engine/GameEngine.s
-	@echo ... include/frame/FrameManager.obj
-	@echo ... include/frame/FrameManager.i
-	@echo ... include/frame/FrameManager.s
-	@echo ... include/input/InputManager.obj
-	@echo ... include/input/InputManager.i
-	@echo ... include/input/InputManager.s
-	@echo ... include/logger/UserLog.obj
-	@echo ... include/logger/UserLog.i
-	@echo ... include/logger/UserLog.s
-	@echo ... include/texture/Texture.obj
-	@echo ... include/texture/Texture.i
-	@echo ... include/texture/Texture.s
-	@echo ... include/texture/TextureManager.obj
-	@echo ... include/texture/TextureManager.i
-	@echo ... include/texture/TextureManager.s
-	@echo ... include/timer/Timer.obj
-	@echo ... include/timer/Timer.i
-	@echo ... include/timer/Timer.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/ecs/Component.obj
+	@echo ... src/ecs/Component.i
+	@echo ... src/ecs/Component.s
+	@echo ... src/ecs/ControllerComponent.obj
+	@echo ... src/ecs/ControllerComponent.i
+	@echo ... src/ecs/ControllerComponent.s
+	@echo ... src/ecs/Entity.obj
+	@echo ... src/ecs/Entity.i
+	@echo ... src/ecs/Entity.s
+	@echo ... src/ecs/PhysicsComponent.obj
+	@echo ... src/ecs/PhysicsComponent.i
+	@echo ... src/ecs/PhysicsComponent.s
+	@echo ... src/ecs/RendererComponent.obj
+	@echo ... src/ecs/RendererComponent.i
+	@echo ... src/ecs/RendererComponent.s
+	@echo ... src/ecs/TransformComponent.obj
+	@echo ... src/ecs/TransformComponent.i
+	@echo ... src/ecs/TransformComponent.s
+	@echo ... src/engine/GameEngine.obj
+	@echo ... src/engine/GameEngine.i
+	@echo ... src/engine/GameEngine.s
+	@echo ... src/frame/FrameManager.obj
+	@echo ... src/frame/FrameManager.i
+	@echo ... src/frame/FrameManager.s
+	@echo ... src/input/InputManager.obj
+	@echo ... src/input/InputManager.i
+	@echo ... src/input/InputManager.s
+	@echo ... src/logger/UserLog.obj
+	@echo ... src/logger/UserLog.i
+	@echo ... src/logger/UserLog.s
+	@echo ... src/texture/Texture.obj
+	@echo ... src/texture/Texture.i
+	@echo ... src/texture/Texture.s
+	@echo ... src/texture/TextureManager.obj
+	@echo ... src/texture/TextureManager.i
+	@echo ... src/texture/TextureManager.s
+	@echo ... src/timer/Timer.obj
+	@echo ... src/timer/Timer.i
+	@echo ... src/timer/Timer.s
 .PHONY : help
 
 
