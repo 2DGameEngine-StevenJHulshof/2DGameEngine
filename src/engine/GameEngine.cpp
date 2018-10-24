@@ -1,6 +1,7 @@
 #include <climits>
 #include "SDL_image.h"
 #include "SDL_ttf.h"
+#include "SDL_mixer.h"
 
 #include "GameEngine.h"
 #include "UserLog.h"
@@ -69,6 +70,7 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
 
     LOG_INFO("Using SDL Image v%d.%d.%d", SDL_IMAGE_MAJOR_VERSION, SDL_IMAGE_MINOR_VERSION, SDL_IMAGE_PATCHLEVEL);
     LOG_INFO("Using SDL TTF v%d.%d.%d", SDL_TTF_MAJOR_VERSION, SDL_TTF_MINOR_VERSION, SDL_TTF_PATCHLEVEL);
+    LOG_INFO("Using SDL Mixer v%d.%d.%d", SDL_MIXER_MAJOR_VERSION, SDL_MIXER_MINOR_VERSION, SDL_MIXER_PATCHLEVEL);
 
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
         LOG_CRITICAL("SDL Init failed: %s", SDL_GetError());

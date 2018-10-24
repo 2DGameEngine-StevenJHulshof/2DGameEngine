@@ -202,6 +202,7 @@ CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_load
 CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_log.h
 CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_main.h
 CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_messagebox.h
+CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_mixer.h
 CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_mouse.h
 CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_mutex.h
 CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_pixels.h

@@ -36,4 +36,4 @@ set(SOURCE_FILES
 
 add_executable(sdl2_game ${SOURCE_FILES})
 
-target_link_libraries(sdl2_game SDL2main SDL2 SDL2_image SDL2_ttf)
+target_link_libraries(sdl2_game SDL2main SDL2 SDL2_image SDL2_ttf SDL2_mixer)

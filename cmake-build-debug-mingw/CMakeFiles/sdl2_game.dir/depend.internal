@@ -203,6 +203,7 @@ CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj
  ../include/SDL2/SDL_log.h
  ../include/SDL2/SDL_main.h
  ../include/SDL2/SDL_messagebox.h
+ ../include/SDL2/SDL_mixer.h
  ../include/SDL2/SDL_mouse.h
  ../include/SDL2/SDL_mutex.h
  ../include/SDL2/SDL_pixels.h
