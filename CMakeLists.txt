@@ -14,6 +14,7 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/src/logger
         ${PROJECT_SOURCE_DIR}/src/texture
         ${PROJECT_SOURCE_DIR}/src/timer
+        ${PROJECT_SOURCE_DIR}/src/vector
 )
 link_directories(${PROJECT_SOURCE_DIR}/lib)
 
@@ -26,6 +27,7 @@ set(SOURCE_FILES
         src/input/InputManager.cpp
         src/timer/Timer.cpp
         src/frame/FrameManager.cpp
+        src/vector/Vector2D.cpp
         src/ecs/Entity.cpp
         src/ecs/Component.cpp
         src/ecs/TransformComponent.cpp
