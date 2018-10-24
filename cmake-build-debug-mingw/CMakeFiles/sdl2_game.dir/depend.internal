@@ -52,11 +52,11 @@ CMakeFiles/sdl2_game.dir/main.cpp.obj
  ../src/logger/UserLog.h
  ../src/logger/user_log_types.h
  ../src/timer/Timer.h
- D:/development/GitHub/repositories/user/sdl2_game/main.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/main.cpp
 CMakeFiles/sdl2_game.dir/src/ecs/Component.cpp.obj
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Component.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Component.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Entity.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Component.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Component.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Entity.h
 CMakeFiles/sdl2_game.dir/src/ecs/ControllerComponent.cpp.obj
  ../include/SDL2/SDL.h
  ../include/SDL2/SDL_assert.h
@@ -105,21 +105,21 @@ CMakeFiles/sdl2_game.dir/src/ecs/ControllerComponent.cpp.obj
  ../src/frame/FrameManager.h
  ../src/input/InputManager.h
  ../src/timer/Timer.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Component.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/ControllerComponent.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/ControllerComponent.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Entity.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/PhysicsComponent.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/TransformComponent.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Component.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/ControllerComponent.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/ControllerComponent.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Entity.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/PhysicsComponent.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/TransformComponent.h
 CMakeFiles/sdl2_game.dir/src/ecs/Entity.cpp.obj
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Component.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Entity.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Entity.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Component.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Entity.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Entity.h
 CMakeFiles/sdl2_game.dir/src/ecs/PhysicsComponent.cpp.obj
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Component.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Entity.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/PhysicsComponent.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/PhysicsComponent.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Component.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Entity.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/PhysicsComponent.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/PhysicsComponent.h
 CMakeFiles/sdl2_game.dir/src/ecs/RendererComponent.cpp.obj
  ../include/SDL2/SDL.h
  ../include/SDL2/SDL_assert.h
@@ -168,16 +168,16 @@ CMakeFiles/sdl2_game.dir/src/ecs/RendererComponent.cpp.obj
  ../src/texture/Texture.h
  ../src/texture/TextureManager.h
  ../src/texture/texture_types.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Component.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Entity.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/RendererComponent.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/RendererComponent.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/TransformComponent.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Component.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Entity.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/RendererComponent.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/RendererComponent.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/TransformComponent.h
 CMakeFiles/sdl2_game.dir/src/ecs/TransformComponent.cpp.obj
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Component.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Entity.h
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/TransformComponent.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/ecs/TransformComponent.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Component.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Entity.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/TransformComponent.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/TransformComponent.h
 CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj
  ../include/SDL2/SDL.h
  ../include/SDL2/SDL_assert.h
@@ -241,15 +241,15 @@ CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj
  ../src/texture/TextureManager.h
  ../src/texture/texture_types.h
  ../src/timer/Timer.h
- D:/development/GitHub/repositories/user/sdl2_game/src/engine/GameEngine.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/engine/GameEngine.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/engine/GameEngine.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/engine/GameEngine.h
 CMakeFiles/sdl2_game.dir/src/frame/FrameManager.cpp.obj
  ../src/config/app_config.h
  ../src/logger/UserLog.h
  ../src/logger/user_log_types.h
  ../src/timer/Timer.h
- D:/development/GitHub/repositories/user/sdl2_game/src/frame/FrameManager.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/frame/FrameManager.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/frame/FrameManager.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/frame/FrameManager.h
 CMakeFiles/sdl2_game.dir/src/input/InputManager.cpp.obj
  ../include/SDL2/SDL.h
  ../include/SDL2/SDL_assert.h
@@ -298,13 +298,13 @@ CMakeFiles/sdl2_game.dir/src/input/InputManager.cpp.obj
  ../src/config/app_config.h
  ../src/logger/UserLog.h
  ../src/logger/user_log_types.h
- D:/development/GitHub/repositories/user/sdl2_game/src/input/InputManager.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/input/InputManager.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/input/InputManager.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/input/InputManager.h
 CMakeFiles/sdl2_game.dir/src/logger/UserLog.cpp.obj
  ../src/config/app_config.h
- D:/development/GitHub/repositories/user/sdl2_game/src/logger/UserLog.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/logger/UserLog.h
- D:/development/GitHub/repositories/user/sdl2_game/src/logger/user_log_types.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/logger/UserLog.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/logger/UserLog.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/logger/user_log_types.h
 CMakeFiles/sdl2_game.dir/src/texture/Texture.cpp.obj
  ../include/SDL2/SDL.h
  ../include/SDL2/SDL_assert.h
@@ -354,10 +354,10 @@ CMakeFiles/sdl2_game.dir/src/texture/Texture.cpp.obj
  ../src/config/app_config.h
  ../src/logger/UserLog.h
  ../src/logger/user_log_types.h
- D:/development/GitHub/repositories/user/sdl2_game/src/texture/Texture.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/texture/Texture.h
- D:/development/GitHub/repositories/user/sdl2_game/src/texture/TextureManager.h
- D:/development/GitHub/repositories/user/sdl2_game/src/texture/texture_types.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/texture/Texture.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/texture/Texture.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/texture/TextureManager.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/texture/texture_types.h
 CMakeFiles/sdl2_game.dir/src/texture/TextureManager.cpp.obj
  ../include/SDL2/SDL.h
  ../include/SDL2/SDL_assert.h
@@ -406,10 +406,10 @@ CMakeFiles/sdl2_game.dir/src/texture/TextureManager.cpp.obj
  ../src/config/app_config.h
  ../src/logger/UserLog.h
  ../src/logger/user_log_types.h
- D:/development/GitHub/repositories/user/sdl2_game/src/texture/Texture.h
- D:/development/GitHub/repositories/user/sdl2_game/src/texture/TextureManager.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/texture/TextureManager.h
- D:/development/GitHub/repositories/user/sdl2_game/src/texture/texture_types.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/texture/Texture.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/texture/TextureManager.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/texture/TextureManager.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/texture/texture_types.h
 CMakeFiles/sdl2_game.dir/src/timer/Timer.cpp.obj
  ../include/SDL2/SDL.h
  ../include/SDL2/SDL_assert.h
@@ -458,5 +458,5 @@ CMakeFiles/sdl2_game.dir/src/timer/Timer.cpp.obj
  ../src/config/app_config.h
  ../src/logger/UserLog.h
  ../src/logger/user_log_types.h
- D:/development/GitHub/repositories/user/sdl2_game/src/timer/Timer.cpp
- D:/development/GitHub/repositories/user/sdl2_game/src/timer/Timer.h
+ D:/development/GitHub/repositories/user/2DGameEngine/src/timer/Timer.cpp
+ D:/development/GitHub/repositories/user/2DGameEngine/src/timer/Timer.h

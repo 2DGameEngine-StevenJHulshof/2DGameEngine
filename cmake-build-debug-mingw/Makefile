@@ -47,10 +47,10 @@ RM = "D:\development\CLion\CLion 2018.2.1\bin\cmake\win\bin\cmake.exe" -E remove
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\development\GitHub\repositories\user\sdl2_game
+CMAKE_SOURCE_DIR = D:\development\GitHub\repositories\user\2DGameEngine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw
+CMAKE_BINARY_DIR = D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\development\GitHub\repositories\user\sdl2_game\cmake-build-debug-mingw\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\development\GitHub\repositories\user\2DGameEngine\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

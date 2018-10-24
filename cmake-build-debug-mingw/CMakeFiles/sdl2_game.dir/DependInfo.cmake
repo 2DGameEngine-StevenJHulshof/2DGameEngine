@@ -4,20 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/development/GitHub/repositories/user/sdl2_game/main.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/main.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Component.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/Component.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/ecs/ControllerComponent.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/ControllerComponent.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/ecs/Entity.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/Entity.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/ecs/PhysicsComponent.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/PhysicsComponent.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/ecs/RendererComponent.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/RendererComponent.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/ecs/TransformComponent.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/TransformComponent.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/engine/GameEngine.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/frame/FrameManager.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/frame/FrameManager.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/input/InputManager.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/input/InputManager.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/logger/UserLog.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/logger/UserLog.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/texture/Texture.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/texture/Texture.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/texture/TextureManager.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/texture/TextureManager.cpp.obj"
-  "D:/development/GitHub/repositories/user/sdl2_game/src/timer/Timer.cpp" "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/timer/Timer.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/main.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/main.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Component.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/Component.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/ControllerComponent.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/ControllerComponent.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/Entity.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/Entity.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/PhysicsComponent.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/PhysicsComponent.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/RendererComponent.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/RendererComponent.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/ecs/TransformComponent.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/ecs/TransformComponent.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/engine/GameEngine.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/engine/GameEngine.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/frame/FrameManager.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/frame/FrameManager.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/input/InputManager.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/input/InputManager.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/logger/UserLog.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/logger/UserLog.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/texture/Texture.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/texture/Texture.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/texture/TextureManager.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/texture/TextureManager.cpp.obj"
+  "D:/development/GitHub/repositories/user/2DGameEngine/src/timer/Timer.cpp" "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/CMakeFiles/sdl2_game.dir/src/timer/Timer.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

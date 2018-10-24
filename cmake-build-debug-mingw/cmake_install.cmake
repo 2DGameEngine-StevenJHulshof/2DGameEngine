@@ -1,8 +1,8 @@
-# Install script for directory: D:/development/GitHub/repositories/user/sdl2_game
+# Install script for directory: D:/development/GitHub/repositories/user/2DGameEngine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/game")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/sdl2_game")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/development/GitHub/repositories/user/sdl2_game/cmake-build-debug-mingw/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/development/GitHub/repositories/user/2DGameEngine/cmake-build-debug-mingw/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
