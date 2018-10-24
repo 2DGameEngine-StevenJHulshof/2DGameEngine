@@ -50,7 +50,21 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
     std::uint32_t flags = 0;
     if(fullScreen) flags |= SDL_WINDOW_FULLSCREEN;
 
-    LOG_INFO("Initializing SDL");
+    SDL_version compiled;
+    SDL_version linked;
+
+    SDL_VERSION(&compiled);
+    SDL_GetVersion(&linked);
+
+    LOG_INFO("Initializing SDL - Compiled v%d.%d.%d - Linked v%d.%d.%d", compiled.major, compiled.minor, compiled.patch,
+            linked.major, linked.minor, linked.patch);
+
+    if(compiled.major != linked.major ||
+       compiled.minor != linked.minor ||
+       compiled.patch != linked.patch) {
+        LOG_WARNING("SDL compiled version is not the same as linked version");
+    }
+
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
         LOG_CRITICAL("SDL Init failed: %s", SDL_GetError());
         return false;
