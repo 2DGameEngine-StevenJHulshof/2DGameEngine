@@ -53,25 +53,9 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
     std::uint32_t flags = 0;
     if(fullScreen) flags |= SDL_WINDOW_FULLSCREEN;
 
-    SDL_version compiled;
-    SDL_version linked;
+    CheckSDLVersions();
 
-    SDL_VERSION(&compiled);
-    SDL_GetVersion(&linked);
-
-    LOG_INFO("Initializing SDL - Compiled v%d.%d.%d - Linked v%d.%d.%d", compiled.major, compiled.minor, compiled.patch,
-            linked.major, linked.minor, linked.patch);
-
-    if(compiled.major != linked.major ||
-       compiled.minor != linked.minor ||
-       compiled.patch != linked.patch) {
-        LOG_WARNING("SDL compiled version is not the same as linked version");
-    }
-
-    LOG_INFO("Using SDL Image v%d.%d.%d", SDL_IMAGE_MAJOR_VERSION, SDL_IMAGE_MINOR_VERSION, SDL_IMAGE_PATCHLEVEL);
-    LOG_INFO("Using SDL TTF v%d.%d.%d", SDL_TTF_MAJOR_VERSION, SDL_TTF_MINOR_VERSION, SDL_TTF_PATCHLEVEL);
-    LOG_INFO("Using SDL Mixer v%d.%d.%d", SDL_MIXER_MAJOR_VERSION, SDL_MIXER_MINOR_VERSION, SDL_MIXER_PATCHLEVEL);
-
+    LOG_INFO("Initializing SDL");
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
         LOG_CRITICAL("SDL Init failed: %s", SDL_GetError());
         return false;
@@ -142,6 +126,28 @@ void GameEngine::Clean() {
     SDL_DestroyRenderer(_renderer);
     SDL_DestroyWindow(_window);
     SDL_Quit();
+}
+
+void GameEngine::CheckSDLVersions() {
+
+    SDL_version compiled;
+    SDL_version linked;
+
+    SDL_VERSION(&compiled);
+    SDL_GetVersion(&linked);
+
+    LOG_INFO("Checking SDL version: Compiled v%d.%d.%d - Linked v%d.%d.%d", compiled.major, compiled.minor, compiled.patch,
+             linked.major, linked.minor, linked.patch);
+
+    if(compiled.major != linked.major ||
+       compiled.minor != linked.minor ||
+       compiled.patch != linked.patch) {
+        LOG_WARNING("SDL compiled version is not the same as linked version");
+    }
+
+    LOG_INFO("Using SDL Image v%d.%d.%d", SDL_IMAGE_MAJOR_VERSION, SDL_IMAGE_MINOR_VERSION, SDL_IMAGE_PATCHLEVEL);
+    LOG_INFO("Using SDL TTF v%d.%d.%d", SDL_TTF_MAJOR_VERSION, SDL_TTF_MINOR_VERSION, SDL_TTF_PATCHLEVEL);
+    LOG_INFO("Using SDL Mixer v%d.%d.%d", SDL_MIXER_MAJOR_VERSION, SDL_MIXER_MINOR_VERSION, SDL_MIXER_PATCHLEVEL);
 }
 
 

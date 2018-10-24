@@ -648,6 +648,12 @@ texture_types.h
 Component.h
 ../src/ecs/Component.h
 
+../src/engine/GameEngine.h
+cstdint
+-
+SDL.h
+../src/engine/SDL.h
+
 ../src/frame/FrameManager.h
 Timer.h
 ../src/frame/Timer.h
@@ -697,6 +703,16 @@ cstdint
 -
 chrono
 -
+
+D:/development/GitHub/repositories/user/sdl2_game/main.cpp
+app_config.h
+D:/development/GitHub/repositories/user/sdl2_game/app_config.h
+GameEngine.h
+D:/development/GitHub/repositories/user/sdl2_game/GameEngine.h
+UserLog.h
+D:/development/GitHub/repositories/user/sdl2_game/UserLog.h
+FrameManager.h
+D:/development/GitHub/repositories/user/sdl2_game/FrameManager.h
 
 D:/development/GitHub/repositories/user/sdl2_game/src/engine/GameEngine.cpp
 climits
