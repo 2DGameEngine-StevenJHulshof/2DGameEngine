@@ -30,7 +30,9 @@ Design.md
 
 # CMake
 cmake-build-debug-mingw/sdl2_game.exe
+cmake-build-debug-mingw/CMakeFiles/
 cmake-build-release-mingw/sdl2_game.exe
+cmake-build-release-mingw/CMakeFiles/
 cmake-build-debug/
 cmake-build-release/
 cmake-bootloader-debug/

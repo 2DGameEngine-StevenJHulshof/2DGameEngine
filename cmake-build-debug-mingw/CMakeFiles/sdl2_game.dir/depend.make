@@ -142,6 +142,7 @@ CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_gesture.h
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_haptic.h
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_hints.h
+CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_image.h
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_joystick.h
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_keyboard.h
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_keycode.h
@@ -166,6 +167,7 @@ CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_thread.h
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_timer.h
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_touch.h
+CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_ttf.h
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_version.h
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/SDL_video.h
 CMakeFiles/sdl2_game.dir/include/engine/GameEngine.cpp.obj: ../include/SDL2/begin_code.h
