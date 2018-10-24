@@ -29,14 +29,8 @@ Design.md
 **/.idea/**/libraries
 
 # CMake
-cmake-build-debug-mingw/sdl2_game.exe
-cmake-build-debug-mingw/sdl2_game.cbp
-cmake-build-debug-mingw/Makefile
-cmake-build-debug-mingw/CMakeFiles/*
-cmake-build-release-mingw/sdl2_game.exe
-cmake-build-release-mingw/sdl2_game.cbp
-cmake-build-release-mingw/Makefile
-cmake-build-release-mingw/CMakeFiles/*
+cmake-build-debug-mingw/
+cmake-build-release-mingw/
 cmake-build-debug/
 cmake-build-release/
 cmake-bootloader-debug/
