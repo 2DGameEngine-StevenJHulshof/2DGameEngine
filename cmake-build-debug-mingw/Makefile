@@ -203,6 +203,60 @@ src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.s:
 	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.s
 .PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.s
 
+src/2DPlatformer/components/Platform2DRendererComponent.obj: src/2DPlatformer/components/Platform2DRendererComponent.cpp.obj
+
+.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.obj
+
+# target to build an object file
+src/2DPlatformer/components/Platform2DRendererComponent.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DRendererComponent.cpp.obj
+.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.cpp.obj
+
+src/2DPlatformer/components/Platform2DRendererComponent.i: src/2DPlatformer/components/Platform2DRendererComponent.cpp.i
+
+.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.i
+
+# target to preprocess a source file
+src/2DPlatformer/components/Platform2DRendererComponent.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DRendererComponent.cpp.i
+.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.cpp.i
+
+src/2DPlatformer/components/Platform2DRendererComponent.s: src/2DPlatformer/components/Platform2DRendererComponent.cpp.s
+
+.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.s
+
+# target to generate assembly for a file
+src/2DPlatformer/components/Platform2DRendererComponent.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DRendererComponent.cpp.s
+.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.cpp.s
+
+src/2DPlatformer/components/Platform2DTransformComponent.obj: src/2DPlatformer/components/Platform2DTransformComponent.cpp.obj
+
+.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.obj
+
+# target to build an object file
+src/2DPlatformer/components/Platform2DTransformComponent.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DTransformComponent.cpp.obj
+.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.cpp.obj
+
+src/2DPlatformer/components/Platform2DTransformComponent.i: src/2DPlatformer/components/Platform2DTransformComponent.cpp.i
+
+.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.i
+
+# target to preprocess a source file
+src/2DPlatformer/components/Platform2DTransformComponent.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DTransformComponent.cpp.i
+.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.cpp.i
+
+src/2DPlatformer/components/Platform2DTransformComponent.s: src/2DPlatformer/components/Platform2DTransformComponent.cpp.s
+
+.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.s
+
+# target to generate assembly for a file
+src/2DPlatformer/components/Platform2DTransformComponent.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DTransformComponent.cpp.s
+.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.cpp.s
+
 src/ecs/Component.obj: src/ecs/Component.cpp.obj
 
 .PHONY : src/ecs/Component.obj
@@ -680,6 +734,12 @@ help:
 	@echo ... src/2DPlatformer/components/Platform2DPhysicsComponent.obj
 	@echo ... src/2DPlatformer/components/Platform2DPhysicsComponent.i
 	@echo ... src/2DPlatformer/components/Platform2DPhysicsComponent.s
+	@echo ... src/2DPlatformer/components/Platform2DRendererComponent.obj
+	@echo ... src/2DPlatformer/components/Platform2DRendererComponent.i
+	@echo ... src/2DPlatformer/components/Platform2DRendererComponent.s
+	@echo ... src/2DPlatformer/components/Platform2DTransformComponent.obj
+	@echo ... src/2DPlatformer/components/Platform2DTransformComponent.i
+	@echo ... src/2DPlatformer/components/Platform2DTransformComponent.s
 	@echo ... src/ecs/Component.obj
 	@echo ... src/ecs/Component.i
 	@echo ... src/ecs/Component.s

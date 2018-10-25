@@ -11,19 +11,23 @@ Texture::Texture(Texture_t textureID, SDL_Renderer *renderer) :
         w(0),
         h(0) {
 
-    _texture = IMG_LoadTexture(_renderer, texture_manager->GetTexturePath(textureID).c_str());
-    if(_texture == nullptr) {
-        LOG_WARNING("Texture loading failed: %s", SDL_GetError());
-    }
-
-    int width = 0;
-    int height = 0;
-    if(SDL_QueryTexture(_texture, nullptr, nullptr, &width, &height) != 0) {
-        LOG_WARNING("Texture query failed: %s", SDL_GetError());
+    if(textureID >= TEXTURE_TOTAL) {
+        LOG_WARNING("Texture ID invalid");
     } else {
-        w = static_cast<float>(width);
-        h = static_cast<float>(height);
-        _isValid = true;
+        _texture = IMG_LoadTexture(_renderer, texture_manager->GetTexturePath(textureID).c_str());
+        if (_texture == nullptr) {
+            LOG_WARNING("Texture loading failed: %s", SDL_GetError());
+        }
+
+        int width = 0;
+        int height = 0;
+        if (SDL_QueryTexture(_texture, nullptr, nullptr, &width, &height) != 0) {
+            LOG_WARNING("Texture query failed: %s", SDL_GetError());
+        } else {
+            w = static_cast<float>(width);
+            h = static_cast<float>(height);
+            _isValid = true;
+        }
     }
 }
 

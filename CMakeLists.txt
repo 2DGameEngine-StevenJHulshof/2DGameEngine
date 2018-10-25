@@ -39,6 +39,8 @@ set(SOURCE_FILES
         src/ecs/RendererComponent.cpp
         src/ecs/ControllerComponent.cpp
         src/ecs/PhysicsComponent.cpp
+        src/2DPlatformer/components/Platform2DTransformComponent.cpp
+        src/2DPlatformer/components/Platform2DRendererComponent.cpp
         src/2DPlatformer/components/Platform2DControllerComponent.cpp
         src/2DPlatformer/components/Platform2DPhysicsComponent.cpp
 )

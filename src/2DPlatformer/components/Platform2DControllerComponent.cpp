@@ -14,7 +14,7 @@ Platform2DControllerComponent::~Platform2DControllerComponent() = default;
 
 void Platform2DControllerComponent::Update() {
 
-    if (input_manager->GetKeyQ()) {
+    if (input_manager->GetKeyUp()) {
         GetParent()->GetComponent<PhysicsComponent>()->impulse.y = 20.0f;
     }
     if (input_manager->GetKeyRight()) {

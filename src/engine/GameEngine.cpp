@@ -12,15 +12,15 @@
 #include "InputManager.h"
 #include "FrameManager.h"
 #include "Entity.h"
-#include "TransformComponent.h"
-#include "RendererComponent.h"
+#include "Platform2DTransformComponent.h"
+#include "Platform2DRendererComponent.h"
 #include "Platform2DControllerComponent.h"
 #include "Platform2DPhysicsComponent.h"
 
 Entity player;
 Vector2D vector2D(200.0f, 200.0f);
-TransformComponent transformComponent(vector2D);
-RendererComponent rendererComponent(TEXTURE_DEFAULT);
+Platform2DTransformComponent transformComponent(vector2D);
+Platform2DRendererComponent rendererComponent(TEXTURE_DEFAULT);
 Platform2DPhysicsComponent physicsComponent(1);
 Platform2DControllerComponent controllerComponent;
 
@@ -81,8 +81,8 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
     font_manager->Config(_renderer, 16, 255, 255, 255, 255);
 
 
-    player.AddComponent(&transformComponent);
     player.AddComponent(&rendererComponent);
+    player.AddComponent(&transformComponent);
     player.AddComponent(&physicsComponent);
     player.AddComponent(&controllerComponent);
 

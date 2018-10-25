@@ -1,6 +1,7 @@
 #pragma once
 
 #include <vector>
+#include "app_config.h"
 
 class Component;
 class Entity {
