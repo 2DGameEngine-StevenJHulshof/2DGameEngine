@@ -10,6 +10,7 @@ private:
     static FrameManager *_instance;
 
     Timer *_stepTimer;
+    float _frameTimeStep;
 
 public:
     ~FrameManager();
@@ -20,9 +21,12 @@ public:
         return _instance;
     }
 
+    bool Config(float refreshRate);
     void Start();
     void Reset();
-    float GetDeltaTime();
+    void SynchronizeFrameTime();
+
+    float GetFrameTimeStep() { return _frameTimeStep; }
 };
 
 #define frame_manager FrameManager::Instance()

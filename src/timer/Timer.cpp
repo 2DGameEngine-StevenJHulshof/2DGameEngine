@@ -38,6 +38,6 @@ std::uint32_t Timer::Read_us() {
 }
 
 std::uint32_t Timer::Read_ms() {
-    
+
     return static_cast<std::uint32_t>(std::round(static_cast<float>(Read_us()) / 1000.0f));
 }

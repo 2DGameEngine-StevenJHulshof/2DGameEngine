@@ -2,6 +2,7 @@
 
 #include <cstdint>
 #include "SDL.h"
+#include "SDL_FontCache.h"
 
 class GameEngine {
 
@@ -10,6 +11,7 @@ private:
     bool _isRunning;
     SDL_Window *_window;
     SDL_Renderer *_renderer;
+    FC_Font *_font;
 
     void CheckSDLVersions();
 
@@ -29,4 +31,6 @@ public:
     void Update();
     void Render();
     void Clean();
+
+    SDL_Renderer *GetRenderer() { return _renderer; }
 };

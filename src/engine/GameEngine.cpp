@@ -1,4 +1,5 @@
-#include <climits>
+#include <math.h>
+
 #include "SDL_image.h"
 #include "SDL_ttf.h"
 #include "SDL_mixer.h"
@@ -19,7 +20,7 @@ Entity player;
 Vector2D vector2D(200.0f, 200.0f);
 TransformComponent transformComponent(vector2D);
 RendererComponent rendererComponent(TEXTURE_DEFAULT);
-Platform2DPhysicsComponent physicsComponent(60);
+Platform2DPhysicsComponent physicsComponent(1);
 Platform2DControllerComponent controllerComponent;
 
 bool GameEngine::IsRunning() {
@@ -31,7 +32,8 @@ GameEngine::GameEngine(const char *title, std::uint32_t windowPosX, std::uint32_
            std::uint16_t windowHeight, bool fullScreen) :
     _isRunning(true),
     _window(nullptr),
-    _renderer(nullptr) {
+    _renderer(nullptr),
+    _font(nullptr) {
 
 //    LOG_ALLOC(this, __PRETTY_FUNCTION__);
 
@@ -79,6 +81,9 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
     LOG_INFO("Configuring texture manager and loading textures");
     texture_manager->Config(_renderer);
 
+    _font = FC_CreateFont();
+    FC_LoadFont(_font, _renderer, "../fonts/FreeSans.ttf", 16, FC_MakeColor(0,255,0,255), TTF_STYLE_NORMAL);
+
     player.AddComponent(&transformComponent);
     player.AddComponent(&rendererComponent);
     player.AddComponent(&physicsComponent);
@@ -114,6 +119,8 @@ void GameEngine::Render() {
     SDL_RenderClear(_renderer);
     /* - Begin of user rendering. */
     player.Render();
+
+    FC_Draw(_font, _renderer, 0, 0, "FPS: %d", static_cast<int>(std::round(1.0f / frame_manager->GetFrameTimeStep())));
     /* - End of user rendering. */
     SDL_RenderPresent(_renderer);
 }
@@ -124,6 +131,7 @@ void GameEngine::Clean() {
     delete texture_manager;
     delete input_manager;
 
+    FC_FreeFont(_font);
     SDL_DestroyRenderer(_renderer);
     SDL_DestroyWindow(_window);
     SDL_Quit();
