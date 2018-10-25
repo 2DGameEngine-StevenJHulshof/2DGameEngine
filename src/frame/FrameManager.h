@@ -10,7 +10,8 @@ private:
     static FrameManager *_instance;
 
     Timer *_stepTimer;
-    float _frameTimeStep;
+    float _cappedFrameTimeStep;
+    float _deltaTime;
 
 public:
     ~FrameManager();
@@ -21,12 +22,13 @@ public:
         return _instance;
     }
 
-    bool Config(float refreshRate);
+    bool Config(float refreshRateCap);
     void Start();
     void Reset();
     void SynchronizeFrameTime();
 
-    float GetFrameTimeStep() { return _frameTimeStep; }
+    float GetCappedFrameTimeStep() { return _cappedFrameTimeStep; }
+    float GetDeltaTime() { return _deltaTime; }
 };
 
 #define frame_manager FrameManager::Instance()

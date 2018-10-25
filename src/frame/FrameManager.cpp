@@ -6,7 +6,8 @@ FrameManager *FrameManager::_instance = nullptr;
 
 FrameManager::FrameManager() :
     _stepTimer(nullptr),
-    _frameTimeStep(0.0f) {
+    _cappedFrameTimeStep(0.0f),
+    _deltaTime(0.0f) {
 
 //    LOG_ALLOC(this, __PRETTY_FUNCTION__);
     _stepTimer = new Timer;
@@ -18,8 +19,16 @@ FrameManager::~FrameManager() {
     delete _stepTimer;
 }
 
-bool FrameManager::Config(float refreshRate) {
-    _frameTimeStep = 1.0f / refreshRate;
+bool FrameManager::Config(float refreshRateCap) {
+
+    if(refreshRateCap == 0.0f) {
+        LOG_CRITICAL("Refresh rate cap must be higher than 0");
+        return false;
+    }
+
+    _cappedFrameTimeStep = 1.0f / refreshRateCap;
+
+    return true;
 }
 
 void FrameManager::Start() {
@@ -32,5 +41,6 @@ void FrameManager::Reset() {
 
 void FrameManager::SynchronizeFrameTime() {
 
-    while(_stepTimer->Read_ms() < static_cast<std::uint32_t>(std::round(_frameTimeStep * 1000.0f)));
+    while(_stepTimer->Read_ms() < static_cast<std::uint32_t>(_cappedFrameTimeStep * 1000.0f));
+        _deltaTime = static_cast<float>(_stepTimer->Read_ms()) / 1000.0f;
 }

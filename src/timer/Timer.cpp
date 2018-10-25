@@ -5,7 +5,9 @@
 
 Timer::Timer() :
     _started(false),
-    _startTicks() {
+    _stopped(false),
+    _startTicks(0),
+    _stopTicks(0) {
 
 }
 
@@ -15,29 +17,32 @@ void Timer::Start() {
 
     _started = true;
 
-    if(!_started) {
-        _startTicks = Clock_t::now();
+    if(_stopped) {
+        _stopped = false;
+    } else {
+        Reset();
     }
+}
+
+void Timer::Stop() {
+
+    _stopped = true;
+    _stopTicks = SDL_GetTicks();
 }
 
 void Timer::Reset() {
 
-    _startTicks = Clock_t::now();
-}
-
-std::uint32_t Timer::Read_us() {
-
-    std::uint32_t time = 0;
-
-    if(_started) {
-        time = static_cast<uint32_t>(
-                std::chrono::duration_cast<std::chrono::microseconds>(Clock_t::now() - _startTicks).count());
-    }
-
-    return time;
+    _startTicks = SDL_GetTicks();
+    _stopped = false;
 }
 
 std::uint32_t Timer::Read_ms() {
 
-    return static_cast<std::uint32_t>(std::round(static_cast<float>(Read_us()) / 1000.0f));
+    if (_stopped) {
+        return _stopTicks - _startTicks;
+    } else if(_started) {
+        return SDL_GetTicks() - _startTicks;
+    }
+
+    return 0;
 }

@@ -3,20 +3,20 @@
 #include <cstdint>
 #include <chrono>
 
-typedef std::chrono::high_resolution_clock Clock_t;
-typedef Clock_t::time_point TimePoint_t;
-
 class Timer {
 private:
     bool _started;
+    bool _stopped;
 
-    TimePoint_t _startTicks;
+    std::uint32_t _startTicks;
+    std::uint32_t _stopTicks;
+
 public:
     Timer();
     ~Timer();
 
     void Start();
+    void Stop();
     void Reset();
-    std::uint32_t Read_us();
     std::uint32_t Read_ms();
 };

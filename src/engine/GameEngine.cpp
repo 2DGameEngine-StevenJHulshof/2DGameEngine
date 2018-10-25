@@ -120,7 +120,7 @@ void GameEngine::Render() {
     /* - Begin of user rendering. */
     player.Render();
 
-    FC_Draw(_font, _renderer, 0, 0, "FPS: %d", static_cast<int>(std::round(1.0f / frame_manager->GetFrameTimeStep())));
+    FC_Draw(_font, _renderer, 0, 0, "FPS: %d", static_cast<int>(std::round(1.0f / frame_manager->GetDeltaTime())));
     /* - End of user rendering. */
     SDL_RenderPresent(_renderer);
 }
