@@ -5,6 +5,7 @@ PhysicsComponent::PhysicsComponent(Vector2D velocity, Vector2D acceleration, Vec
     velocity(velocity),
     acceleration(acceleration),
     force(force),
+    impulse(Vector2D()),
     mass(mass) {
 
 }

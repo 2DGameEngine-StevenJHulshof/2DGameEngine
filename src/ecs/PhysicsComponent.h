@@ -10,6 +10,7 @@ public:
     Vector2D velocity;
     Vector2D acceleration;
     Vector2D force;
+    Vector2D impulse;
     float mass;
 
     PhysicsComponent(Vector2D velocity, Vector2D acceleration, Vector2D force, float mass);

@@ -5,15 +5,8 @@
 
 class Platform2DPhysicsComponent : public PhysicsComponent {
 private:
-    const float GRAVITATIONAL_CONSTANT = 0.000981f;
-    const float AIR_RESISTANCE_CONSTANT = 100.0f;
-
-    const float MAX_VELOCITY = 0.5f;
-
-    Vector2D _forceInitiated;
-
-    float GetForceAirResistance(float density, float resistanceCoefficient, float area, float velocityAxis);
-    float GetForceGravity(float mass, float gravitationalConstant);
+    const float METERS_TO_PIXEL = 320.0f;
+    const float GRAVITATIONAL_CONSTANT = 9.81f;
 
 public:
 
@@ -21,5 +14,4 @@ public:
     ~Platform2DPhysicsComponent();
 
     void Update() override;
-    virtual void InitiateForce(const Vector2D& force);
 };
