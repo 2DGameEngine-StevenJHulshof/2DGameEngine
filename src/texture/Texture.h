@@ -8,10 +8,11 @@ public:
     ~Texture();
 
     void Render(float x, float y);
+
+    float w;
+    float h;
 private:
     SDL_Texture *_texture;
     SDL_Renderer *_renderer;
     bool _isValid;
-    int _width;
-    int _height;
 };

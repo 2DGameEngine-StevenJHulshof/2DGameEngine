@@ -8,8 +8,8 @@ Texture::Texture(Texture_t textureID, SDL_Renderer *renderer) :
         _texture(nullptr),
         _renderer(renderer),
         _isValid(false),
-        _width(0),
-        _height(0) {
+        w(0),
+        h(0) {
 
 //    LOG_ALLOC(this, __PRETTY_FUNCTION__);
 
@@ -17,9 +17,14 @@ Texture::Texture(Texture_t textureID, SDL_Renderer *renderer) :
     if(_texture == nullptr) {
         LOG_WARNING("Texture loading failed: %s", SDL_GetError());
     }
-    if(SDL_QueryTexture(_texture, nullptr, nullptr, &_width, &_height) != 0) {
+
+    int width = 0;
+    int height = 0;
+    if(SDL_QueryTexture(_texture, nullptr, nullptr, &width, &height) != 0) {
         LOG_WARNING("Texture query failed: %s", SDL_GetError());
     } else {
+        w = static_cast<float>(width);
+        h = static_cast<float>(height);
         _isValid = true;
     }
 }
@@ -34,8 +39,8 @@ void Texture::Render(float x, float y) {
     if(_isValid) {
 
         SDL_Rect textureRect;
-        textureRect.h = _height;
-        textureRect.w = _width;
+        textureRect.h = static_cast<int>(h);
+        textureRect.w = static_cast<int>(w);
         textureRect.x = static_cast<int>(x);
         textureRect.y = static_cast<int>(y);
 
