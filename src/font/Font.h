@@ -3,6 +3,9 @@
 #include "font_types.h"
 #include "SDL.h"
 #include "SDL_FontCache.h"
+#include <string>
+#include <climits>
+#include <limits>
 
 class Font {
 
@@ -15,5 +18,7 @@ public:
             std::uint8_t b = 0xFF, std::uint8_t a = 0xFF);
     ~Font();
 
-    void Render(float x, float y, const char* formatted_text, ...);
+    void Render(float x, float y, std::string prefix);
+    void Render(float x, float y, std::string prefix, int value, std::string postfix = "");
+    void Render(float x, float y, std::string prefix, float value, std::string postfix = "");
 };

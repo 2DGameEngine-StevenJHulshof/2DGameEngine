@@ -118,10 +118,8 @@ void GameEngine::Render() {
     player.Render();
 
 
-    font_manager->GetFont(FONT_FREE_SANS)->Render(0.0f, 0.0f, "FPS: %u",
-            static_cast<std::uint32_t>(1.0f / frame_manager->GetDeltaTime()));
-    LOG_INFO("FPS: %u",
-             static_cast<std::uint32_t>(1.0f / frame_manager->GetDeltaTime()));
+    font_manager->GetFont(FONT_FREE_SANS)->Render(0.0f, 0.0f, "FPS: ",
+            static_cast<int>(1.0f / frame_manager->GetDeltaTime()));
     /* - End of user rendering. */
     SDL_RenderPresent(_renderer);
 }

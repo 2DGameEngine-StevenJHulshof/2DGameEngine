@@ -17,7 +17,17 @@ Font::~Font() {
     FC_FreeFont(_font);
 }
 
-void Font:: Render(float x, float y, const char* formatted_text, ...) {
+void Font::Render(float x, float y, std::string prefix) {
 
-    FC_Draw(_font, _renderer, x, y, formatted_text);
+    FC_Draw(_font, _renderer, x, y, "%s", prefix.c_str());
+}
+
+void Font::Render(float x, float y, std::string prefix, int value, std::string postfix) {
+
+    FC_Draw(_font, _renderer, x, y, "%s%d%s", prefix.c_str(), value, postfix.c_str());
+}
+
+void Font::Render(float x, float y, std::string prefix, float value, std::string postfix) {
+
+    FC_Draw(_font, _renderer, x, y, "%s%f%s", prefix.c_str(), value, postfix.c_str());
 }
