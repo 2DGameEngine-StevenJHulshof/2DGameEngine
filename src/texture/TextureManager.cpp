@@ -3,14 +3,9 @@
 
 TextureManager *TextureManager::_instance = nullptr;
 
-TextureManager::TextureManager() = default; /*{
-//    LOG_ALLOC(this, __PRETTY_FUNCTION__);
-}*/
+TextureManager::TextureManager() = default;
 
-TextureManager::~TextureManager() {
-//    LOG_DEALLOC(this, __PRETTY_FUNCTION__);
-    Clean();
-}
+TextureManager::~TextureManager() = default;
 
 void TextureManager::Config(SDL_Renderer *renderer) {
 
@@ -19,10 +14,6 @@ void TextureManager::Config(SDL_Renderer *renderer) {
     for(std::uint16_t ID = 0; ID < static_cast<std::uint16_t>(TEXTURE_TOTAL); ID++) {
         _textures.push_back(std::make_shared<Texture>(static_cast<Texture_t>(ID), renderer));
     }
-}
-
-void TextureManager::Clean() {
-
 }
 
 void TextureManager::LoadPath() {

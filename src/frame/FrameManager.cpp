@@ -9,14 +9,10 @@ FrameManager::FrameManager() :
     _cappedFrameTimeStep(0.0f),
     _deltaTime(0.0f) {
 
-//    LOG_ALLOC(this, __PRETTY_FUNCTION__);
     _stepTimer = std::make_shared<Timer>();
 };
 
-FrameManager::~FrameManager() {
-
-//    LOG_DEALLOC(this, __PRETTY_FUNCTION__);
-}
+FrameManager::~FrameManager() = default;
 
 bool FrameManager::Config(float refreshRateCap) {
 

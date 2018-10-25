@@ -11,8 +11,6 @@ Texture::Texture(Texture_t textureID, SDL_Renderer *renderer) :
         w(0),
         h(0) {
 
-//    LOG_ALLOC(this, __PRETTY_FUNCTION__);
-
     _texture = IMG_LoadTexture(_renderer, texture_manager->GetTexturePath(textureID).c_str());
     if(_texture == nullptr) {
         LOG_WARNING("Texture loading failed: %s", SDL_GetError());
@@ -30,7 +28,7 @@ Texture::Texture(Texture_t textureID, SDL_Renderer *renderer) :
 }
 
 Texture::~Texture() {
-//    LOG_DEALLOC(this, __PRETTY_FUNCTION__);
+
     SDL_DestroyTexture(_texture);
 }
 

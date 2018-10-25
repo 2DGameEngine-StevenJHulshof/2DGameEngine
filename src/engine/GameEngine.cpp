@@ -35,8 +35,6 @@ GameEngine::GameEngine(const char *title, std::uint32_t windowPosX, std::uint32_
     _renderer(nullptr),
     _font(nullptr) {
 
-//    LOG_ALLOC(this, __PRETTY_FUNCTION__);
-
     if(!Config(title, windowPosX, windowPosY, windowWidth, windowHeight, fullScreen)) {
         _isRunning = false;
     }
@@ -44,7 +42,6 @@ GameEngine::GameEngine(const char *title, std::uint32_t windowPosX, std::uint32_
 
 GameEngine::~GameEngine() {
 
-//    LOG_DEALLOC(this, __PRETTY_FUNCTION__);
     Clean();
 }
 

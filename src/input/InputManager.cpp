@@ -35,13 +35,9 @@ InputManager::InputManager() :
     _keyN(false),
     _keyM(false) {
 
-//    LOG_ALLOC(this, __PRETTY_FUNCTION__);
 }
 
-InputManager::~InputManager() = default;/*{
-
-//    LOG_DEALLOC(this, __PRETTY_FUNCTION__);
-}*/
+InputManager::~InputManager() = default;
 
 void InputManager::PollKeyboardInput() {
 
