@@ -1,6 +1,7 @@
 #include "RendererComponent.h"
 #include "TransformComponent.h"
 #include "TextureManager.h"
+#include "UserLog.h"
 
 RendererComponent::RendererComponent(Texture_t textureID) :
     Component(),
@@ -18,6 +19,8 @@ void RendererComponent::Render() {
                 texture_manager->GetTexture(textureID)->w;
         GetParent()->GetComponent<TransformComponent>()->dimension.y =
                 texture_manager->GetTexture(textureID)->h;
+    } else {
+        LOG_WARNING("Invalid reference to Transform from Renderer");
     }
 
     if(visible) {

@@ -14,13 +14,17 @@ Platform2DControllerComponent::~Platform2DControllerComponent() = default;
 
 void Platform2DControllerComponent::Update() {
 
-    if (input_manager->GetKeyUp()) {
-        GetParent()->GetComponent<PhysicsComponent>()->impulse.y = 20.0f;
-    }
-    if (input_manager->GetKeyRight()) {
-        GetParent()->GetComponent<PhysicsComponent>()->impulse.x = 10.0f;
-    }
-    if (input_manager->GetKeyLeft()) {
-        GetParent()->GetComponent<PhysicsComponent>()->impulse.x = -10.0f;
+    if( GetParent()->GetComponent<PhysicsComponent>() != nullptr) {
+        if (input_manager->GetKeyUp()) {
+            GetParent()->GetComponent<PhysicsComponent>()->impulse.y = 20.0f;
+        }
+        if (input_manager->GetKeyRight()) {
+            GetParent()->GetComponent<PhysicsComponent>()->impulse.x = 10.0f;
+        }
+        if (input_manager->GetKeyLeft()) {
+            GetParent()->GetComponent<PhysicsComponent>()->impulse.x = -10.0f;
+        }
+    } else {
+        LOG_WARNING("Invalid reference to Physics from Controller");
     }
 }

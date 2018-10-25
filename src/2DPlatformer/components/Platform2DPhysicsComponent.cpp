@@ -32,11 +32,14 @@ void Platform2DPhysicsComponent::Update() {
     velocity.x += acceleration.x * frame_manager->GetDeltaTime();
     velocity.y += acceleration.y * frame_manager->GetDeltaTime();
 
-    GetParent()->GetComponent<TransformComponent>()->position.x += METERS_TO_PIXEL *
-            (velocity.x * frame_manager->GetDeltaTime());
-
-    GetParent()->GetComponent<TransformComponent>()->position.y += METERS_TO_PIXEL *
-            (velocity.y * frame_manager->GetDeltaTime());
+    if(GetParent()->GetComponent<TransformComponent>() != nullptr) {
+        GetParent()->GetComponent<TransformComponent>()->position.x += METERS_TO_PIXEL *
+                                                                       (velocity.x * frame_manager->GetDeltaTime());
+        GetParent()->GetComponent<TransformComponent>()->position.y += METERS_TO_PIXEL *
+                                                                       (velocity.y * frame_manager->GetDeltaTime());
+    }else {
+        LOG_WARNING("Invalid reference to Transform from Physics");
+    }
 
     impulse.x = 0;
     impulse.y = 0;
