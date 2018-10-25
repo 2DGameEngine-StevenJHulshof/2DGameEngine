@@ -156,7 +156,7 @@ static char* replace_concat(char** a, const char* b)
 
 
 
-// Shared buffer for variadic text
+// Shared buffer for variadic font
 static char* fc_buffer = NULL;
 static unsigned int fc_buffer_size = 1024;
 

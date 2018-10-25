@@ -10,7 +10,7 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/src/config
         ${PROJECT_SOURCE_DIR}/src/ecs
         ${PROJECT_SOURCE_DIR}/src/engine
-        ${PROJECT_SOURCE_DIR}/src/font-cache
+        ${PROJECT_SOURCE_DIR}/src/font
         ${PROJECT_SOURCE_DIR}/src/frame
         ${PROJECT_SOURCE_DIR}/src/input
         ${PROJECT_SOURCE_DIR}/src/logger
@@ -26,10 +26,12 @@ set(SOURCE_FILES
         src/engine/GameEngine.cpp
         src/texture/Texture.cpp
         src/texture/TextureManager.cpp
+        src/font/SDL_FontCache.c
+        src/font/Font.cpp
+        src/font/FontManager.cpp
         src/input/InputManager.cpp
-        src/timer/Timer.cpp
         src/frame/FrameManager.cpp
-        src/font-cache/SDL_FontCache.c
+        src/timer/Timer.cpp
         src/vector/Vector2D.cpp
         src/ecs/Entity.cpp
         src/ecs/Component.cpp

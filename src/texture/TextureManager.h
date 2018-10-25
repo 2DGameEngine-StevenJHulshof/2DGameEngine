@@ -14,7 +14,6 @@ private:
     std::vector<std::string> _texturePath;
 
     TextureManager();
-    void Clean();
     void LoadPath();
 
 public:

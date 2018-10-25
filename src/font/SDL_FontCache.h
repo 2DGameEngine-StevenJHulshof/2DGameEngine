@@ -291,7 +291,7 @@ Uint16 FC_GetMaxWidth(FC_Font* font);
 SDL_Color FC_GetDefaultColor(FC_Font* font);
 
 Uint8 FC_InRect(float x, float y, FC_Rect input_rect);
-// Given an offset (x,y) from the text draw position (the upper-left corner), returns the character position (UTF-8 index)
+// Given an offset (x,y) from the font draw position (the upper-left corner), returns the character position (UTF-8 index)
 Uint16 FC_GetPositionFromOffset(FC_Font* font, float x, float y, int column_width, FC_AlignEnum align, const char* formatted_text, ...);
 
 // Setters

@@ -8,6 +8,7 @@
 #include "UserLog.h"
 #include "Texture.h"
 #include "TextureManager.h"
+#include "FontManager.h"
 #include "InputManager.h"
 #include "FrameManager.h"
 #include "Entity.h"
@@ -32,8 +33,7 @@ GameEngine::GameEngine(const char *title, std::uint32_t windowPosX, std::uint32_
            std::uint16_t windowHeight, bool fullScreen) :
     _isRunning(true),
     _window(nullptr),
-    _renderer(nullptr),
-    _font(nullptr) {
+    _renderer(nullptr) {
 
     if(!Config(title, windowPosX, windowPosY, windowWidth, windowHeight, fullScreen)) {
         _isRunning = false;
@@ -77,9 +77,9 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
 
     LOG_INFO("Configuring texture manager and loading textures");
     texture_manager->Config(_renderer);
+    LOG_INFO("Configuring font manager and loading fonts");
+    font_manager->Config(_renderer, 16, 255, 255, 255, 255);
 
-    _font = FC_CreateFont();
-    FC_LoadFont(_font, _renderer, "../fonts/FreeSans.ttf", 16, FC_MakeColor(0,255,0,255), TTF_STYLE_NORMAL);
 
     player.AddComponent(&transformComponent);
     player.AddComponent(&rendererComponent);
@@ -117,7 +117,11 @@ void GameEngine::Render() {
     /* - Begin of user rendering. */
     player.Render();
 
-    FC_Draw(_font, _renderer, 0, 0, "FPS: %d", static_cast<int>(std::round(1.0f / frame_manager->GetDeltaTime())));
+
+    font_manager->GetFont(FONT_FREE_SANS)->Render(0.0f, 0.0f, "FPS: %u",
+            static_cast<std::uint32_t>(1.0f / frame_manager->GetDeltaTime()));
+    LOG_INFO("FPS: %u",
+             static_cast<std::uint32_t>(1.0f / frame_manager->GetDeltaTime()));
     /* - End of user rendering. */
     SDL_RenderPresent(_renderer);
 }
@@ -125,10 +129,10 @@ void GameEngine::Render() {
 void GameEngine::Clean() {
 
     LOG_INFO("Closing game engine and destroying all resources");
+    delete font_manager;
     delete texture_manager;
     delete input_manager;
 
-    FC_FreeFont(_font);
     SDL_DestroyRenderer(_renderer);
     SDL_DestroyWindow(_window);
     SDL_Quit();

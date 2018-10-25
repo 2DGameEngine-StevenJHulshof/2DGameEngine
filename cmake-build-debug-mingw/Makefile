@@ -392,32 +392,86 @@ src/engine/GameEngine.cpp.s:
 	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/engine/GameEngine.cpp.s
 .PHONY : src/engine/GameEngine.cpp.s
 
-src/font-cache/SDL_FontCache.obj: src/font-cache/SDL_FontCache.c.obj
+src/font/Font.obj: src/font/Font.cpp.obj
 
-.PHONY : src/font-cache/SDL_FontCache.obj
+.PHONY : src/font/Font.obj
 
 # target to build an object file
-src/font-cache/SDL_FontCache.c.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font-cache/SDL_FontCache.c.obj
-.PHONY : src/font-cache/SDL_FontCache.c.obj
+src/font/Font.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font/Font.cpp.obj
+.PHONY : src/font/Font.cpp.obj
 
-src/font-cache/SDL_FontCache.i: src/font-cache/SDL_FontCache.c.i
+src/font/Font.i: src/font/Font.cpp.i
 
-.PHONY : src/font-cache/SDL_FontCache.i
+.PHONY : src/font/Font.i
 
 # target to preprocess a source file
-src/font-cache/SDL_FontCache.c.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font-cache/SDL_FontCache.c.i
-.PHONY : src/font-cache/SDL_FontCache.c.i
+src/font/Font.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font/Font.cpp.i
+.PHONY : src/font/Font.cpp.i
 
-src/font-cache/SDL_FontCache.s: src/font-cache/SDL_FontCache.c.s
+src/font/Font.s: src/font/Font.cpp.s
 
-.PHONY : src/font-cache/SDL_FontCache.s
+.PHONY : src/font/Font.s
 
 # target to generate assembly for a file
-src/font-cache/SDL_FontCache.c.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font-cache/SDL_FontCache.c.s
-.PHONY : src/font-cache/SDL_FontCache.c.s
+src/font/Font.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font/Font.cpp.s
+.PHONY : src/font/Font.cpp.s
+
+src/font/FontManager.obj: src/font/FontManager.cpp.obj
+
+.PHONY : src/font/FontManager.obj
+
+# target to build an object file
+src/font/FontManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font/FontManager.cpp.obj
+.PHONY : src/font/FontManager.cpp.obj
+
+src/font/FontManager.i: src/font/FontManager.cpp.i
+
+.PHONY : src/font/FontManager.i
+
+# target to preprocess a source file
+src/font/FontManager.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font/FontManager.cpp.i
+.PHONY : src/font/FontManager.cpp.i
+
+src/font/FontManager.s: src/font/FontManager.cpp.s
+
+.PHONY : src/font/FontManager.s
+
+# target to generate assembly for a file
+src/font/FontManager.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font/FontManager.cpp.s
+.PHONY : src/font/FontManager.cpp.s
+
+src/font/SDL_FontCache.obj: src/font/SDL_FontCache.c.obj
+
+.PHONY : src/font/SDL_FontCache.obj
+
+# target to build an object file
+src/font/SDL_FontCache.c.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font/SDL_FontCache.c.obj
+.PHONY : src/font/SDL_FontCache.c.obj
+
+src/font/SDL_FontCache.i: src/font/SDL_FontCache.c.i
+
+.PHONY : src/font/SDL_FontCache.i
+
+# target to preprocess a source file
+src/font/SDL_FontCache.c.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font/SDL_FontCache.c.i
+.PHONY : src/font/SDL_FontCache.c.i
+
+src/font/SDL_FontCache.s: src/font/SDL_FontCache.c.s
+
+.PHONY : src/font/SDL_FontCache.s
+
+# target to generate assembly for a file
+src/font/SDL_FontCache.c.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font/SDL_FontCache.c.s
+.PHONY : src/font/SDL_FontCache.c.s
 
 src/frame/FrameManager.obj: src/frame/FrameManager.cpp.obj
 
@@ -647,9 +701,15 @@ help:
 	@echo ... src/engine/GameEngine.obj
 	@echo ... src/engine/GameEngine.i
 	@echo ... src/engine/GameEngine.s
-	@echo ... src/font-cache/SDL_FontCache.obj
-	@echo ... src/font-cache/SDL_FontCache.i
-	@echo ... src/font-cache/SDL_FontCache.s
+	@echo ... src/font/Font.obj
+	@echo ... src/font/Font.i
+	@echo ... src/font/Font.s
+	@echo ... src/font/FontManager.obj
+	@echo ... src/font/FontManager.i
+	@echo ... src/font/FontManager.s
+	@echo ... src/font/SDL_FontCache.obj
+	@echo ... src/font/SDL_FontCache.i
+	@echo ... src/font/SDL_FontCache.s
 	@echo ... src/frame/FrameManager.obj
 	@echo ... src/frame/FrameManager.i
 	@echo ... src/frame/FrameManager.s
