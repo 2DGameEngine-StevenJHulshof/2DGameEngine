@@ -14,4 +14,6 @@ public:
 
     explicit TransformComponent(Vector2D position);
     ~TransformComponent();
+
+    void Update() override;
 };
