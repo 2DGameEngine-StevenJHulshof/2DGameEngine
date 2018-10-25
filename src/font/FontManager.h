@@ -10,9 +10,9 @@ class FontManager {
 private:
 
     static FontManager *_instance;
+    SDL_Renderer *_renderer;
     std::vector<std::shared_ptr<Font>> _fonts;
     std::vector<std::string> _fontPath;
-    SDL_Renderer *_renderer;
 
     FontManager();
     void LoadPath();

@@ -12,6 +12,7 @@ class Font {
 private:
     FC_Font *_font;
     SDL_Renderer *_renderer;
+    bool _isValid;
 
 public:
     Font(Font_t fontID, SDL_Renderer *renderer, std::uint32_t size, std::uint8_t r = 0xFF, std::uint8_t g = 0xFF,
