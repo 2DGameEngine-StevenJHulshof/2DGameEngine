@@ -8,4 +8,4 @@
 const std::uint16_t WINDOW_SCREEN_WIDTH =       1280;
 const std::uint16_t WINDOW_SCREEN_HEIGHT =      720;
 
-const std::uint16_t FRAME_RATE_CAP =            60;
+const float WINDOW_REFRESH_RATE =               60.0f;

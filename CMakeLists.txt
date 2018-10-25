@@ -9,8 +9,9 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/src/2DPlatformer/components
         ${PROJECT_SOURCE_DIR}/src/config
         ${PROJECT_SOURCE_DIR}/src/ecs
-        ${PROJECT_SOURCE_DIR}/src/frame
         ${PROJECT_SOURCE_DIR}/src/engine
+        ${PROJECT_SOURCE_DIR}/src/font-cache
+        ${PROJECT_SOURCE_DIR}/src/frame
         ${PROJECT_SOURCE_DIR}/src/input
         ${PROJECT_SOURCE_DIR}/src/logger
         ${PROJECT_SOURCE_DIR}/src/texture
@@ -28,6 +29,7 @@ set(SOURCE_FILES
         src/input/InputManager.cpp
         src/timer/Timer.cpp
         src/frame/FrameManager.cpp
+        src/font-cache/SDL_FontCache.c
         src/vector/Vector2D.cpp
         src/ecs/Entity.cpp
         src/ecs/Component.cpp

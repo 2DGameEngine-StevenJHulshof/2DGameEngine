@@ -392,6 +392,33 @@ src/engine/GameEngine.cpp.s:
 	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/engine/GameEngine.cpp.s
 .PHONY : src/engine/GameEngine.cpp.s
 
+src/font-cache/SDL_FontCache.obj: src/font-cache/SDL_FontCache.c.obj
+
+.PHONY : src/font-cache/SDL_FontCache.obj
+
+# target to build an object file
+src/font-cache/SDL_FontCache.c.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font-cache/SDL_FontCache.c.obj
+.PHONY : src/font-cache/SDL_FontCache.c.obj
+
+src/font-cache/SDL_FontCache.i: src/font-cache/SDL_FontCache.c.i
+
+.PHONY : src/font-cache/SDL_FontCache.i
+
+# target to preprocess a source file
+src/font-cache/SDL_FontCache.c.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font-cache/SDL_FontCache.c.i
+.PHONY : src/font-cache/SDL_FontCache.c.i
+
+src/font-cache/SDL_FontCache.s: src/font-cache/SDL_FontCache.c.s
+
+.PHONY : src/font-cache/SDL_FontCache.s
+
+# target to generate assembly for a file
+src/font-cache/SDL_FontCache.c.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/font-cache/SDL_FontCache.c.s
+.PHONY : src/font-cache/SDL_FontCache.c.s
+
 src/frame/FrameManager.obj: src/frame/FrameManager.cpp.obj
 
 .PHONY : src/frame/FrameManager.obj
@@ -620,6 +647,9 @@ help:
 	@echo ... src/engine/GameEngine.obj
 	@echo ... src/engine/GameEngine.i
 	@echo ... src/engine/GameEngine.s
+	@echo ... src/font-cache/SDL_FontCache.obj
+	@echo ... src/font-cache/SDL_FontCache.i
+	@echo ... src/font-cache/SDL_FontCache.s
 	@echo ... src/frame/FrameManager.obj
 	@echo ... src/frame/FrameManager.i
 	@echo ... src/frame/FrameManager.s
