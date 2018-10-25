@@ -10,13 +10,12 @@ FrameManager::FrameManager() :
     _deltaTime(0.0f) {
 
 //    LOG_ALLOC(this, __PRETTY_FUNCTION__);
-    _stepTimer = new Timer;
+    _stepTimer = std::make_shared<Timer>();
 };
 
 FrameManager::~FrameManager() {
 
 //    LOG_DEALLOC(this, __PRETTY_FUNCTION__);
-    delete _stepTimer;
 }
 
 bool FrameManager::Config(float refreshRateCap) {

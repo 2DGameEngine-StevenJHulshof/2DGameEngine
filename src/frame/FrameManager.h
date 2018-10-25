@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Timer.h"
+#include <memory>
 
 class FrameManager {
 
@@ -9,11 +10,12 @@ private:
     FrameManager();
     static FrameManager *_instance;
 
-    Timer *_stepTimer;
+    std::shared_ptr<Timer> _stepTimer;
     float _cappedFrameTimeStep;
     float _deltaTime;
 
 public:
+
     ~FrameManager();
     static FrameManager *Instance() {
         if(!_instance) {

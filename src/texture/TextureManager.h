@@ -2,6 +2,7 @@
 
 #include "Texture.h"
 #include <vector>
+#include <memory>
 
 class TextureManager {
 
@@ -9,7 +10,7 @@ private:
 
     static TextureManager *_instance;
 
-    std::vector<Texture*> _textures;
+    std::vector<std::shared_ptr<Texture>> _textures;
     std::vector<std::string> _texturePath;
 
     TextureManager();
@@ -19,7 +20,7 @@ private:
 public:
 
     void Config(SDL_Renderer *renderer);
-    Texture *GetTexture(Texture_t textureID);
+    std::shared_ptr<Texture> GetTexture(Texture_t textureID);
     std::string GetTexturePath(Texture_t textureID);
 
     static TextureManager *Instance() {
