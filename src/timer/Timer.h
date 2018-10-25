@@ -18,4 +18,5 @@ public:
     void Start();
     void Reset();
     std::uint32_t Read_us();
+    std::uint32_t Read_ms();
 };

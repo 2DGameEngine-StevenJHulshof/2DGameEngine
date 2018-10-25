@@ -1,6 +1,7 @@
 #include "Timer.h"
 #include "SDL.h"
 #include "UserLog.h"
+#include <math.h>
 
 Timer::Timer() :
     _started(false),
@@ -31,8 +32,12 @@ std::uint32_t Timer::Read_us() {
     if(_started) {
         time = static_cast<uint32_t>(
                 std::chrono::duration_cast<std::chrono::microseconds>(Clock_t::now() - _startTicks).count());
-       // LOG_INFO("%u", time);
     }
 
     return time;
+}
+
+std::uint32_t Timer::Read_ms() {
+    
+    return static_cast<std::uint32_t>(std::round(static_cast<float>(Read_us()) / 1000.0f));
 }
