@@ -8,6 +8,7 @@
 enum logState_t : std::uint8_t
 {
     LOG_STATE_INFO,
+    LOG_STATE_INVALID,
     LOG_STATE_WARNING,
     LOG_STATE_CRITICAL,
     LOG_STATE_TOTAL
@@ -16,6 +17,7 @@ enum logState_t : std::uint8_t
 const std::string logStateTypes[LOG_STATE_TOTAL] =
 {
         "INFO    ",
+        "INVALID ",
         "WARNING ",
         "CRITICAL"
 };

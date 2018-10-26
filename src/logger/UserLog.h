@@ -56,14 +56,15 @@ extern UserLog userLog;
  * Basic logging macro's.
  */
 #if LOG_CONFIG_ENABLED == 1
-#define LOG_BEGIN(b)			userLog.begin(b)
-#define LOG_CRITICAL(f_, ...) 	userLog.print(LOG_STATE_CRITICAL, (f_), ## __VA_ARGS__)
+#define LOG_BEGIN(b)			    userLog.begin(b)
+#define LOG_CRITICAL(f_, ...) 	    userLog.print(LOG_STATE_CRITICAL, (f_), ## __VA_ARGS__)
 #if LOG_CONFIG_LEVEL > 0
-#define LOG_WARNING(f_, ...) 	userLog.print(LOG_STATE_WARNING, (f_), ## __VA_ARGS__)
+#define LOG_WARNING(f_, ...) 	    userLog.print(LOG_STATE_WARNING, (f_), ## __VA_ARGS__)
 #endif
 #if LOG_CONFIG_LEVEL > 1
-#define LOG_INFO(f_, ...)		userLog.print(LOG_STATE_INFO, (f_), ## __VA_ARGS__)
-#define LOG_RAW(f_, ...)		userLog.printRaw((f_), ## __VA_ARGS__);
+#define LOG_INVALID(f_, ...)           userLog.print(LOG_STATE_INVALID, (f_), ## __VA_ARGS__)
+#define LOG_INFO(f_, ...)		    userLog.print(LOG_STATE_INFO, (f_), ## __VA_ARGS__)
+#define LOG_RAW(f_, ...)		    userLog.printRaw((f_), ## __VA_ARGS__);
 #endif
 #endif
 
@@ -80,6 +81,9 @@ extern UserLog userLog;
 #endif
 #ifndef LOG_INFO
 #define LOG_INFO(f_, ...)
+#endif
+#ifndef LOG_INVALID
+#define LOG_INVALID(f_, ...)
 #endif
 #ifndef LOG_WARNING
 #define LOG_WARNING(f_, ...)
