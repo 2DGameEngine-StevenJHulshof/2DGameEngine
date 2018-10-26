@@ -6,7 +6,15 @@ Entity::Entity() :
 
 }
 
-Entity::~Entity() = default;
+Entity::~Entity() {
+    Clean();
+}
+
+void Entity::Config() {
+    for(auto &component : _components) {
+        component->Config();
+    }
+}
 
 void Entity::AddComponent(Component *component) {
 
@@ -24,4 +32,10 @@ void Entity::Render() {
     for(auto &component : _components) {
         component->Render();
     }
+}
+
+void Entity::Clean() {
+//    for(auto &component : _components) {
+//        delete component;
+//    }
 }

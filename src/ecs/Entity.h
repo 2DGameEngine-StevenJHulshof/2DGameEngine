@@ -16,8 +16,10 @@ public:
     ~Entity();
 
     void AddComponent(Component *component);
+    void Config();
     void Update();
     void Render();
+    void Clean();
 
     template <class T>
     T* GetComponent() const;

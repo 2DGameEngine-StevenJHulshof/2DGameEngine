@@ -1,6 +1,8 @@
 #pragma once
 
 #include "PhysicsComponent.h"
+#include "TransformComponent.h"
+#include "RendererComponent.h"
 #include "FrameManager.h"
 
 class Platform2DPhysicsComponent : public PhysicsComponent {
@@ -10,8 +12,12 @@ private:
 
 public:
 
-    explicit Platform2DPhysicsComponent(float mass);
+    TransformComponent *transform;
+    RendererComponent *renderer;
+
+    explicit Platform2DPhysicsComponent(float mass = 1.0f);
     ~Platform2DPhysicsComponent();
 
+    void Config() override;
     void Update() override;
 };

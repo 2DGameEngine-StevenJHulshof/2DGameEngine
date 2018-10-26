@@ -16,6 +16,7 @@ public:
     Entity *GetParent() { return _parent; };
     void SetParent(Entity *entity) { _parent = entity; };
 
+    virtual void Config();
     virtual void Update();
     virtual void Render();
 };

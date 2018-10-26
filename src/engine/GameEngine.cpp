@@ -11,6 +11,8 @@
 #include "FontManager.h"
 #include "InputManager.h"
 #include "FrameManager.h"
+#include "CollisionManager.h"
+#include "ComponentManager.h"
 #include "Entity.h"
 #include "Platform2DTransformComponent.h"
 #include "Platform2DRendererComponent.h"
@@ -18,11 +20,6 @@
 #include "Platform2DPhysicsComponent.h"
 
 Entity player;
-Vector2D vector2D(200.0f, 200.0f);
-Platform2DTransformComponent transformComponent(vector2D);
-Platform2DRendererComponent rendererComponent(TEXTURE_DEFAULT);
-Platform2DPhysicsComponent physicsComponent(1);
-Platform2DControllerComponent controllerComponent;
 
 bool GameEngine::IsRunning() {
 
@@ -81,10 +78,8 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
     font_manager->Config(_renderer, 16, 255, 255, 255, 255);
 
 
-    player.AddComponent(&rendererComponent);
-    player.AddComponent(&transformComponent);
-    player.AddComponent(&physicsComponent);
-    player.AddComponent(&controllerComponent);
+    component_manager->New<Platform2DControllerComponent>(&player);
+    player.Config();
 
     return true;
 }
@@ -127,9 +122,11 @@ void GameEngine::Render() {
 void GameEngine::Clean() {
 
     LOG_INFO("Closing game engine and destroying all resources");
+    delete collision_manager;
     delete font_manager;
     delete texture_manager;
     delete input_manager;
+    delete component_manager;
 
     SDL_DestroyRenderer(_renderer);
     SDL_DestroyWindow(_window);

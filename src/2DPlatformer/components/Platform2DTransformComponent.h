@@ -6,7 +6,7 @@ class Platform2DTransformComponent : public TransformComponent {
 private:
 
 public:
-    Platform2DTransformComponent(Vector2D position);
+    explicit Platform2DTransformComponent(Vector2D position = Vector2D());
     ~Platform2DTransformComponent();
 
     void Update() override;

@@ -7,6 +7,10 @@ Component::Component() :
 
 Component::~Component() = default;
 
+void Component::Config() {
+
+}
+
 void Component::Update() {
 
 }

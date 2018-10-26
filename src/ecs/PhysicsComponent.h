@@ -13,7 +13,8 @@ public:
     Vector2D impulse;
     float mass;
 
-    PhysicsComponent(Vector2D velocity, Vector2D acceleration, Vector2D force, float mass);
+    PhysicsComponent(Vector2D velocity = Vector2D(), Vector2D acceleration = Vector2D(), Vector2D force = Vector2D(),
+            float mass = 1.0f);
     ~PhysicsComponent();
 
     void Update() override;
