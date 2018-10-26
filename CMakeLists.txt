@@ -7,6 +7,7 @@ set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
 include_directories(
         ${PROJECT_SOURCE_DIR}/include/SDL2
         ${PROJECT_SOURCE_DIR}/src/2DPlatformer/components
+        ${PROJECT_SOURCE_DIR}/src/collision
         ${PROJECT_SOURCE_DIR}/src/config
         ${PROJECT_SOURCE_DIR}/src/ecs
         ${PROJECT_SOURCE_DIR}/src/engine
@@ -31,13 +32,16 @@ set(SOURCE_FILES
         src/font/FontManager.cpp
         src/input/InputManager.cpp
         src/frame/FrameManager.cpp
+        src/collision/CollisionManager.cpp
         src/timer/Timer.cpp
         src/vector/Vector2D.cpp
         src/ecs/Entity.cpp
         src/ecs/Component.cpp
+        src/ecs/ComponentManager.cpp
         src/ecs/TransformComponent.cpp
         src/ecs/RendererComponent.cpp
         src/ecs/ControllerComponent.cpp
+        src/ecs/ColliderComponent.cpp
         src/ecs/PhysicsComponent.cpp
         src/2DPlatformer/components/Platform2DTransformComponent.cpp
         src/2DPlatformer/components/Platform2DRendererComponent.cpp

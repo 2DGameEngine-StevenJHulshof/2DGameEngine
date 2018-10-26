@@ -257,6 +257,60 @@ src/2DPlatformer/components/Platform2DTransformComponent.cpp.s:
 	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DTransformComponent.cpp.s
 .PHONY : src/2DPlatformer/components/Platform2DTransformComponent.cpp.s
 
+src/collision/CollisionManager.obj: src/collision/CollisionManager.cpp.obj
+
+.PHONY : src/collision/CollisionManager.obj
+
+# target to build an object file
+src/collision/CollisionManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/collision/CollisionManager.cpp.obj
+.PHONY : src/collision/CollisionManager.cpp.obj
+
+src/collision/CollisionManager.i: src/collision/CollisionManager.cpp.i
+
+.PHONY : src/collision/CollisionManager.i
+
+# target to preprocess a source file
+src/collision/CollisionManager.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/collision/CollisionManager.cpp.i
+.PHONY : src/collision/CollisionManager.cpp.i
+
+src/collision/CollisionManager.s: src/collision/CollisionManager.cpp.s
+
+.PHONY : src/collision/CollisionManager.s
+
+# target to generate assembly for a file
+src/collision/CollisionManager.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/collision/CollisionManager.cpp.s
+.PHONY : src/collision/CollisionManager.cpp.s
+
+src/ecs/ColliderComponent.obj: src/ecs/ColliderComponent.cpp.obj
+
+.PHONY : src/ecs/ColliderComponent.obj
+
+# target to build an object file
+src/ecs/ColliderComponent.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ColliderComponent.cpp.obj
+.PHONY : src/ecs/ColliderComponent.cpp.obj
+
+src/ecs/ColliderComponent.i: src/ecs/ColliderComponent.cpp.i
+
+.PHONY : src/ecs/ColliderComponent.i
+
+# target to preprocess a source file
+src/ecs/ColliderComponent.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ColliderComponent.cpp.i
+.PHONY : src/ecs/ColliderComponent.cpp.i
+
+src/ecs/ColliderComponent.s: src/ecs/ColliderComponent.cpp.s
+
+.PHONY : src/ecs/ColliderComponent.s
+
+# target to generate assembly for a file
+src/ecs/ColliderComponent.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ColliderComponent.cpp.s
+.PHONY : src/ecs/ColliderComponent.cpp.s
+
 src/ecs/Component.obj: src/ecs/Component.cpp.obj
 
 .PHONY : src/ecs/Component.obj
@@ -283,6 +337,33 @@ src/ecs/Component.s: src/ecs/Component.cpp.s
 src/ecs/Component.cpp.s:
 	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/Component.cpp.s
 .PHONY : src/ecs/Component.cpp.s
+
+src/ecs/ComponentManager.obj: src/ecs/ComponentManager.cpp.obj
+
+.PHONY : src/ecs/ComponentManager.obj
+
+# target to build an object file
+src/ecs/ComponentManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ComponentManager.cpp.obj
+.PHONY : src/ecs/ComponentManager.cpp.obj
+
+src/ecs/ComponentManager.i: src/ecs/ComponentManager.cpp.i
+
+.PHONY : src/ecs/ComponentManager.i
+
+# target to preprocess a source file
+src/ecs/ComponentManager.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ComponentManager.cpp.i
+.PHONY : src/ecs/ComponentManager.cpp.i
+
+src/ecs/ComponentManager.s: src/ecs/ComponentManager.cpp.s
+
+.PHONY : src/ecs/ComponentManager.s
+
+# target to generate assembly for a file
+src/ecs/ComponentManager.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ComponentManager.cpp.s
+.PHONY : src/ecs/ComponentManager.cpp.s
 
 src/ecs/ControllerComponent.obj: src/ecs/ControllerComponent.cpp.obj
 
@@ -740,9 +821,18 @@ help:
 	@echo ... src/2DPlatformer/components/Platform2DTransformComponent.obj
 	@echo ... src/2DPlatformer/components/Platform2DTransformComponent.i
 	@echo ... src/2DPlatformer/components/Platform2DTransformComponent.s
+	@echo ... src/collision/CollisionManager.obj
+	@echo ... src/collision/CollisionManager.i
+	@echo ... src/collision/CollisionManager.s
+	@echo ... src/ecs/ColliderComponent.obj
+	@echo ... src/ecs/ColliderComponent.i
+	@echo ... src/ecs/ColliderComponent.s
 	@echo ... src/ecs/Component.obj
 	@echo ... src/ecs/Component.i
 	@echo ... src/ecs/Component.s
+	@echo ... src/ecs/ComponentManager.obj
+	@echo ... src/ecs/ComponentManager.i
+	@echo ... src/ecs/ComponentManager.s
 	@echo ... src/ecs/ControllerComponent.obj
 	@echo ... src/ecs/ControllerComponent.i
 	@echo ... src/ecs/ControllerComponent.s
