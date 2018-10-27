@@ -13,14 +13,12 @@
 #include "FrameManager.h"
 #include "CollisionManager.h"
 #include "ComponentManager.h"
+#include "EntityManager.h"
 #include "Entity.h"
 #include "Platform2DTransform.h"
 #include "Platform2DRenderer.h"
 #include "Platform2DInput.h"
 #include "Platform2DPhysics.h"
-
-Entity player;
-Entity player2;
 
 bool GameEngine::IsRunning() {
 
@@ -78,17 +76,19 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
     LOG_INFO("Configuring font manager and loading fonts");
     font_manager->Config(_renderer, 16, 255, 255, 255, 255);
 
-    component_manager->New<Platform2DTransform>(&player);
-    component_manager->New<Platform2DRenderer>(&player);
-    component_manager->New<Platform2DPhysics>(&player);
-    component_manager->New<Platform2DInput>(&player);
-    player.Config();
+    Entity *player = entity_manager->New();
+    component_manager->New<Platform2DTransform>(player);
+    component_manager->New<Platform2DRenderer>(player);
+    component_manager->New<Platform2DPhysics>(player);
+    component_manager->New<Platform2DInput>(player);
+    player->Config();
 
-    component_manager->New<Platform2DTransform>(&player2);
-    component_manager->New<Platform2DRenderer>(&player2);
-    component_manager->New<Platform2DPhysics>(&player2);
-    player2.GetComponent<Platform2DTransform>()->position = Vector2D(100.0f, 0.0f);
-    player2.Config();
+    Entity *player2 = entity_manager->New();
+    component_manager->New<Platform2DTransform>(player2);
+    component_manager->New<Platform2DRenderer>(player2);
+    component_manager->New<Platform2DPhysics>(player2);
+    player2->GetComponent<Platform2DTransform>()->position = Vector2D(100.0f, 0.0f);
+    player2->Config();
 
     return true;
 }
@@ -112,17 +112,14 @@ void GameEngine::HandleEvents() {
 
 void GameEngine::Update() {
     /** - Update assets here. */
-    player.Update();
-    player2.Update();
+    entity_manager->Update();
 }
 
 void GameEngine::Render() {
 
     SDL_RenderClear(_renderer);
     /* - Begin of user rendering. */
-    player.Render();
-    player2.Render();
-
+    entity_manager->Render();
 
     font_manager->GetFont(FONT_FREE_SANS)->Render(0.0f, 0.0f, "FPS: ",
             static_cast<int>(1.0f / frame_manager->GetDeltaTime()));
@@ -133,11 +130,13 @@ void GameEngine::Render() {
 void GameEngine::Clean() {
 
     LOG_INFO("Closing game engine and destroying all resources");
+
+    delete component_manager;
+    delete entity_manager;
     delete collision_manager;
     delete font_manager;
     delete texture_manager;
     delete input_manager;
-    delete component_manager;
 
     SDL_DestroyRenderer(_renderer);
     SDL_DestroyWindow(_window);

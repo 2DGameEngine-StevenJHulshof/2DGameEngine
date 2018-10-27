@@ -1,9 +1,14 @@
 #include "Entity.h"
 #include "Component.h"
 
-Entity::Entity() :
-    _components(0) {
+std::uint32_t Entity::_IDCounter = 0;
 
+Entity::Entity() :
+    _components(0),
+    ID(0) {
+
+    ID = _IDCounter;
+    _IDCounter++;
 }
 
 Entity::~Entity() {

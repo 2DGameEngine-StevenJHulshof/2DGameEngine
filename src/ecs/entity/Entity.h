@@ -7,10 +7,11 @@ class Component;
 class Entity {
 
 private:
-
+    static std::uint32_t _IDCounter;
     std::vector<Component*> _components;
 
 public:
+    std::uint32_t ID;
 
     Entity();
     ~Entity();

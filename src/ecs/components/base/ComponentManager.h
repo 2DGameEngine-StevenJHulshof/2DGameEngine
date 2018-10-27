@@ -1,7 +1,6 @@
 #pragma once
 
 #include "Component.h"
-#include <memory>
 #include <map>
 
 class ComponentManager {

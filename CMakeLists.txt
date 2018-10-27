@@ -45,8 +45,9 @@ set(SOURCE_FILES
         src/timer/Timer.cpp
         src/vector/Vector2D.cpp
         src/ecs/entity/Entity.cpp
+        src/ecs/entity/EntityManager.cpp
         src/ecs/components/base/Component.cpp
-        src/ecs/components/ComponentManager.cpp
+        src/ecs/components/base/ComponentManager.cpp
         src/ecs/components/Transform.cpp
         src/ecs/components/Renderer.cpp
         src/ecs/components/Input.cpp
