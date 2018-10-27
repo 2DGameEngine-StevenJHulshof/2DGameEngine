@@ -16,21 +16,8 @@ Platform2DPhysics::~Platform2DPhysics() = default;
 
 void Platform2DPhysics::Config() {
 
-    if(GetParent()->GetComponent<Transform>() == nullptr) {
-        LOG_INVALID("Invalid reference to Platform2DTransform from Platform2DPhysics -> Creating default Platform2DTransform");
-        transform = component_manager->New<Platform2DTransform>(GetParent());
-        GetParent()->Config();
-    } else {
-        transform = GetParent()->GetComponent<Transform>();
-    }
-
-    if(GetParent()->GetComponent<Renderer>() == nullptr) {
-        LOG_INVALID("Invalid reference to Platform2DRenderer from Platform2DPhysics -> Creating default Platform2DRenderer");
-        renderer = component_manager->New<Platform2DRenderer>(GetParent());
-        GetParent()->Config();
-    } else {
-        renderer = GetParent()->GetComponent<Renderer>();
-    }
+    transform = component_manager->AddDependency<Platform2DTransform>(GetParent());
+    renderer = component_manager->AddDependency<Platform2DRenderer>(GetParent());
 }
 
 void Platform2DPhysics::Update() {

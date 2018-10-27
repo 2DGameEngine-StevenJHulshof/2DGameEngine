@@ -14,13 +14,7 @@ Renderer::~Renderer() = default;
 
 void Renderer::Config() {
 
-    if(GetParent()->GetComponent<Transform>() == nullptr) {
-        LOG_INVALID("Invalid reference to Transform from Renderer -> Creating default Transform");
-        transform = component_manager->New<Transform>(GetParent());
-        GetParent()->Config();
-    } else {
-        transform = GetParent()->GetComponent<Transform>();
-    }
+    transform = component_manager->AddDependency<Transform>(GetParent());
 
     transform->dimension.x = texture_manager->GetTexture(textureID)->w;
     transform->dimension.y = texture_manager->GetTexture(textureID)->h;

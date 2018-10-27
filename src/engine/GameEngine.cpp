@@ -78,11 +78,16 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
     LOG_INFO("Configuring font manager and loading fonts");
     font_manager->Config(_renderer, 16, 255, 255, 255, 255);
 
-
+    component_manager->New<Platform2DTransform>(&player);
+    component_manager->New<Platform2DRenderer>(&player);
+    component_manager->New<Platform2DPhysics>(&player);
     component_manager->New<Platform2DInput>(&player);
     player.Config();
 
+    component_manager->New<Platform2DTransform>(&player2);
+    component_manager->New<Platform2DRenderer>(&player2);
     component_manager->New<Platform2DPhysics>(&player2);
+    player2.GetComponent<Platform2DTransform>()->position = Vector2D(100.0f, 0.0f);
     player2.Config();
 
     return true;

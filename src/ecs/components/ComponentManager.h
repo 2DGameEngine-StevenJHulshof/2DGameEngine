@@ -23,9 +23,33 @@ public:
 
     template <class T>
     T *New(Entity *entity) {
-        T *component = new T;
-        _components.push_back(component);
-        entity->AddComponent(component);
+
+        T *component = nullptr;
+
+        if (entity->GetComponent<T>() == nullptr) {
+            component = new T;
+            _components.push_back(component);
+            entity->AddComponent(component);
+        } else {
+            LOG_WARNING("Entity already contains component of this type");
+        }
+
+        return component;
+    }
+
+    template <class T>
+    T *AddDependency(Entity *entity) {
+
+        T *component = nullptr;
+
+        if (entity->GetComponent<T>() == nullptr) {
+            LOG_WARNING("Invalid reference to component -> Creating default");
+            component = New<T>(entity);
+            entity->Config();
+        } else {
+            component = entity->GetComponent<T>();
+        }
+
         return component;
     }
 };

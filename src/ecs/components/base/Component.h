@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Entity.h"
+#include "UserLog.h"
 
 class Component {
 
@@ -20,3 +21,4 @@ public:
     virtual void Update();
     virtual void Render();
 };
+

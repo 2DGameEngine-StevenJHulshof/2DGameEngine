@@ -12,13 +12,7 @@ Platform2DRenderer::~Platform2DRenderer() = default;
 
 void Platform2DRenderer::Config() {
 
-    if(GetParent()->GetComponent<Transform>() == nullptr) {
-        LOG_INVALID("Invalid reference to Transform from Renderer -> Creating default Transform");
-        transform = component_manager->New<Platform2DTransform>(GetParent());
-        GetParent()->Config();
-    } else {
-        transform = GetParent()->GetComponent<Transform>();
-    }
+    transform = component_manager->AddDependency<Platform2DTransform>(GetParent());
 
     Renderer::Config();
 }

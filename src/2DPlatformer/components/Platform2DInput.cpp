@@ -15,13 +15,7 @@ Platform2DInput::~Platform2DInput() = default;
 
 void Platform2DInput::Config() {
 
-    if(GetParent()->GetComponent<Physics>() == nullptr) {
-        LOG_INVALID("Invalid reference to Platform2DPhysics from Platform2DInput -> Creating default Platform2DPhysics");
-        physics = component_manager->New<Platform2DPhysics>(GetParent());
-        GetParent()->Config();
-    } else {
-        physics = GetParent()->GetComponent<Physics>();
-    }
+    physics = component_manager->AddDependency<Platform2DPhysics>(GetParent());
 }
 
 void Platform2DInput::Update() {
