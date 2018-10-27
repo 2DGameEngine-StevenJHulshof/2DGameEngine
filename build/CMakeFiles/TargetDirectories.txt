@@ -1,3 +1,0 @@
-D:/development/GitHub/repositories/user/2DGameEngine/build/CMakeFiles/2DGameEngine.dir
-D:/development/GitHub/repositories/user/2DGameEngine/build/CMakeFiles/edit_cache.dir
-D:/development/GitHub/repositories/user/2DGameEngine/build/CMakeFiles/rebuild_cache.dir
