@@ -18,8 +18,8 @@ void TextureManager::Config(SDL_Renderer *renderer) {
 
 void TextureManager::LoadPath() {
 
-    _texturePath.emplace_back("../res/textures/default.png");
-    _texturePath.emplace_back("../res/textures/default2.png");
+    _texturePath.emplace_back("/textures/default.png");
+    _texturePath.emplace_back("/textures/default2.png");
 }
 
 std::shared_ptr<Texture> TextureManager::GetTexture(Texture_t textureID) {
