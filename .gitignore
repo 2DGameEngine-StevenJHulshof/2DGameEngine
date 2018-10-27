@@ -1,6 +1,10 @@
 # Ignore doc files
 # Design.md
 
+build/
+!build/res
+
+
 #####################################################
 # CLion                                             #
 # Source: https://www.gitignore.io                  #
