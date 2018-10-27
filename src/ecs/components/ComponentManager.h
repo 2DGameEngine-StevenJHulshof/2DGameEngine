@@ -2,13 +2,14 @@
 
 #include "Component.h"
 #include <memory>
+#include <map>
 
 class ComponentManager {
 
 private:
     ComponentManager();
     static ComponentManager *_instance;
-    std::vector<Component*> _components;
+    std::map<std::uint32_t, Component*> _components;
 
     void Clean();
 
@@ -28,7 +29,7 @@ public:
 
         if (entity->GetComponent<T>() == nullptr) {
             component = new T;
-            _components.push_back(component);
+            _components[component->ID] = component;
             entity->AddComponent(component);
         } else {
             LOG_WARNING("Entity already contains component of this type");

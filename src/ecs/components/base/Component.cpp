@@ -1,8 +1,13 @@
 #include "Component.h"
 
-Component::Component() :
-    parent(nullptr) {
+std::uint32_t Component::_IDCounter = 0;
 
+Component::Component() :
+    parent(nullptr),
+    ID(0) {
+
+    ID = _IDCounter;
+    _IDCounter++;
 }
 
 Component::~Component() = default;

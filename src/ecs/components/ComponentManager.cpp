@@ -9,7 +9,5 @@ ComponentManager::~ComponentManager() {
 }
 
 void ComponentManager::Clean() {
-    for(auto &component : _components) {
-        delete component;
-    }
+    _components.clear();
 }
