@@ -1,7 +1,7 @@
 # Ignore doc files
 # Design.md
 
-build/
+build/*
 !build/res
 
 
