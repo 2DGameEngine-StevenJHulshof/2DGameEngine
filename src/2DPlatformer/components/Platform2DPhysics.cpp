@@ -1,39 +1,39 @@
-#include "Platform2DPhysicsComponent.h"
-#include "Platform2DRendererComponent.h"
-#include "Platform2DTransformComponent.h"
-#include "TransformComponent.h"
-#include "RendererComponent.h"
+#include "Platform2DPhysics.h"
+#include "Platform2DRenderer.h"
+#include "Platform2DTransform.h"
+#include "Transform.h"
+#include "Renderer.h"
 #include "TextureManager.h"
 #include "ComponentManager.h"
 #include "UserLog.h"
 
-Platform2DPhysicsComponent::Platform2DPhysicsComponent(float mass) :
-    PhysicsComponent(Vector2D(), Vector2D(), Vector2D(), mass) {
+Platform2DPhysics::Platform2DPhysics(float mass) :
+    Physics(Vector2D(), Vector2D(), Vector2D(), mass) {
 
 }
 
-Platform2DPhysicsComponent::~Platform2DPhysicsComponent() = default;
+Platform2DPhysics::~Platform2DPhysics() = default;
 
-void Platform2DPhysicsComponent::Config() {
+void Platform2DPhysics::Config() {
 
-    if(GetParent()->GetComponent<TransformComponent>() == nullptr) {
+    if(GetParent()->GetComponent<Transform>() == nullptr) {
         LOG_INVALID("Invalid reference to Platform2DTransform from Platform2DPhysics -> Creating default Platform2DTransform");
-        transform = component_manager->New<Platform2DTransformComponent>(GetParent());
+        transform = component_manager->New<Platform2DTransform>(GetParent());
         GetParent()->Config();
     } else {
-        transform = GetParent()->GetComponent<TransformComponent>();
+        transform = GetParent()->GetComponent<Transform>();
     }
 
-    if(GetParent()->GetComponent<RendererComponent>() == nullptr) {
+    if(GetParent()->GetComponent<Renderer>() == nullptr) {
         LOG_INVALID("Invalid reference to Platform2DRenderer from Platform2DPhysics -> Creating default Platform2DRenderer");
-        renderer = component_manager->New<Platform2DRendererComponent>(GetParent());
+        renderer = component_manager->New<Platform2DRenderer>(GetParent());
         GetParent()->Config();
     } else {
-        renderer = GetParent()->GetComponent<RendererComponent>();
+        renderer = GetParent()->GetComponent<Renderer>();
     }
 }
 
-void Platform2DPhysicsComponent::Update() {
+void Platform2DPhysics::Update() {
 
     float area = (texture_manager->GetTexture(renderer->textureID)->h / METERS_TO_PIXEL) *
             (texture_manager->GetTexture(renderer->textureID)->h / METERS_TO_PIXEL);

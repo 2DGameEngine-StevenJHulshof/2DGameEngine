@@ -14,12 +14,13 @@
 #include "CollisionManager.h"
 #include "ComponentManager.h"
 #include "Entity.h"
-#include "Platform2DTransformComponent.h"
-#include "Platform2DRendererComponent.h"
-#include "Platform2DControllerComponent.h"
-#include "Platform2DPhysicsComponent.h"
+#include "Platform2DTransform.h"
+#include "Platform2DRenderer.h"
+#include "Platform2DInput.h"
+#include "Platform2DPhysics.h"
 
 Entity player;
+Entity player2;
 
 bool GameEngine::IsRunning() {
 
@@ -78,8 +79,11 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
     font_manager->Config(_renderer, 16, 255, 255, 255, 255);
 
 
-    component_manager->New<Platform2DControllerComponent>(&player);
+    component_manager->New<Platform2DInput>(&player);
     player.Config();
+
+    component_manager->New<Platform2DPhysics>(&player2);
+    player2.Config();
 
     return true;
 }
@@ -104,6 +108,7 @@ void GameEngine::HandleEvents() {
 void GameEngine::Update() {
     /** - Update assets here. */
     player.Update();
+    player2.Update();
 }
 
 void GameEngine::Render() {
@@ -111,6 +116,7 @@ void GameEngine::Render() {
     SDL_RenderClear(_renderer);
     /* - Begin of user rendering. */
     player.Render();
+    player2.Render();
 
 
     font_manager->GetFont(FONT_FREE_SANS)->Render(0.0f, 0.0f, "FPS: ",

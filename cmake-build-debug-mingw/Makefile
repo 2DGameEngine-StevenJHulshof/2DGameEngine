@@ -149,113 +149,113 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/2DPlatformer/components/Platform2DControllerComponent.obj: src/2DPlatformer/components/Platform2DControllerComponent.cpp.obj
+src/2DPlatformer/components/Platform2DInput.obj: src/2DPlatformer/components/Platform2DInput.cpp.obj
 
-.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.obj
-
-# target to build an object file
-src/2DPlatformer/components/Platform2DControllerComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DControllerComponent.cpp.obj
-.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.cpp.obj
-
-src/2DPlatformer/components/Platform2DControllerComponent.i: src/2DPlatformer/components/Platform2DControllerComponent.cpp.i
-
-.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.i
-
-# target to preprocess a source file
-src/2DPlatformer/components/Platform2DControllerComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DControllerComponent.cpp.i
-.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.cpp.i
-
-src/2DPlatformer/components/Platform2DControllerComponent.s: src/2DPlatformer/components/Platform2DControllerComponent.cpp.s
-
-.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.s
-
-# target to generate assembly for a file
-src/2DPlatformer/components/Platform2DControllerComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DControllerComponent.cpp.s
-.PHONY : src/2DPlatformer/components/Platform2DControllerComponent.cpp.s
-
-src/2DPlatformer/components/Platform2DPhysicsComponent.obj: src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.obj
-
-.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.obj
+.PHONY : src/2DPlatformer/components/Platform2DInput.obj
 
 # target to build an object file
-src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.obj
-.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.obj
+src/2DPlatformer/components/Platform2DInput.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DInput.cpp.obj
+.PHONY : src/2DPlatformer/components/Platform2DInput.cpp.obj
 
-src/2DPlatformer/components/Platform2DPhysicsComponent.i: src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.i
+src/2DPlatformer/components/Platform2DInput.i: src/2DPlatformer/components/Platform2DInput.cpp.i
 
-.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.i
+.PHONY : src/2DPlatformer/components/Platform2DInput.i
 
 # target to preprocess a source file
-src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.i
-.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.i
+src/2DPlatformer/components/Platform2DInput.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DInput.cpp.i
+.PHONY : src/2DPlatformer/components/Platform2DInput.cpp.i
 
-src/2DPlatformer/components/Platform2DPhysicsComponent.s: src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.s
+src/2DPlatformer/components/Platform2DInput.s: src/2DPlatformer/components/Platform2DInput.cpp.s
 
-.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.s
+.PHONY : src/2DPlatformer/components/Platform2DInput.s
 
 # target to generate assembly for a file
-src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.s
-.PHONY : src/2DPlatformer/components/Platform2DPhysicsComponent.cpp.s
+src/2DPlatformer/components/Platform2DInput.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DInput.cpp.s
+.PHONY : src/2DPlatformer/components/Platform2DInput.cpp.s
 
-src/2DPlatformer/components/Platform2DRendererComponent.obj: src/2DPlatformer/components/Platform2DRendererComponent.cpp.obj
+src/2DPlatformer/components/Platform2DPhysics.obj: src/2DPlatformer/components/Platform2DPhysics.cpp.obj
 
-.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.obj
+.PHONY : src/2DPlatformer/components/Platform2DPhysics.obj
 
 # target to build an object file
-src/2DPlatformer/components/Platform2DRendererComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DRendererComponent.cpp.obj
-.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.cpp.obj
+src/2DPlatformer/components/Platform2DPhysics.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DPhysics.cpp.obj
+.PHONY : src/2DPlatformer/components/Platform2DPhysics.cpp.obj
 
-src/2DPlatformer/components/Platform2DRendererComponent.i: src/2DPlatformer/components/Platform2DRendererComponent.cpp.i
+src/2DPlatformer/components/Platform2DPhysics.i: src/2DPlatformer/components/Platform2DPhysics.cpp.i
 
-.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.i
+.PHONY : src/2DPlatformer/components/Platform2DPhysics.i
 
 # target to preprocess a source file
-src/2DPlatformer/components/Platform2DRendererComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DRendererComponent.cpp.i
-.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.cpp.i
+src/2DPlatformer/components/Platform2DPhysics.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DPhysics.cpp.i
+.PHONY : src/2DPlatformer/components/Platform2DPhysics.cpp.i
 
-src/2DPlatformer/components/Platform2DRendererComponent.s: src/2DPlatformer/components/Platform2DRendererComponent.cpp.s
+src/2DPlatformer/components/Platform2DPhysics.s: src/2DPlatformer/components/Platform2DPhysics.cpp.s
 
-.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.s
+.PHONY : src/2DPlatformer/components/Platform2DPhysics.s
 
 # target to generate assembly for a file
-src/2DPlatformer/components/Platform2DRendererComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DRendererComponent.cpp.s
-.PHONY : src/2DPlatformer/components/Platform2DRendererComponent.cpp.s
+src/2DPlatformer/components/Platform2DPhysics.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DPhysics.cpp.s
+.PHONY : src/2DPlatformer/components/Platform2DPhysics.cpp.s
 
-src/2DPlatformer/components/Platform2DTransformComponent.obj: src/2DPlatformer/components/Platform2DTransformComponent.cpp.obj
+src/2DPlatformer/components/Platform2DRenderer.obj: src/2DPlatformer/components/Platform2DRenderer.cpp.obj
 
-.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.obj
+.PHONY : src/2DPlatformer/components/Platform2DRenderer.obj
 
 # target to build an object file
-src/2DPlatformer/components/Platform2DTransformComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DTransformComponent.cpp.obj
-.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.cpp.obj
+src/2DPlatformer/components/Platform2DRenderer.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DRenderer.cpp.obj
+.PHONY : src/2DPlatformer/components/Platform2DRenderer.cpp.obj
 
-src/2DPlatformer/components/Platform2DTransformComponent.i: src/2DPlatformer/components/Platform2DTransformComponent.cpp.i
+src/2DPlatformer/components/Platform2DRenderer.i: src/2DPlatformer/components/Platform2DRenderer.cpp.i
 
-.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.i
+.PHONY : src/2DPlatformer/components/Platform2DRenderer.i
 
 # target to preprocess a source file
-src/2DPlatformer/components/Platform2DTransformComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DTransformComponent.cpp.i
-.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.cpp.i
+src/2DPlatformer/components/Platform2DRenderer.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DRenderer.cpp.i
+.PHONY : src/2DPlatformer/components/Platform2DRenderer.cpp.i
 
-src/2DPlatformer/components/Platform2DTransformComponent.s: src/2DPlatformer/components/Platform2DTransformComponent.cpp.s
+src/2DPlatformer/components/Platform2DRenderer.s: src/2DPlatformer/components/Platform2DRenderer.cpp.s
 
-.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.s
+.PHONY : src/2DPlatformer/components/Platform2DRenderer.s
 
 # target to generate assembly for a file
-src/2DPlatformer/components/Platform2DTransformComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DTransformComponent.cpp.s
-.PHONY : src/2DPlatformer/components/Platform2DTransformComponent.cpp.s
+src/2DPlatformer/components/Platform2DRenderer.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DRenderer.cpp.s
+.PHONY : src/2DPlatformer/components/Platform2DRenderer.cpp.s
+
+src/2DPlatformer/components/Platform2DTransform.obj: src/2DPlatformer/components/Platform2DTransform.cpp.obj
+
+.PHONY : src/2DPlatformer/components/Platform2DTransform.obj
+
+# target to build an object file
+src/2DPlatformer/components/Platform2DTransform.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DTransform.cpp.obj
+.PHONY : src/2DPlatformer/components/Platform2DTransform.cpp.obj
+
+src/2DPlatformer/components/Platform2DTransform.i: src/2DPlatformer/components/Platform2DTransform.cpp.i
+
+.PHONY : src/2DPlatformer/components/Platform2DTransform.i
+
+# target to preprocess a source file
+src/2DPlatformer/components/Platform2DTransform.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DTransform.cpp.i
+.PHONY : src/2DPlatformer/components/Platform2DTransform.cpp.i
+
+src/2DPlatformer/components/Platform2DTransform.s: src/2DPlatformer/components/Platform2DTransform.cpp.s
+
+.PHONY : src/2DPlatformer/components/Platform2DTransform.s
+
+# target to generate assembly for a file
+src/2DPlatformer/components/Platform2DTransform.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/2DPlatformer/components/Platform2DTransform.cpp.s
+.PHONY : src/2DPlatformer/components/Platform2DTransform.cpp.s
 
 src/collision/CollisionManager.obj: src/collision/CollisionManager.cpp.obj
 
@@ -284,221 +284,221 @@ src/collision/CollisionManager.cpp.s:
 	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/collision/CollisionManager.cpp.s
 .PHONY : src/collision/CollisionManager.cpp.s
 
-src/ecs/ColliderComponent.obj: src/ecs/ColliderComponent.cpp.obj
+src/ecs/components/Collider.obj: src/ecs/components/Collider.cpp.obj
 
-.PHONY : src/ecs/ColliderComponent.obj
-
-# target to build an object file
-src/ecs/ColliderComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ColliderComponent.cpp.obj
-.PHONY : src/ecs/ColliderComponent.cpp.obj
-
-src/ecs/ColliderComponent.i: src/ecs/ColliderComponent.cpp.i
-
-.PHONY : src/ecs/ColliderComponent.i
-
-# target to preprocess a source file
-src/ecs/ColliderComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ColliderComponent.cpp.i
-.PHONY : src/ecs/ColliderComponent.cpp.i
-
-src/ecs/ColliderComponent.s: src/ecs/ColliderComponent.cpp.s
-
-.PHONY : src/ecs/ColliderComponent.s
-
-# target to generate assembly for a file
-src/ecs/ColliderComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ColliderComponent.cpp.s
-.PHONY : src/ecs/ColliderComponent.cpp.s
-
-src/ecs/Component.obj: src/ecs/Component.cpp.obj
-
-.PHONY : src/ecs/Component.obj
+.PHONY : src/ecs/components/Collider.obj
 
 # target to build an object file
-src/ecs/Component.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/Component.cpp.obj
-.PHONY : src/ecs/Component.cpp.obj
+src/ecs/components/Collider.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Collider.cpp.obj
+.PHONY : src/ecs/components/Collider.cpp.obj
 
-src/ecs/Component.i: src/ecs/Component.cpp.i
+src/ecs/components/Collider.i: src/ecs/components/Collider.cpp.i
 
-.PHONY : src/ecs/Component.i
+.PHONY : src/ecs/components/Collider.i
 
 # target to preprocess a source file
-src/ecs/Component.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/Component.cpp.i
-.PHONY : src/ecs/Component.cpp.i
+src/ecs/components/Collider.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Collider.cpp.i
+.PHONY : src/ecs/components/Collider.cpp.i
 
-src/ecs/Component.s: src/ecs/Component.cpp.s
+src/ecs/components/Collider.s: src/ecs/components/Collider.cpp.s
 
-.PHONY : src/ecs/Component.s
+.PHONY : src/ecs/components/Collider.s
 
 # target to generate assembly for a file
-src/ecs/Component.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/Component.cpp.s
-.PHONY : src/ecs/Component.cpp.s
+src/ecs/components/Collider.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Collider.cpp.s
+.PHONY : src/ecs/components/Collider.cpp.s
 
-src/ecs/ComponentManager.obj: src/ecs/ComponentManager.cpp.obj
+src/ecs/components/ComponentManager.obj: src/ecs/components/ComponentManager.cpp.obj
 
-.PHONY : src/ecs/ComponentManager.obj
+.PHONY : src/ecs/components/ComponentManager.obj
 
 # target to build an object file
-src/ecs/ComponentManager.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ComponentManager.cpp.obj
-.PHONY : src/ecs/ComponentManager.cpp.obj
+src/ecs/components/ComponentManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/ComponentManager.cpp.obj
+.PHONY : src/ecs/components/ComponentManager.cpp.obj
 
-src/ecs/ComponentManager.i: src/ecs/ComponentManager.cpp.i
+src/ecs/components/ComponentManager.i: src/ecs/components/ComponentManager.cpp.i
 
-.PHONY : src/ecs/ComponentManager.i
+.PHONY : src/ecs/components/ComponentManager.i
 
 # target to preprocess a source file
-src/ecs/ComponentManager.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ComponentManager.cpp.i
-.PHONY : src/ecs/ComponentManager.cpp.i
+src/ecs/components/ComponentManager.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/ComponentManager.cpp.i
+.PHONY : src/ecs/components/ComponentManager.cpp.i
 
-src/ecs/ComponentManager.s: src/ecs/ComponentManager.cpp.s
+src/ecs/components/ComponentManager.s: src/ecs/components/ComponentManager.cpp.s
 
-.PHONY : src/ecs/ComponentManager.s
+.PHONY : src/ecs/components/ComponentManager.s
 
 # target to generate assembly for a file
-src/ecs/ComponentManager.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ComponentManager.cpp.s
-.PHONY : src/ecs/ComponentManager.cpp.s
+src/ecs/components/ComponentManager.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/ComponentManager.cpp.s
+.PHONY : src/ecs/components/ComponentManager.cpp.s
 
-src/ecs/ControllerComponent.obj: src/ecs/ControllerComponent.cpp.obj
+src/ecs/components/Input.obj: src/ecs/components/Input.cpp.obj
 
-.PHONY : src/ecs/ControllerComponent.obj
+.PHONY : src/ecs/components/Input.obj
 
 # target to build an object file
-src/ecs/ControllerComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ControllerComponent.cpp.obj
-.PHONY : src/ecs/ControllerComponent.cpp.obj
+src/ecs/components/Input.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Input.cpp.obj
+.PHONY : src/ecs/components/Input.cpp.obj
 
-src/ecs/ControllerComponent.i: src/ecs/ControllerComponent.cpp.i
+src/ecs/components/Input.i: src/ecs/components/Input.cpp.i
 
-.PHONY : src/ecs/ControllerComponent.i
+.PHONY : src/ecs/components/Input.i
 
 # target to preprocess a source file
-src/ecs/ControllerComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ControllerComponent.cpp.i
-.PHONY : src/ecs/ControllerComponent.cpp.i
+src/ecs/components/Input.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Input.cpp.i
+.PHONY : src/ecs/components/Input.cpp.i
 
-src/ecs/ControllerComponent.s: src/ecs/ControllerComponent.cpp.s
+src/ecs/components/Input.s: src/ecs/components/Input.cpp.s
 
-.PHONY : src/ecs/ControllerComponent.s
+.PHONY : src/ecs/components/Input.s
 
 # target to generate assembly for a file
-src/ecs/ControllerComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/ControllerComponent.cpp.s
-.PHONY : src/ecs/ControllerComponent.cpp.s
+src/ecs/components/Input.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Input.cpp.s
+.PHONY : src/ecs/components/Input.cpp.s
 
-src/ecs/Entity.obj: src/ecs/Entity.cpp.obj
+src/ecs/components/Physics.obj: src/ecs/components/Physics.cpp.obj
 
-.PHONY : src/ecs/Entity.obj
+.PHONY : src/ecs/components/Physics.obj
 
 # target to build an object file
-src/ecs/Entity.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/Entity.cpp.obj
-.PHONY : src/ecs/Entity.cpp.obj
+src/ecs/components/Physics.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Physics.cpp.obj
+.PHONY : src/ecs/components/Physics.cpp.obj
 
-src/ecs/Entity.i: src/ecs/Entity.cpp.i
+src/ecs/components/Physics.i: src/ecs/components/Physics.cpp.i
 
-.PHONY : src/ecs/Entity.i
+.PHONY : src/ecs/components/Physics.i
 
 # target to preprocess a source file
-src/ecs/Entity.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/Entity.cpp.i
-.PHONY : src/ecs/Entity.cpp.i
+src/ecs/components/Physics.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Physics.cpp.i
+.PHONY : src/ecs/components/Physics.cpp.i
 
-src/ecs/Entity.s: src/ecs/Entity.cpp.s
+src/ecs/components/Physics.s: src/ecs/components/Physics.cpp.s
 
-.PHONY : src/ecs/Entity.s
+.PHONY : src/ecs/components/Physics.s
 
 # target to generate assembly for a file
-src/ecs/Entity.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/Entity.cpp.s
-.PHONY : src/ecs/Entity.cpp.s
+src/ecs/components/Physics.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Physics.cpp.s
+.PHONY : src/ecs/components/Physics.cpp.s
 
-src/ecs/PhysicsComponent.obj: src/ecs/PhysicsComponent.cpp.obj
+src/ecs/components/Renderer.obj: src/ecs/components/Renderer.cpp.obj
 
-.PHONY : src/ecs/PhysicsComponent.obj
+.PHONY : src/ecs/components/Renderer.obj
 
 # target to build an object file
-src/ecs/PhysicsComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/PhysicsComponent.cpp.obj
-.PHONY : src/ecs/PhysicsComponent.cpp.obj
+src/ecs/components/Renderer.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Renderer.cpp.obj
+.PHONY : src/ecs/components/Renderer.cpp.obj
 
-src/ecs/PhysicsComponent.i: src/ecs/PhysicsComponent.cpp.i
+src/ecs/components/Renderer.i: src/ecs/components/Renderer.cpp.i
 
-.PHONY : src/ecs/PhysicsComponent.i
+.PHONY : src/ecs/components/Renderer.i
 
 # target to preprocess a source file
-src/ecs/PhysicsComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/PhysicsComponent.cpp.i
-.PHONY : src/ecs/PhysicsComponent.cpp.i
+src/ecs/components/Renderer.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Renderer.cpp.i
+.PHONY : src/ecs/components/Renderer.cpp.i
 
-src/ecs/PhysicsComponent.s: src/ecs/PhysicsComponent.cpp.s
+src/ecs/components/Renderer.s: src/ecs/components/Renderer.cpp.s
 
-.PHONY : src/ecs/PhysicsComponent.s
+.PHONY : src/ecs/components/Renderer.s
 
 # target to generate assembly for a file
-src/ecs/PhysicsComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/PhysicsComponent.cpp.s
-.PHONY : src/ecs/PhysicsComponent.cpp.s
+src/ecs/components/Renderer.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Renderer.cpp.s
+.PHONY : src/ecs/components/Renderer.cpp.s
 
-src/ecs/RendererComponent.obj: src/ecs/RendererComponent.cpp.obj
+src/ecs/components/Transform.obj: src/ecs/components/Transform.cpp.obj
 
-.PHONY : src/ecs/RendererComponent.obj
+.PHONY : src/ecs/components/Transform.obj
 
 # target to build an object file
-src/ecs/RendererComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/RendererComponent.cpp.obj
-.PHONY : src/ecs/RendererComponent.cpp.obj
+src/ecs/components/Transform.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Transform.cpp.obj
+.PHONY : src/ecs/components/Transform.cpp.obj
 
-src/ecs/RendererComponent.i: src/ecs/RendererComponent.cpp.i
+src/ecs/components/Transform.i: src/ecs/components/Transform.cpp.i
 
-.PHONY : src/ecs/RendererComponent.i
+.PHONY : src/ecs/components/Transform.i
 
 # target to preprocess a source file
-src/ecs/RendererComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/RendererComponent.cpp.i
-.PHONY : src/ecs/RendererComponent.cpp.i
+src/ecs/components/Transform.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Transform.cpp.i
+.PHONY : src/ecs/components/Transform.cpp.i
 
-src/ecs/RendererComponent.s: src/ecs/RendererComponent.cpp.s
+src/ecs/components/Transform.s: src/ecs/components/Transform.cpp.s
 
-.PHONY : src/ecs/RendererComponent.s
+.PHONY : src/ecs/components/Transform.s
 
 # target to generate assembly for a file
-src/ecs/RendererComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/RendererComponent.cpp.s
-.PHONY : src/ecs/RendererComponent.cpp.s
+src/ecs/components/Transform.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/Transform.cpp.s
+.PHONY : src/ecs/components/Transform.cpp.s
 
-src/ecs/TransformComponent.obj: src/ecs/TransformComponent.cpp.obj
+src/ecs/components/base/Component.obj: src/ecs/components/base/Component.cpp.obj
 
-.PHONY : src/ecs/TransformComponent.obj
+.PHONY : src/ecs/components/base/Component.obj
 
 # target to build an object file
-src/ecs/TransformComponent.cpp.obj:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/TransformComponent.cpp.obj
-.PHONY : src/ecs/TransformComponent.cpp.obj
+src/ecs/components/base/Component.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/base/Component.cpp.obj
+.PHONY : src/ecs/components/base/Component.cpp.obj
 
-src/ecs/TransformComponent.i: src/ecs/TransformComponent.cpp.i
+src/ecs/components/base/Component.i: src/ecs/components/base/Component.cpp.i
 
-.PHONY : src/ecs/TransformComponent.i
+.PHONY : src/ecs/components/base/Component.i
 
 # target to preprocess a source file
-src/ecs/TransformComponent.cpp.i:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/TransformComponent.cpp.i
-.PHONY : src/ecs/TransformComponent.cpp.i
+src/ecs/components/base/Component.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/base/Component.cpp.i
+.PHONY : src/ecs/components/base/Component.cpp.i
 
-src/ecs/TransformComponent.s: src/ecs/TransformComponent.cpp.s
+src/ecs/components/base/Component.s: src/ecs/components/base/Component.cpp.s
 
-.PHONY : src/ecs/TransformComponent.s
+.PHONY : src/ecs/components/base/Component.s
 
 # target to generate assembly for a file
-src/ecs/TransformComponent.cpp.s:
-	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/TransformComponent.cpp.s
-.PHONY : src/ecs/TransformComponent.cpp.s
+src/ecs/components/base/Component.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/components/base/Component.cpp.s
+.PHONY : src/ecs/components/base/Component.cpp.s
+
+src/ecs/entity/Entity.obj: src/ecs/entity/Entity.cpp.obj
+
+.PHONY : src/ecs/entity/Entity.obj
+
+# target to build an object file
+src/ecs/entity/Entity.cpp.obj:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/entity/Entity.cpp.obj
+.PHONY : src/ecs/entity/Entity.cpp.obj
+
+src/ecs/entity/Entity.i: src/ecs/entity/Entity.cpp.i
+
+.PHONY : src/ecs/entity/Entity.i
+
+# target to preprocess a source file
+src/ecs/entity/Entity.cpp.i:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/entity/Entity.cpp.i
+.PHONY : src/ecs/entity/Entity.cpp.i
+
+src/ecs/entity/Entity.s: src/ecs/entity/Entity.cpp.s
+
+.PHONY : src/ecs/entity/Entity.s
+
+# target to generate assembly for a file
+src/ecs/entity/Entity.cpp.s:
+	$(MAKE) -f CMakeFiles\2DGameEngine.dir\build.make CMakeFiles/2DGameEngine.dir/src/ecs/entity/Entity.cpp.s
+.PHONY : src/ecs/entity/Entity.cpp.s
 
 src/engine/GameEngine.obj: src/engine/GameEngine.cpp.obj
 
@@ -809,45 +809,45 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... src/2DPlatformer/components/Platform2DControllerComponent.obj
-	@echo ... src/2DPlatformer/components/Platform2DControllerComponent.i
-	@echo ... src/2DPlatformer/components/Platform2DControllerComponent.s
-	@echo ... src/2DPlatformer/components/Platform2DPhysicsComponent.obj
-	@echo ... src/2DPlatformer/components/Platform2DPhysicsComponent.i
-	@echo ... src/2DPlatformer/components/Platform2DPhysicsComponent.s
-	@echo ... src/2DPlatformer/components/Platform2DRendererComponent.obj
-	@echo ... src/2DPlatformer/components/Platform2DRendererComponent.i
-	@echo ... src/2DPlatformer/components/Platform2DRendererComponent.s
-	@echo ... src/2DPlatformer/components/Platform2DTransformComponent.obj
-	@echo ... src/2DPlatformer/components/Platform2DTransformComponent.i
-	@echo ... src/2DPlatformer/components/Platform2DTransformComponent.s
+	@echo ... src/2DPlatformer/components/Platform2DInput.obj
+	@echo ... src/2DPlatformer/components/Platform2DInput.i
+	@echo ... src/2DPlatformer/components/Platform2DInput.s
+	@echo ... src/2DPlatformer/components/Platform2DPhysics.obj
+	@echo ... src/2DPlatformer/components/Platform2DPhysics.i
+	@echo ... src/2DPlatformer/components/Platform2DPhysics.s
+	@echo ... src/2DPlatformer/components/Platform2DRenderer.obj
+	@echo ... src/2DPlatformer/components/Platform2DRenderer.i
+	@echo ... src/2DPlatformer/components/Platform2DRenderer.s
+	@echo ... src/2DPlatformer/components/Platform2DTransform.obj
+	@echo ... src/2DPlatformer/components/Platform2DTransform.i
+	@echo ... src/2DPlatformer/components/Platform2DTransform.s
 	@echo ... src/collision/CollisionManager.obj
 	@echo ... src/collision/CollisionManager.i
 	@echo ... src/collision/CollisionManager.s
-	@echo ... src/ecs/ColliderComponent.obj
-	@echo ... src/ecs/ColliderComponent.i
-	@echo ... src/ecs/ColliderComponent.s
-	@echo ... src/ecs/Component.obj
-	@echo ... src/ecs/Component.i
-	@echo ... src/ecs/Component.s
-	@echo ... src/ecs/ComponentManager.obj
-	@echo ... src/ecs/ComponentManager.i
-	@echo ... src/ecs/ComponentManager.s
-	@echo ... src/ecs/ControllerComponent.obj
-	@echo ... src/ecs/ControllerComponent.i
-	@echo ... src/ecs/ControllerComponent.s
-	@echo ... src/ecs/Entity.obj
-	@echo ... src/ecs/Entity.i
-	@echo ... src/ecs/Entity.s
-	@echo ... src/ecs/PhysicsComponent.obj
-	@echo ... src/ecs/PhysicsComponent.i
-	@echo ... src/ecs/PhysicsComponent.s
-	@echo ... src/ecs/RendererComponent.obj
-	@echo ... src/ecs/RendererComponent.i
-	@echo ... src/ecs/RendererComponent.s
-	@echo ... src/ecs/TransformComponent.obj
-	@echo ... src/ecs/TransformComponent.i
-	@echo ... src/ecs/TransformComponent.s
+	@echo ... src/ecs/components/Collider.obj
+	@echo ... src/ecs/components/Collider.i
+	@echo ... src/ecs/components/Collider.s
+	@echo ... src/ecs/components/ComponentManager.obj
+	@echo ... src/ecs/components/ComponentManager.i
+	@echo ... src/ecs/components/ComponentManager.s
+	@echo ... src/ecs/components/Input.obj
+	@echo ... src/ecs/components/Input.i
+	@echo ... src/ecs/components/Input.s
+	@echo ... src/ecs/components/Physics.obj
+	@echo ... src/ecs/components/Physics.i
+	@echo ... src/ecs/components/Physics.s
+	@echo ... src/ecs/components/Renderer.obj
+	@echo ... src/ecs/components/Renderer.i
+	@echo ... src/ecs/components/Renderer.s
+	@echo ... src/ecs/components/Transform.obj
+	@echo ... src/ecs/components/Transform.i
+	@echo ... src/ecs/components/Transform.s
+	@echo ... src/ecs/components/base/Component.obj
+	@echo ... src/ecs/components/base/Component.i
+	@echo ... src/ecs/components/base/Component.s
+	@echo ... src/ecs/entity/Entity.obj
+	@echo ... src/ecs/entity/Entity.i
+	@echo ... src/ecs/entity/Entity.s
 	@echo ... src/engine/GameEngine.obj
 	@echo ... src/engine/GameEngine.i
 	@echo ... src/engine/GameEngine.s

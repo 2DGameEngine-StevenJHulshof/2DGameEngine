@@ -9,7 +9,9 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/src/2DPlatformer/components
         ${PROJECT_SOURCE_DIR}/src/collision
         ${PROJECT_SOURCE_DIR}/src/config
-        ${PROJECT_SOURCE_DIR}/src/ecs
+        ${PROJECT_SOURCE_DIR}/src/ecs/components/base
+        ${PROJECT_SOURCE_DIR}/src/ecs/components
+        ${PROJECT_SOURCE_DIR}/src/ecs/entity
         ${PROJECT_SOURCE_DIR}/src/engine
         ${PROJECT_SOURCE_DIR}/src/font
         ${PROJECT_SOURCE_DIR}/src/frame
@@ -35,18 +37,18 @@ set(SOURCE_FILES
         src/collision/CollisionManager.cpp
         src/timer/Timer.cpp
         src/vector/Vector2D.cpp
-        src/ecs/Entity.cpp
-        src/ecs/Component.cpp
-        src/ecs/ComponentManager.cpp
-        src/ecs/TransformComponent.cpp
-        src/ecs/RendererComponent.cpp
-        src/ecs/ControllerComponent.cpp
-        src/ecs/ColliderComponent.cpp
-        src/ecs/PhysicsComponent.cpp
-        src/2DPlatformer/components/Platform2DTransformComponent.cpp
-        src/2DPlatformer/components/Platform2DRendererComponent.cpp
-        src/2DPlatformer/components/Platform2DControllerComponent.cpp
-        src/2DPlatformer/components/Platform2DPhysicsComponent.cpp
+        src/ecs/entity/Entity.cpp
+        src/ecs/components/base/Component.cpp
+        src/ecs/components/ComponentManager.cpp
+        src/ecs/components/Transform.cpp
+        src/ecs/components/Renderer.cpp
+        src/ecs/components/Input.cpp
+        src/ecs/components/Collider.cpp
+        src/ecs/components/Physics.cpp
+        src/2DPlatformer/components/Platform2DTransform.cpp
+        src/2DPlatformer/components/Platform2DRenderer.cpp
+        src/2DPlatformer/components/Platform2DInput.cpp
+        src/2DPlatformer/components/Platform2DPhysics.cpp
 )
 
 add_executable(2DGameEngine ${SOURCE_FILES})
