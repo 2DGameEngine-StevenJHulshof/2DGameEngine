@@ -19,7 +19,7 @@ void Entity::Config() {
 void Entity::AddComponent(Component *component) {
 
     _components.push_back(component);
-    component->SetParent(this);
+    component->parent = this;
 }
 
 void Entity::Update() {

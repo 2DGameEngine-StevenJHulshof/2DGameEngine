@@ -14,7 +14,7 @@ Renderer::~Renderer() = default;
 
 void Renderer::Config() {
 
-    transform = component_manager->AddDependency<Transform>(GetParent());
+    transform = component_manager->AddDependency<Transform>(parent);
 
     transform->dimension.x = texture_manager->GetTexture(textureID)->w;
     transform->dimension.y = texture_manager->GetTexture(textureID)->h;
@@ -24,7 +24,7 @@ void Renderer::Render() {
 
     if(visible) {
         texture_manager->GetTexture(textureID)->Render(
-                GetParent()->GetComponent<Transform>()->position.x,
-                GetParent()->GetComponent<Transform>()->position.y);
+                parent->GetComponent<Transform>()->position.x,
+                parent->GetComponent<Transform>()->position.y);
     }
 }

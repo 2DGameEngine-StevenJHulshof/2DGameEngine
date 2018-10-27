@@ -16,8 +16,8 @@ Platform2DPhysics::~Platform2DPhysics() = default;
 
 void Platform2DPhysics::Config() {
 
-    transform = component_manager->AddDependency<Platform2DTransform>(GetParent());
-    renderer = component_manager->AddDependency<Platform2DRenderer>(GetParent());
+    transform = component_manager->AddDependency<Platform2DTransform>(parent);
+    renderer = component_manager->AddDependency<Platform2DRenderer>(parent);
 }
 
 void Platform2DPhysics::Update() {

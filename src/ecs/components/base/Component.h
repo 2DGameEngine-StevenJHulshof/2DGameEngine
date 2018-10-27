@@ -7,15 +7,11 @@ class Component {
 
 private:
 
-    Entity *_parent;
-
 public:
+    Entity *parent;
 
     Component();
     ~Component();
-
-    Entity *GetParent() { return _parent; };
-    void SetParent(Entity *entity) { _parent = entity; };
 
     virtual void Config();
     virtual void Update();

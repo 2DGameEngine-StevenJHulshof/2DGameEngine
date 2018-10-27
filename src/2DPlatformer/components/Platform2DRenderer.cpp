@@ -12,7 +12,7 @@ Platform2DRenderer::~Platform2DRenderer() = default;
 
 void Platform2DRenderer::Config() {
 
-    transform = component_manager->AddDependency<Platform2DTransform>(GetParent());
+    transform = component_manager->AddDependency<Platform2DTransform>(parent);
 
     Renderer::Config();
 }

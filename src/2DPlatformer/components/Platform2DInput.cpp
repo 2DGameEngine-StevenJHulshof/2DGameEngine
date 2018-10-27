@@ -15,7 +15,7 @@ Platform2DInput::~Platform2DInput() = default;
 
 void Platform2DInput::Config() {
 
-    physics = component_manager->AddDependency<Platform2DPhysics>(GetParent());
+    physics = component_manager->AddDependency<Platform2DPhysics>(parent);
 }
 
 void Platform2DInput::Update() {

@@ -1,7 +1,7 @@
 #include "Component.h"
 
 Component::Component() :
-    _parent(nullptr) {
+    parent(nullptr) {
 
 }
 
