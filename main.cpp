@@ -1,6 +1,6 @@
 #include <memory>
 
-#include "app_config.h"
+#include "game_config.h"
 #include "GameEngine.h"
 #include "UserLog.h"
 #include "FrameManager.h"

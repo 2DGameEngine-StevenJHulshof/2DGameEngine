@@ -33,3 +33,7 @@ void EntityManager::Clean() {
 
     _entities.clear();
 }
+
+Entity *new_entity() {
+    return entity_manager->New();
+}

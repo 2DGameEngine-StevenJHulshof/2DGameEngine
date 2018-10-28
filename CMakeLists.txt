@@ -12,7 +12,9 @@ endif (UNIX)
 set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
 
 include_directories(
+        ${PROJECT_SOURCE_DIR}/game
         ${PROJECT_SOURCE_DIR}/include/SDL2
+        ${PROJECT_SOURCE_DIR}/src/2DPlatformer
         ${PROJECT_SOURCE_DIR}/src/2DPlatformer/components
         ${PROJECT_SOURCE_DIR}/src/collision
         ${PROJECT_SOURCE_DIR}/src/config
@@ -32,6 +34,8 @@ link_directories(${PROJECT_SOURCE_DIR}/lib)
 
 set(SOURCE_FILES
         main.cpp
+        game/Game.cpp
+        src/config/game_config.cpp
         src/logger/UserLog.cpp
         src/engine/GameEngine.cpp
         src/texture/Texture.cpp

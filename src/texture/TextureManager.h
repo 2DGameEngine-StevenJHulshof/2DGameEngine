@@ -21,6 +21,7 @@ public:
     void Config(SDL_Renderer *renderer);
     std::shared_ptr<Texture> GetTexture(Texture_t textureID);
     std::string GetTexturePath(Texture_t textureID);
+    void AddTexturePath(std::string path);
 
     static TextureManager *Instance() {
         if (!_instance)

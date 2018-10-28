@@ -1,5 +1,6 @@
 #include "UserLog.h"
 #include "TextureManager.h"
+#include "Game.h"
 
 TextureManager *TextureManager::_instance = nullptr;
 
@@ -18,8 +19,7 @@ void TextureManager::Config(SDL_Renderer *renderer) {
 
 void TextureManager::LoadPath() {
 
-    _texturePath.emplace_back("res/textures/default.png");
-    _texturePath.emplace_back("res/textures/default2.png");
+
 }
 
 std::shared_ptr<Texture> TextureManager::GetTexture(Texture_t textureID) {
@@ -29,4 +29,8 @@ std::shared_ptr<Texture> TextureManager::GetTexture(Texture_t textureID) {
 
 std::string TextureManager::GetTexturePath(Texture_t textureID) {
     return _texturePath.at(textureID);
+}
+
+void TextureManager::AddTexturePath(std::string path) {
+    _texturePath.emplace_back(path);
 }

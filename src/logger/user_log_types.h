@@ -3,7 +3,7 @@
 #include <string>
 #include <cstdint>
 
-#include "app_config.h"
+#include "game_config.h"
 
 enum logState_t : std::uint8_t
 {

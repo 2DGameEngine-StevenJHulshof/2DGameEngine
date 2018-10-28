@@ -19,6 +19,7 @@
 #include "Platform2DRenderer.h"
 #include "Platform2DInput.h"
 #include "Platform2DPhysics.h"
+#include "Game.h"
 
 bool GameEngine::IsRunning() {
 
@@ -70,25 +71,17 @@ bool GameEngine::Config(const char *title, std::uint32_t windowPosX, std::uint32
         LOG_CRITICAL("SDL Renderer could not be created: %s", SDL_GetError());
         return false;
     }
+    
+    LOG_INFO("Loading resources");
+    game::LoadFiles();
 
-    LOG_INFO("Configuring texture manager and loading textures");
+    LOG_INFO("Configuring texture manager");
     texture_manager->Config(_renderer);
-    LOG_INFO("Configuring font manager and loading fonts");
+    LOG_INFO("Configuring font manager");
     font_manager->Config(_renderer, 16, 255, 255, 255, 255);
 
-    Entity *player = entity_manager->New();
-    component_manager->New<Platform2DTransform>(player);
-    component_manager->New<Platform2DRenderer>(player);
-    component_manager->New<Platform2DPhysics>(player);
-    component_manager->New<Platform2DInput>(player);
-    player->Config();
-
-    Entity *player2 = entity_manager->New();
-    component_manager->New<Platform2DTransform>(player2);
-    component_manager->New<Platform2DRenderer>(player2);
-    component_manager->New<Platform2DPhysics>(player2);
-    player2->GetComponent<Platform2DTransform>()->position = Vector2D(100.0f, 0.0f);
-    player2->Config();
+    LOG_INFO("Creating Game objects");
+    game::CreateObjects();
 
     return true;
 }
@@ -111,6 +104,8 @@ void GameEngine::HandleEvents() {
 }
 
 void GameEngine::Update() {
+
+    game::Update();
     /** - Update assets here. */
     entity_manager->Update();
 }

@@ -27,3 +27,5 @@ public:
 };
 
 #define entity_manager EntityManager::Instance()
+
+extern Entity *new_entity();

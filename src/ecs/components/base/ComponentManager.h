@@ -55,3 +55,8 @@ public:
 };
 
 #define component_manager ComponentManager::Instance()
+
+template <class T>
+extern T *add_component(Entity *parent) {
+    component_manager->New<T>(parent);
+}
