@@ -1,5 +1,17 @@
 #include "Game.h"
 
+Entity *player;
+Entity *floor;
+
+void CreateFloor(Vector2D pos) {
+    /** - Create floor object. */
+    floor = new_entity();
+    add_component<Platform2DTransform>(floor, pos);
+    add_component<Platform2DRenderer>(floor, TEXTURE_FLOOR);
+    add_component<Collider>(floor, "floor");
+    floor->Config();
+}
+
 namespace game {
 
     void LoadFiles() {
@@ -10,19 +22,17 @@ namespace game {
 
     void CreateObjects() {
         /** - Create player onbject. */
-        Entity *player = new_entity();
+        player = new_entity();
         add_component<Platform2DTransform>(player);
         add_component<Platform2DRenderer>(player);
-        add_component<Platform2DPhysics>(player);
+        add_component<Platform2DPhysics>(player, 10.0f);
         add_component<Platform2DInput>(player);
+        add_component<Platform2DDynamicCollider>(player, "player");
         player->Config();
 
-        /** - Create floor object. */
-        Entity *floor = new_entity();
-        add_component<Platform2DTransform>(floor);
-        add_component<Platform2DRenderer>(floor);
-        floor->GetComponent<Platform2DTransform>()->position = Vector2D(0.0f, 300.0f);
-        floor->GetComponent<Platform2DRenderer>()->textureID = TEXTURE_FLOOR;
+        for(int i = 0; i < 8; i++) {
+            CreateFloor(Vector2D(static_cast<float>(i * 64), 500.0f));
+        }
     }
 
     void Update() {

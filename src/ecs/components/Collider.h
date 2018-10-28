@@ -14,7 +14,8 @@ public:
     std::string tag;
     Transform *transform;
 
-    Collider();
+    explicit Collider(std::string tag);
     ~Collider();
     void Config();
+    void Update();
 };

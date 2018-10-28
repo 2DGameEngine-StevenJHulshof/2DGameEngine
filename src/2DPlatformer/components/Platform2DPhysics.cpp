@@ -8,7 +8,9 @@
 #include "UserLog.h"
 
 Platform2DPhysics::Platform2DPhysics(float mass) :
-    Physics(Vector2D(), Vector2D(), Vector2D(), mass) {
+    Physics(Vector2D(), Vector2D(), Vector2D(), mass),
+    transform(nullptr),
+    renderer(nullptr) {
 
 }
 
@@ -18,6 +20,8 @@ void Platform2DPhysics::Config() {
 
     transform = component_manager->AddDependency<Platform2DTransform>(parent);
     renderer = component_manager->AddDependency<Platform2DRenderer>(parent);
+
+    Physics::Config();
 }
 
 void Platform2DPhysics::Update() {
@@ -45,4 +49,6 @@ void Platform2DPhysics::Update() {
 
     impulse.x = 0;
     impulse.y = 0;
+
+    Physics::Update();
 }

@@ -9,6 +9,4 @@ public:
     ~Platform2DRenderer();
 
     void Config() override;
-    void Update() override;
-
 };

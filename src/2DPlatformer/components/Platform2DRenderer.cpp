@@ -16,7 +16,3 @@ void Platform2DRenderer::Config() {
 
     Renderer::Config();
 }
-
-void Platform2DRenderer::Update() {
-
-}

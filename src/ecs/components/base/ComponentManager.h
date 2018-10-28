@@ -21,13 +21,13 @@ public:
         return _instance;
     }
 
-    template <class T>
-    T *New(Entity *entity) {
+    template <class T, class... TArgs>
+    T *New(Entity *entity, TArgs&&... args) {
 
         T *component = nullptr;
 
         if (entity->GetComponent<T>() == nullptr) {
-            component = new T;
+            component = new T(std::forward<TArgs>(args)...);
             _components[component->ID] = component;
             entity->AddComponent(component);
         } else {
@@ -56,7 +56,7 @@ public:
 
 #define component_manager ComponentManager::Instance()
 
-template <class T>
-extern T *add_component(Entity *parent) {
-    component_manager->New<T>(parent);
+template <class T, class... TArgs>
+extern T *add_component(Entity *parent, TArgs&&... args) {
+    component_manager->New<T>(parent, std::forward<TArgs>(args)...);
 }

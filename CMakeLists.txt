@@ -26,6 +26,7 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/src/frame
         ${PROJECT_SOURCE_DIR}/src/input
         ${PROJECT_SOURCE_DIR}/src/logger
+        ${PROJECT_SOURCE_DIR}/src/manager
         ${PROJECT_SOURCE_DIR}/src/texture
         ${PROJECT_SOURCE_DIR}/src/timer
         ${PROJECT_SOURCE_DIR}/src/vector
@@ -61,6 +62,8 @@ set(SOURCE_FILES
         src/2DPlatformer/components/Platform2DRenderer.cpp
         src/2DPlatformer/components/Platform2DInput.cpp
         src/2DPlatformer/components/Platform2DPhysics.cpp
+        src/2DPlatformer/components/Platform2DCollider.cpp
+        src/2DPlatformer/components/Platform2DDynamicCollider.cpp
 )
 
 add_executable(2DGameEngine ${SOURCE_FILES})

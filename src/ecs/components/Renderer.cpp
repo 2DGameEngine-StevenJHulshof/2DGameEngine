@@ -6,7 +6,8 @@
 Renderer::Renderer(Texture_t textureID) :
     Component(),
     visible(true),
-    textureID(textureID) {
+    textureID(textureID),
+    transform(nullptr) {
 
 }
 
