@@ -7,6 +7,7 @@
 class Renderer : public Component {
 
 public:
+
     bool visible;
     Texture_t textureID;
     Transform *transform;

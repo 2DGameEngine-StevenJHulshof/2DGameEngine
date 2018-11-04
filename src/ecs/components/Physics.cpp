@@ -6,7 +6,8 @@ Physics::Physics(Vector2D velocity, Vector2D acceleration, Vector2D force, float
     acceleration(acceleration),
     force(force),
     impulse(Vector2D()),
-    mass(mass) {
+    mass(mass),
+    normal(Vector2D()) {
 
 }
 
