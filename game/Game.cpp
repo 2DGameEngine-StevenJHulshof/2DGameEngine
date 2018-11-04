@@ -8,8 +8,8 @@ void CreateFloor(Vector2D pos) {
     floor = new_entity();
     add_component<Platform2DTransform>(floor, pos);
     add_component<Platform2DRenderer>(floor, TEXTURE_FLOOR);
-    add_component<Physics>(floor);
-    add_component<Platform2DCollider>(floor, "floor");
+//    add_component<Physics>(floor);
+//    add_component<Platform2DCollider>(floor, "floor");
     floor->Config();
 }
 
@@ -25,10 +25,10 @@ namespace game {
         /** - Create player onbject. */
         player = new_entity();
         add_component<Platform2DTransform>(player);
-        add_component<Platform2DPhysics>(player, 0.1f);
+        add_component<Platform2DPhysics>(player);
         add_component<Platform2DRenderer>(player);
         add_component<Platform2DInput>(player);
-        add_component<Platform2DDynamicCollider>(player, "player");
+//        add_component<Platform2DDynamicCollider>(player, "player");
         player->Config();
 
         for(int i = 0; i < 8; i++) {

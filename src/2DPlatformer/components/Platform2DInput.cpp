@@ -21,6 +21,9 @@ void Platform2DInput::Config() {
 
 void Platform2DInput::Update() {
 
+    if (input_manager->GetKeyDown()) {
+        physics->impulse.y = -10.0f;
+    }
     if (input_manager->GetKeyUp()) {
         physics->impulse.y = 20.0f;
     }
