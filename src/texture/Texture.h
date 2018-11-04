@@ -1,5 +1,6 @@
 #pragma once
 #include "SDL.h"
+#include "Vector2D.h"
 #include "texture_types.h"
 
 class Texture {
@@ -7,7 +8,7 @@ public:
     Texture(Texture_t textureID, SDL_Renderer *renderer);
     ~Texture();
 
-    void Render(float x, float y);
+    void Render(Vector2D position, double angle = 0.0, Vector2D *center = nullptr, SDL_RendererFlip flip = SDL_FLIP_NONE);
 
     float w;
     float h;

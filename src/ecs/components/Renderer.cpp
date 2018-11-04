@@ -24,8 +24,6 @@ void Renderer::Config() {
 void Renderer::Render() {
 
     if(visible) {
-        texture_manager->GetTexture(textureID)->Render(
-                parent->GetComponent<Transform>()->position.x,
-                parent->GetComponent<Transform>()->position.y);
+        texture_manager->GetTexture(textureID)->Render(parent->GetComponent<Transform>()->position);
     }
 }
