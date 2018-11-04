@@ -2,7 +2,7 @@
 
 #include "Collider.h"
 
-class Platform2DCollider : public Collider {
+class Platform2DCollider : public Base::Collider {
 private:
 public:
     explicit Platform2DCollider(std::string tag);

@@ -4,17 +4,22 @@
 #include "Transform.h"
 #include "texture_types.h"
 
-class Renderer : public Component {
+namespace Base {
 
-public:
+    class Renderer : public Component {
 
-    bool visible;
-    Texture_t textureID;
-    Transform *transform;
+    public:
 
-    explicit Renderer(Texture_t textureID = TEXTURE_DEFAULT);
-    ~Renderer();
+        bool visible;
+        Texture_t textureID;
+        Transform *transform;
 
-    void Config();
-    void Render() override;
-};
+        explicit Renderer(Texture_t textureID = TEXTURE_DEFAULT);
+
+        ~Renderer();
+
+        void Config() override;
+        void Update() override;
+        void Render() override;
+    };
+}

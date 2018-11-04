@@ -8,7 +8,8 @@ public:
     Texture(Texture_t textureID, SDL_Renderer *renderer);
     ~Texture();
 
-    void Render(Vector2D position, double angle = 0.0, Vector2D *center = nullptr, SDL_RendererFlip flip = SDL_FLIP_NONE);
+    void Render(Vector2D position, Vector2D dimension, double angle = 0.0, Vector2D *center = nullptr,
+            SDL_RendererFlip flip = SDL_FLIP_NONE);
 
     float w;
     float h;

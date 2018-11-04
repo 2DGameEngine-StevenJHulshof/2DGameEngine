@@ -1,7 +1,7 @@
 #include "Platform2DTransform.h"
 
 Platform2DTransform::Platform2DTransform(Vector2D position) :
-    Transform(position){
+    Base::Transform(position){
 
 }
 
@@ -14,5 +14,5 @@ void Platform2DTransform::Update() {
     if(position.x < 0.0f) position.x = WINDOW_SCREEN_WIDTH;
     if(position.x > WINDOW_SCREEN_WIDTH) position.x = 0.0f;
 
-    Transform::Update();
+    Base::Transform::Update();
 }

@@ -3,12 +3,12 @@
 #include "Input.h"
 #include "Platform2DPhysics.h"
 
-class Platform2DInput : public Input {
+class Platform2DInput : public Base::Input {
 
 private:
 
 public:
-    Physics *physics;
+    Base::Physics *physics;
 
     Platform2DInput();
     ~Platform2DInput();

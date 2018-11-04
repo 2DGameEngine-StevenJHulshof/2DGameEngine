@@ -5,17 +5,23 @@
 #include "Transform.h"
 #include "Component.h"
 
-class Collider : public Component {
+namespace Base {
 
-private:
+    class Collider : public Component {
 
-public:
-    SDL_Rect collider;
-    std::string tag;
-    Transform *transform;
+    private:
 
-    explicit Collider(std::string tag);
-    ~Collider();
-    void Config();
-    void Update();
-};
+    public:
+        SDL_Rect collider;
+        std::string tag;
+        Transform *transform;
+
+        explicit Collider(std::string tag);
+
+        ~Collider();
+
+        void Config();
+
+        void Update();
+    };
+}

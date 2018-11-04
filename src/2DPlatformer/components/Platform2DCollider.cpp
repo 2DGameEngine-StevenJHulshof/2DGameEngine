@@ -3,7 +3,7 @@
 #include "ComponentManager.h"
 
 Platform2DCollider::Platform2DCollider(std::string tag) :
-    Collider(tag) {
+    Base::Collider(tag) {
 
 }
 
@@ -13,5 +13,5 @@ void Platform2DCollider::Config() {
 
     transform = component_manager->AddDependency<Platform2DTransform>(parent);
 
-    Collider::Config();
+    Base::Collider::Config();
 }

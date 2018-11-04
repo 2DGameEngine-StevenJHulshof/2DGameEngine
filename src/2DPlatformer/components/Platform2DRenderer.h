@@ -2,7 +2,7 @@
 
 #include "Renderer.h"
 
-class Platform2DRenderer : public Renderer {
+class Platform2DRenderer : public Base::Renderer {
 private:
 public:
     explicit Platform2DRenderer(Texture_t textureID = TEXTURE_DEFAULT);

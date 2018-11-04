@@ -6,13 +6,13 @@ CollisionManager::CollisionManager() = default;
 
 CollisionManager::~CollisionManager() = default;
 
-void CollisionManager::AddCollider(Collider *collider) {
+void CollisionManager::AddCollider(Base::Collider *collider) {
 
     _colliders.push_back(collider);
 }
 
 
-Collider *CollisionManager::IsColliding(Collider *collider) {
+Base::Collider *CollisionManager::IsColliding(Base::Collider *collider) {
 
     for(auto &c : _colliders) {
 
@@ -40,7 +40,7 @@ bool CollisionManager::AABB(const SDL_Rect& rectA, const SDL_Rect& rectB) {
 }
 
 
-bool CollisionManager::AABB(Collider *colliderA, Collider *colliderB) {
+bool CollisionManager::AABB(Base::Collider *colliderA, Base::Collider *colliderB) {
 
     return AABB(colliderA->collider, colliderB->collider);
 }

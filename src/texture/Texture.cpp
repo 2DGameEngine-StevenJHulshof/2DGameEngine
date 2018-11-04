@@ -37,13 +37,13 @@ Texture::~Texture() {
     SDL_DestroyTexture(_texture);
 }
 
-void Texture::Render(Vector2D position, double angle, Vector2D *center, SDL_RendererFlip flip) {
+void Texture::Render(Vector2D position, Vector2D dimension, double angle, Vector2D *center, SDL_RendererFlip flip) {
 
     if(_isValid) {
 
         SDL_Rect textureRect;
-        textureRect.h = static_cast<int>(h);
-        textureRect.w = static_cast<int>(w);
+        textureRect.h = static_cast<int>(dimension.x);
+        textureRect.w = static_cast<int>(dimension.y);
         textureRect.x = static_cast<int>(position.x);
         textureRect.y = static_cast<int>(position.y);
 

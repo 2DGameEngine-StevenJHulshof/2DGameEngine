@@ -16,6 +16,13 @@ include_directories(
         ${PROJECT_SOURCE_DIR}/include/SDL2
         ${PROJECT_SOURCE_DIR}/src/2DPlatformer
         ${PROJECT_SOURCE_DIR}/src/2DPlatformer/components
+        ${PROJECT_SOURCE_DIR}/src/2DOrthogonal
+        ${PROJECT_SOURCE_DIR}/src/2DOrthogonal/components
+        ${PROJECT_SOURCE_DIR}/src/2DOrthogonal/components/transform
+        ${PROJECT_SOURCE_DIR}/src/2DOrthogonal/components/renderer
+        ${PROJECT_SOURCE_DIR}/src/2DOrthogonal/components/physics
+        ${PROJECT_SOURCE_DIR}/src/2DOrthogonal/components/input
+        ${PROJECT_SOURCE_DIR}/src/2DOrthogonal/components/input/player
         ${PROJECT_SOURCE_DIR}/src/collision
         ${PROJECT_SOURCE_DIR}/src/config
         ${PROJECT_SOURCE_DIR}/src/ecs/components/base
@@ -64,6 +71,11 @@ set(SOURCE_FILES
         src/2DPlatformer/components/Platform2DPhysics.cpp
         src/2DPlatformer/components/Platform2DCollider.cpp
         src/2DPlatformer/components/Platform2DDynamicCollider.cpp
+        src/2DOrthogonal/components/transform/Orthogonal2DTransform.cpp
+        src/2DOrthogonal/components/renderer/Orthogonal2DRenderer.cpp
+        src/2DOrthogonal/components/physics/Orthogonal2DPhysics.cpp
+        src/2DOrthogonal/components/input/Orthogonal2DInput.cpp
+        src/2DOrthogonal/components/input/player/Orthogonal2DInputPlayer.cpp
 )
 
 add_executable(2DGameEngine ${SOURCE_FILES})

@@ -8,7 +8,7 @@ private:
     CollisionManager();
     static CollisionManager *_instance;
 
-    std::vector<Collider*> _colliders;
+    std::vector<Base::Collider*> _colliders;
 
 public:
     ~CollisionManager();
@@ -19,11 +19,11 @@ public:
         return _instance;
     }
 
-    void AddCollider(Collider *collider);
-    Collider *IsColliding(Collider *collider);
+    void AddCollider(Base::Collider *collider);
+    Base::Collider *IsColliding(Base::Collider *collider);
 
     bool AABB(const SDL_Rect& rectA, const SDL_Rect& rectB);
-    bool AABB(Collider *colliderA, Collider *colliderB);
+    bool AABB(Base::Collider *colliderA, Base::Collider *colliderB);
 };
 
 #define collision_manager CollisionManager::Instance()

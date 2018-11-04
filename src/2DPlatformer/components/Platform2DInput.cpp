@@ -5,7 +5,7 @@
 #include "UserLog.h"
 
 Platform2DInput::Platform2DInput() :
-    Input(),
+    Base::Input(),
     physics(nullptr) {
 
 }
@@ -16,7 +16,7 @@ void Platform2DInput::Config() {
 
     physics = component_manager->AddDependency<Platform2DPhysics>(parent);
 
-    Input::Config();
+    Base::Input::Config();
 }
 
 void Platform2DInput::Update() {
@@ -34,5 +34,5 @@ void Platform2DInput::Update() {
         physics->impulse.x = -10.0f;
     }
 
-    Input::Update();
+    Base::Input::Update();
 }

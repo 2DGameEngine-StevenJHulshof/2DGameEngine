@@ -4,7 +4,7 @@
 #include "UserLog.h"
 
 Platform2DRenderer::Platform2DRenderer(Texture_t textureID) :
-    Renderer(textureID) {
+    Base::Renderer(textureID) {
 
 }
 
@@ -14,5 +14,5 @@ void Platform2DRenderer::Config() {
 
     transform = component_manager->AddDependency<Platform2DTransform>(parent);
 
-    Renderer::Config();
+    Base::Renderer::Config();
 }

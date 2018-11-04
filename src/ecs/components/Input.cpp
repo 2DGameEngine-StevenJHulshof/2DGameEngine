@@ -1,12 +1,15 @@
 #include "Input.h"
 
-Input::Input() :
-    Component() {
+namespace Base {
 
-}
+    Input::Input() :
+            Component() {
 
-Input::~Input() = default;
+    }
 
-void Input::Update() {
+    Input::~Input() = default;
 
+    void Input::Update() {
+
+    }
 }

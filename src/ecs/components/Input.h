@@ -2,14 +2,18 @@
 
 #include "Component.h"
 
-class Input : public Component {
+namespace Base {
 
-private:
+    class Input : public Component {
 
-public:
+    private:
 
-    Input();
-    ~Input();
+    public:
 
-    void Update() override;
-};
+        Input();
+
+        ~Input();
+
+        void Update() override;
+    };
+}

@@ -5,15 +5,15 @@
 #include "Renderer.h"
 #include "FrameManager.h"
 
-class Platform2DPhysics : public Physics {
+class Platform2DPhysics : public Base::Physics {
 private:
     const float METERS_TO_PIXEL = 320.0f;
     const float GRAVITATIONAL_CONSTANT = 9.81f;
 
 public:
 
-    Transform *transform;
-    Renderer *renderer;
+    Base::Transform *transform;
+    Base::Renderer *renderer;
 
     explicit Platform2DPhysics(float mass = 1.0f);
     ~Platform2DPhysics();

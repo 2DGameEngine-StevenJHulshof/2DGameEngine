@@ -7,7 +7,7 @@ class Platform2DDynamicCollider : public Platform2DCollider {
 private:
     bool _isColliding;
 public:
-    Physics *physics;
+    Base::Physics *physics;
 
     explicit Platform2DDynamicCollider(std::string tag);
     ~Platform2DDynamicCollider();

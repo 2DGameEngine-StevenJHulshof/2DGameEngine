@@ -2,7 +2,7 @@
 
 #include "Transform.h"
 
-class Platform2DTransform : public Transform {
+class Platform2DTransform : public Base::Transform {
 private:
 
 public:
