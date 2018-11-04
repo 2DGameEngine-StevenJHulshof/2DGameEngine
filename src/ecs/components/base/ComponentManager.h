@@ -37,14 +37,14 @@ public:
         return component;
     }
 
-    template <class T>
-    T *AddDependency(Entity *entity) {
+    template <class T, class... TArgs>
+    T *AddDependency(Entity *entity, TArgs&&... args) {
 
         T *component = nullptr;
 
         if (entity->GetComponent<T>() == nullptr) {
             LOG_WARNING("Invalid reference to component -> Creating default");
-            component = New<T>(entity);
+            component = New<T>(entity, std::forward<TArgs>(args)...);
             entity->Config();
         } else {
             component = entity->GetComponent<T>();
